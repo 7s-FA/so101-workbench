@@ -1,0 +1,318 @@
+{
+  "schema": 1,
+  "identity": {
+    "side": "right",
+    "pair_name": "opencv_follower_right",
+    "robot_type": "so101",
+    "serials": {
+      "follower": "usb-YOUR_ROBOT-if00"
+    },
+    "demo": false,
+    "calibration_sha256": {
+      "follower_right": "d2cb3d358bcc174f190354d178d04e1391f7bbf33d27778318a0f5bc9072e473"
+    },
+    "control_mode": "follower_only",
+    "follower_id": "follower_right"
+  },
+  "units": {
+    "shoulder_pan.pos": "degrees",
+    "shoulder_lift.pos": "degrees",
+    "elbow_flex.pos": "degrees",
+    "wrist_flex.pos": "degrees",
+    "wrist_roll.pos": "degrees",
+    "gripper.pos": "normalized_0_100"
+  },
+  "title": "위로 일자 자세 · 새 영점",
+  "updated_at": "2026-09-23T12:11:38.331005+09:00",
+  "steps": [
+    {
+      "name": "위로 일자 · 중간 벌림 유지",
+      "pose": {
+        "shoulder_pan.pos": -3.164835164835165,
+        "shoulder_lift.pos": 0.3516483516483517,
+        "elbow_flex.pos": -86.1978021978022,
+        "wrist_flex.pos": -1.8021978021978022,
+        "wrist_roll.pos": -2.197802197802198,
+        "gripper.pos": 81.89300411522633
+      },
+      "captured_at": "2026-09-23T12:11:38.330989+09:00"
+    }
+  ],
+  "calculated_reference": {
+    "method": "Recorded motor midpoint mapped to user-confirmed official middle; vertical link and gripper axes constrained",
+    "ticks": {
+      "shoulder_pan.pos": 2047,
+      "shoulder_lift.pos": 2047,
+      "elbow_flex.pos": 1023,
+      "wrist_flex.pos": 2047,
+      "wrist_roll.pos": 2047,
+      "gripper.pos": 2047
+    },
+    "model_middle_deg": {
+      "shoulder_pan": 0.0005007568862066578,
+      "shoulder_lift": 0.00022918242493634742,
+      "elbow_flex": -0.00024308517048448933,
+      "wrist_flex": 0.00056304930843288,
+      "wrist_roll": 2.789280816973432
+    },
+    "model_upright_deg": [
+      0.0005007573649905929,
+      0.00022918222229117928,
+      -90.00024308530189,
+      0.0005630492372552918,
+      2.7890092432981177
+    ],
+    "tool": {
+      "xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_offsets_deg": [
+        3.1653359217213715,
+        -0.3514191692234153,
+        -3.824418909346309,
+        1.8027608515062352,
+        4.98708301477563
+      ],
+      "verified": false,
+      "motor_limits_deg": [
+        [
+          -87.38461538461539,
+          87.38461538461539
+        ],
+        [
+          -104.7032967032967,
+          104.7032967032967
+        ],
+        [
+          -96.57142857142857,
+          96.57142857142857
+        ],
+        [
+          -103.42857142857143,
+          103.42857142857143
+        ],
+        [
+          -169.84615384615384,
+          169.84615384615384
+        ]
+      ],
+      "motor_zero_reference": {
+        "kind": "recorded_middle_to_official_model",
+        "calibration_sha256": "d2cb3d358bcc174f190354d178d04e1391f7bbf33d27778318a0f5bc9072e473",
+        "calibration": {
+          "shoulder_pan": {
+            "id": 1,
+            "drive_mode": 0,
+            "homing_offset": 2027,
+            "range_min": 1089,
+            "range_max": 3077
+          },
+          "shoulder_lift": {
+            "id": 2,
+            "drive_mode": 0,
+            "homing_offset": -1318,
+            "range_min": 852,
+            "range_max": 3234
+          },
+          "elbow_flex": {
+            "id": 3,
+            "drive_mode": 0,
+            "homing_offset": 1648,
+            "range_min": 905,
+            "range_max": 3102
+          },
+          "wrist_flex": {
+            "id": 4,
+            "drive_mode": 0,
+            "homing_offset": 1673,
+            "range_min": 891,
+            "range_max": 3244
+          },
+          "wrist_roll": {
+            "id": 5,
+            "drive_mode": 0,
+            "homing_offset": -1656,
+            "range_min": 140,
+            "range_max": 4004
+          },
+          "gripper": {
+            "id": 6,
+            "drive_mode": 0,
+            "homing_offset": -1574,
+            "range_min": 853,
+            "range_max": 2311
+          }
+        },
+        "middle_ticks": {
+          "shoulder_pan": 2047,
+          "shoulder_lift": 2047,
+          "elbow_flex": 2047,
+          "wrist_flex": 2047,
+          "wrist_roll": 2047,
+          "gripper": 2047
+        },
+        "model_middle_deg": {
+          "shoulder_pan": 0.0005007568862066578,
+          "shoulder_lift": 0.00022918242493634742,
+          "elbow_flex": -0.00024308517048448933,
+          "wrist_flex": 0.00056304930843288,
+          "wrist_roll": 2.789280816973432
+        },
+        "model_offsets_deg": [
+          3.1653359217213715,
+          -0.3514191692234153,
+          -3.824418909346309,
+          1.8027608515062352,
+          4.98708301477563
+        ],
+        "reference_name": "공식 사진 · 상완 수직 / 전완·집게 전방 / 가동 집게 위로 벌림",
+        "physically_verified": false,
+        "user_confirmed_reference": "official photo middle; fixed finger below, moving finger opens upward",
+        "source_record": "/path/to/Final_Arm/OpenCV_teach/teaching/motor-diagnostics/calibration_recovery_follower_right_20260923_110312_826148.json"
+      },
+      "gripper_model_reference": {
+        "middle_tick": 2047,
+        "middle_deg": 90.0,
+        "range_min": 853,
+        "range_max": 2311,
+        "degrees_per_tick": 0.08791208791208792,
+        "calibration_sha256": "d2cb3d358bcc174f190354d178d04e1391f7bbf33d27778318a0f5bc9072e473"
+      }
+    },
+    "hardware_motion": false,
+    "hardware_pose_verified": false,
+    "gripper": "Recorded midpoint opening, not closed endpoint"
+  },
+  "kind": "teaching",
+  "model_tool": {
+    "xyz_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rpy_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_offsets_deg": [
+      3.1653359217213715,
+      -0.3514191692234153,
+      -3.824418909346309,
+      1.8027608515062352,
+      4.98708301477563
+    ],
+    "verified": false,
+    "motor_limits_deg": [
+      [
+        -87.38461538461539,
+        87.38461538461539
+      ],
+      [
+        -104.7032967032967,
+        104.7032967032967
+      ],
+      [
+        -96.57142857142857,
+        96.57142857142857
+      ],
+      [
+        -103.42857142857143,
+        103.42857142857143
+      ],
+      [
+        -169.84615384615384,
+        169.84615384615384
+      ]
+    ],
+    "motor_zero_reference": {
+      "kind": "recorded_middle_to_official_model",
+      "calibration_sha256": "d2cb3d358bcc174f190354d178d04e1391f7bbf33d27778318a0f5bc9072e473",
+      "calibration": {
+        "shoulder_pan": {
+          "id": 1,
+          "drive_mode": 0,
+          "homing_offset": 2027,
+          "range_min": 1089,
+          "range_max": 3077
+        },
+        "shoulder_lift": {
+          "id": 2,
+          "drive_mode": 0,
+          "homing_offset": -1318,
+          "range_min": 852,
+          "range_max": 3234
+        },
+        "elbow_flex": {
+          "id": 3,
+          "drive_mode": 0,
+          "homing_offset": 1648,
+          "range_min": 905,
+          "range_max": 3102
+        },
+        "wrist_flex": {
+          "id": 4,
+          "drive_mode": 0,
+          "homing_offset": 1673,
+          "range_min": 891,
+          "range_max": 3244
+        },
+        "wrist_roll": {
+          "id": 5,
+          "drive_mode": 0,
+          "homing_offset": -1656,
+          "range_min": 140,
+          "range_max": 4004
+        },
+        "gripper": {
+          "id": 6,
+          "drive_mode": 0,
+          "homing_offset": -1574,
+          "range_min": 853,
+          "range_max": 2311
+        }
+      },
+      "middle_ticks": {
+        "shoulder_pan": 2047,
+        "shoulder_lift": 2047,
+        "elbow_flex": 2047,
+        "wrist_flex": 2047,
+        "wrist_roll": 2047,
+        "gripper": 2047
+      },
+      "model_middle_deg": {
+        "shoulder_pan": 0.0005007568862066578,
+        "shoulder_lift": 0.00022918242493634742,
+        "elbow_flex": -0.00024308517048448933,
+        "wrist_flex": 0.00056304930843288,
+        "wrist_roll": 2.789280816973432
+      },
+      "model_offsets_deg": [
+        3.1653359217213715,
+        -0.3514191692234153,
+        -3.824418909346309,
+        1.8027608515062352,
+        4.98708301477563
+      ],
+      "reference_name": "공식 사진 · 상완 수직 / 전완·집게 전방 / 가동 집게 위로 벌림",
+      "physically_verified": false,
+      "user_confirmed_reference": "official photo middle; fixed finger below, moving finger opens upward",
+      "source_record": "/path/to/Final_Arm/OpenCV_teach/teaching/motor-diagnostics/calibration_recovery_follower_right_20260923_110312_826148.json"
+    },
+    "gripper_model_reference": {
+      "middle_tick": 2047,
+      "middle_deg": 90.0,
+      "range_min": 853,
+      "range_max": 2311,
+      "degrees_per_tick": 0.08791208791208792,
+      "calibration_sha256": "d2cb3d358bcc174f190354d178d04e1391f7bbf33d27778318a0f5bc9072e473"
+    }
+  }
+}

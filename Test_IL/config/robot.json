@@ -1,0 +1,15 @@
+{
+  "robot_type": "so101",
+  "gripper_model": "xlerobot_tpu",
+  "default_pose_program": "/path/to/Final_Arm/OpenCV_teach/teaching/A 구 · 집고 제자리에 놓기.json",
+  "follower_profile": "/path/to/Final_Arm/OpenCV_teach/follower.json",
+  "follower_calibration": "/path/to/Final_Arm/OpenCV_teach/calibration/opencv_follower_right/follower_right.json",
+  "follower_port": "/dev/serial/by-id/usb-YOUR_ROBOT-if00",
+  "leader_calibration": null,
+  "leader_port": "",
+  "camera_input": "rgb",
+  "camera_models": {
+    "gripper": "32x32 UVC module",
+    "table": "RealSense D435"
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "extrusion_mm_by_object_feature": {
+    "468": {
+      "stationary_extrusion": 1e-05,
+      "Inner wall": 1092.019260000048,
+      "Outer wall": 382.55075000000204,
+      "Bottom surface": 2.843380000000005,
+      "Overhang wall": 1.4689900000000007,
+      "Internal solid infill": 142.12322999999952,
+      "Sparse infill": 390.07905000000636,
+      "Floating vertical shell": 42.3350699999999,
+      "Bridge": 18.15694999999997,
+      "Top surface": 10.929679999999946,
+      "Gap infill": 1.49998
+    },
+    "402": {
+      "stationary_extrusion": 0.0,
+      "Inner wall": 2588.00750000083,
+      "Outer wall": 918.2675400000289,
+      "Bottom surface": 10.049029999999949,
+      "Overhang wall": 5.713380000000002,
+      "Internal solid infill": 172.22483999999986,
+      "Sparse infill": 1031.4962800000742,
+      "Floating vertical shell": 158.28020999999904,
+      "Bridge": 44.59940000000012,
+      "Gap infill": 40.40518999999996,
+      "Top surface": 30.08687000000006
+    },
+    "534": {
+      "stationary_extrusion": 1e-05,
+      "Inner wall": 4233.186020000612,
+      "Outer wall": 1399.684210000146,
+      "Bottom surface": 117.32239000000104,
+      "Overhang wall": 25.246249999999964,
+      "Internal solid infill": 1822.52827999993,
+      "Bridge": 295.68906999999916,
+      "Gap infill": 2.22351,
+      "Sparse infill": 5930.0899300023675,
+      "Floating vertical shell": 866.995530000024,
+      "Top surface": 192.48362000000023
+    },
+    "358": {
+      "stationary_extrusion": 0.0,
+      "Outer wall": 713.1691600000538,
+      "Inner wall": 2054.0893499999206,
+      "Gap infill": 3.9680599999999986,
+      "Bottom surface": 1.3020500000000002,
+      "Overhang wall": 2.239080000000001,
+      "Internal solid infill": 252.9834000000008,
+      "Sparse infill": 464.43597999999895,
+      "Floating vertical shell": 123.88548000000043,
+      "Top surface": 15.535360000000093,
+      "Bridge": 18.65733
+    },
+    "380": {
+      "stationary_extrusion": 6e-05,
+      "Inner wall": 9684.244720000866,
+      "Outer wall": 3392.0804200003163,
+      "Bottom surface": 51.177610000000044,
+      "Overhang wall": 10.459789999999986,
+      "Internal solid infill": 1183.848799999983,
+      "Gap infill": 26.1000199999999,
+      "Sparse infill": 5576.446569998696,
+      "Bridge": 260.6705800000061,
+      "Floating vertical shell": 2276.3802500006973,
+      "Top surface": 128.3841199999986
+    },
+    "424": {
+      "stationary_extrusion": 0.0,
+      "Inner wall": 2086.3994799999928,
+      "Outer wall": 722.9837900000413,
+      "Gap infill": 3.861960000000035,
+      "Bottom surface": 1.80067,
+      "Overhang wall": 2.18534,
+      "Internal solid infill": 247.99835000000314,
+      "Sparse infill": 544.0819099999835,
+      "Floating vertical shell": 119.44472999999982,
+      "Top surface": 17.23671000000005,
+      "Bridge": 19.63075000000012
+    },
+    "446": {
+      "stationary_extrusion": 3.0000000000000004e-05,
+      "Outer wall": 1030.7242900001042,
+      "Inner wall": 3081.3376300002456,
+      "Gap infill": 1.1271000000000002,
+      "Bottom surface": 7.797289999999999,
+      "Overhang wall": 40.6868499999996,
+      "Internal solid infill": 684.4793300000242,
+      "Bridge": 168.46122999999864,
+      "Sparse infill": 3389.567390000928,
+      "Floating vertical shell": 984.0868500000206,
+      "Top surface": 77.62305999999862
+    },
+    "600": {
+      "stationary_extrusion": 5e-05,
+      "Inner wall": 3319.834360000415,
+      "Outer wall": 1128.5759599999055,
+      "Gap infill": 6.648139999999989,
+      "Bottom surface": 0.75479,
+      "Overhang wall": 18.504019999999898,
+      "Internal solid infill": 667.0814200000077,
+      "Sparse infill": 1356.982389999779,
+      "Floating vertical shell": 412.20426000000464,
+      "Bridge": 123.3122500000013,
+      "Top surface": 68.99246000000024
+    },
+    "556": {
+      "stationary_extrusion": 0.0,
+      "Inner wall": 3548.5195200001804,
+      "Outer wall": 1173.634400000121,
+      "Bottom surface": 76.93710000000131,
+      "Overhang wall": 26.979690000000076,
+      "Internal solid infill": 1320.3568299998972,
+      "Bridge": 222.24926000000258,
+      "Gap infill": 2.500939999999999,
+      "Sparse infill": 4681.8864000003705,
+      "Floating vertical shell": 735.0620500000084,
+      "Top surface": 151.21988999999445
+    }
+  },
+  "path_bounds_mm": {
+    "468": [
+      135.304,
+      22.956,
+      186.084,
+      30.336,
+      42.0
+    ],
+    "402": [
+      185.761,
+      21.554,
+      233.182,
+      101.534,
+      31.4
+    ],
+    "534": [
+      93.06,
+      94.133,
+      234.987,
+      161.213,
+      24.5
+    ],
+    "358": [
+      198.204,
+      160.235,
+      236.062,
+      215.063,
+      28.0
+    ],
+    "380": [
+      118.859,
+      163.751,
+      229.564,
+      235.531,
+      87.0
+    ],
+    "424": [
+      93.555,
+      172.164,
+      149.726,
+      208.842,
+      28.0
+    ],
+    "446": [
+      24.317,
+      175.004,
+      108.297,
+      234.581,
+      46.0
+    ],
+    "600": [
+      37.445,
+      132.974,
+      72.884,
+      210.582,
+      62.3
+    ],
+    "556": [
+      19.938,
+      71.221,
+      150.415,
+      135.401,
+      24.0
+    ]
+  },
+  "header": {
+    "total filament length [mm]": 80485.4,
+    "total filament volume [cm^3]": 193590.07,
+    "total filament weight [g]": 255.54
+  },
+  "e_positive_mm": 119038.99452013355,
+  "e_negative_mm": 38557.40000000002,
+  "retraction_debt_mm": 0.8,
+  "extrusion_command_counts": {
+    "G1": 2030195,
+    "G3": 1012019,
+    "G2": 1101366
+  },
+  "source": "/home/fresh/Downloads/so101 부품들.gcode.3mf",
+  "source_sha256": "3ccc912e86163015c298d5f0843c4510bfac86aa76756b0e2a9bc902a531ead6",
+  "density_g_cm3": 1.32,
+  "filament_diameter_mm": 1.75,
+  "plate_mass_g": 255.54,
+  "profile": {
+    "filament_settings_id": [
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Basic @BBL P2S 0.2 nozzle",
+      "Generic PETG @BBL P2S 0.2 nozzle",
+      "Bambu PLA Basic @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Basic @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle",
+      "Bambu PLA Matte @BBL P2S 0.2 nozzle"
+    ],
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "gyroid",
+    "wall_loops": "4",
+    "layer_height": "0.1",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5"
+  },
+  "objects": [
+    {
+      "id": "468",
+      "name": "Ender_Follower_SO101.stl_6",
+      "part_mass_g": 6.616661934736377,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 6.616661966486099,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 1e-05,
+        "Inner wall": 1092.019260000048,
+        "Outer wall": 382.55075000000204,
+        "Bottom surface": 2.843380000000005,
+        "Overhang wall": 1.4689900000000007,
+        "Internal solid infill": 142.12322999999952,
+        "Sparse infill": 390.07905000000636,
+        "Floating vertical shell": 42.3350699999999,
+        "Bridge": 18.15694999999997,
+        "Top surface": 10.929679999999946,
+        "Gap infill": 1.49998
+      },
+      "bounds_mm": [
+        135.304,
+        22.956,
+        186.084,
+        30.336,
+        42.0
+      ]
+    },
+    {
+      "id": "402",
+      "name": "Ender_Follower_SO101.stl_3",
+      "part_mass_g": 15.872098913961468,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 15.872098913961468,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0,
+        "Inner wall": 2588.00750000083,
+        "Outer wall": 918.2675400000289,
+        "Bottom surface": 10.049029999999949,
+        "Overhang wall": 5.713380000000002,
+        "Internal solid infill": 172.22483999999986,
+        "Sparse infill": 1031.4962800000742,
+        "Floating vertical shell": 158.28020999999904,
+        "Bridge": 44.59940000000012,
+        "Gap infill": 40.40518999999996,
+        "Top surface": 30.08687000000006
+      },
+      "bounds_mm": [
+        185.761,
+        21.554,
+        233.182,
+        101.534,
+        31.4
+      ]
+    },
+    {
+      "id": "534",
+      "name": "Ender_Follower_SO101.stl_9",
+      "part_mass_g": 47.26088430355334,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 47.26088433530306,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 1e-05,
+        "Inner wall": 4233.186020000612,
+        "Outer wall": 1399.684210000146,
+        "Bottom surface": 117.32239000000104,
+        "Overhang wall": 25.246249999999964,
+        "Internal solid infill": 1822.52827999993,
+        "Bridge": 295.68906999999916,
+        "Gap infill": 2.22351,
+        "Sparse infill": 5930.0899300023675,
+        "Floating vertical shell": 866.995530000024,
+        "Top surface": 192.48362000000023
+      },
+      "bounds_mm": [
+        93.06,
+        94.133,
+        234.987,
+        161.213,
+        24.5
+      ]
+    },
+    {
+      "id": "358",
+      "name": "Ender_Follower_SO101.stl_1",
+      "part_mass_g": 11.589490237042728,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 11.589490237042728,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0,
+        "Outer wall": 713.1691600000538,
+        "Inner wall": 2054.0893499999206,
+        "Gap infill": 3.9680599999999986,
+        "Bottom surface": 1.3020500000000002,
+        "Overhang wall": 2.239080000000001,
+        "Internal solid infill": 252.9834000000008,
+        "Sparse infill": 464.43597999999895,
+        "Floating vertical shell": 123.88548000000043,
+        "Top surface": 15.535360000000093,
+        "Bridge": 18.65733
+      },
+      "bounds_mm": [
+        198.204,
+        160.235,
+        236.062,
+        215.063,
+        28.0
+      ]
+    },
+    {
+      "id": "380",
+      "name": "Ender_Follower_SO101.stl_2",
+      "part_mass_g": 71.72196158610274,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 71.72196177660108,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 6e-05,
+        "Inner wall": 9684.244720000866,
+        "Outer wall": 3392.0804200003163,
+        "Bottom surface": 51.177610000000044,
+        "Overhang wall": 10.459789999999986,
+        "Internal solid infill": 1183.848799999983,
+        "Gap infill": 26.1000199999999,
+        "Sparse infill": 5576.446569998696,
+        "Bridge": 260.6705800000061,
+        "Floating vertical shell": 2276.3802500006973,
+        "Top surface": 128.3841199999986
+      },
+      "bounds_mm": [
+        118.859,
+        163.751,
+        229.564,
+        235.531,
+        87.0
+      ]
+    },
+    {
+      "id": "424",
+      "name": "Ender_Follower_SO101.stl_4",
+      "part_mass_g": 11.955750062720062,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 11.955750062720062,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0,
+        "Inner wall": 2086.3994799999928,
+        "Outer wall": 722.9837900000413,
+        "Gap infill": 3.861960000000035,
+        "Bottom surface": 1.80067,
+        "Overhang wall": 2.18534,
+        "Internal solid infill": 247.99835000000314,
+        "Sparse infill": 544.0819099999835,
+        "Floating vertical shell": 119.44472999999982,
+        "Top surface": 17.23671000000005,
+        "Bridge": 19.63075000000012
+      },
+      "bounds_mm": [
+        93.555,
+        172.164,
+        149.726,
+        208.842,
+        28.0
+      ]
+    },
+    {
+      "id": "446",
+      "name": "Ender_Follower_SO101.stl_5",
+      "part_mass_g": 30.05393965855399,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 30.05393975380315,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 3.0000000000000004e-05,
+        "Outer wall": 1030.7242900001042,
+        "Inner wall": 3081.3376300002456,
+        "Gap infill": 1.1271000000000002,
+        "Bottom surface": 7.797289999999999,
+        "Overhang wall": 40.6868499999996,
+        "Internal solid infill": 684.4793300000242,
+        "Bridge": 168.46122999999864,
+        "Sparse infill": 3389.567390000928,
+        "Floating vertical shell": 984.0868500000206,
+        "Top surface": 77.62305999999862
+      },
+      "bounds_mm": [
+        24.317,
+        175.004,
+        108.297,
+        234.581,
+        46.0
+      ]
+    },
+    {
+      "id": "600",
+      "name": "Ender_Follower_SO101.stl_12",
+      "part_mass_g": 22.551477564339972,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 22.551477723088574,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 5e-05,
+        "Inner wall": 3319.834360000415,
+        "Outer wall": 1128.5759599999055,
+        "Gap infill": 6.648139999999989,
+        "Bottom surface": 0.75479,
+        "Overhang wall": 18.504019999999898,
+        "Internal solid infill": 667.0814200000077,
+        "Sparse infill": 1356.982389999779,
+        "Floating vertical shell": 412.20426000000464,
+        "Bridge": 123.3122500000013,
+        "Top surface": 68.99246000000024
+      },
+      "bounds_mm": [
+        37.445,
+        132.974,
+        72.884,
+        210.582,
+        62.3
+      ]
+    },
+    {
+      "id": "556",
+      "name": "Ender_Follower_SO101.stl_10",
+      "part_mass_g": 37.90709040414036,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 37.90709040414036,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0,
+        "Inner wall": 3548.5195200001804,
+        "Outer wall": 1173.634400000121,
+        "Bottom surface": 76.93710000000131,
+        "Overhang wall": 26.979690000000076,
+        "Internal solid infill": 1320.3568299998972,
+        "Bridge": 222.24926000000258,
+        "Gap infill": 2.500939999999999,
+        "Sparse infill": 4681.8864000003705,
+        "Floating vertical shell": 735.0620500000084,
+        "Top surface": 151.21988999999445
+      },
+      "bounds_mm": [
+        19.938,
+        71.221,
+        150.415,
+        135.401,
+        24.0
+      ]
+    }
+  ],
+  "method": "Net extruded filament after retraction recovery; separate auxiliary/custom/stationary extrusion. No scaling to force plate total."
+}

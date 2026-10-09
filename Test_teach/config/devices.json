@@ -1,0 +1,5 @@
+{
+  "follower_port": "/dev/serial/by-id/usb-YOUR_ROBOT-if00",
+  "gripper_camera": "/dev/v4l/by-id/usb-Innomaker_Innomaker-U20CAM-1080p-S1_SN0001-video-index0",
+  "note": "Detected and read on 2026-09-16. This identifies devices, not a verified joint calibration."
+}

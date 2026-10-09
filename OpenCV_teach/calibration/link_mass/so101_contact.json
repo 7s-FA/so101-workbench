@@ -1,0 +1,23 @@
+{
+  "surface": "rubber pad attached near the TPU finger tip",
+  "rubber_pad_present": true,
+  "pad_thickness_m": 0.0002,
+  "pad_thickness_mm": 0.2,
+  "thickness_status": "user specified approximate thickness on 2026-09-21",
+  "area_mm2_per_pad": null,
+  "density_g_cm3": null,
+  "mass_g_per_pad": null,
+  "pad_count_confirmed": null,
+  "static_friction": 1.0,
+  "dynamic_friction": 0.8,
+  "restitution": 0.0,
+  "mass_included_in_link_estimates": false,
+  "note": "Pad location is observed in the user's photograph. The prior OMX pad friction is not a measured SO101 rubber-contact value. Thickness is not a direct offset along the TCP Z axis.",
+  "product": "Razer Universal Grip Tape",
+  "pad_count_simulated": 2,
+  "span_mm_estimate": 8.0,
+  "friction_combine_mode": "max",
+  "friction_status": "Engineering estimate authorized by user, not a manufacturer or measured value.",
+  "applied_model": "../Test_teach/assets/so101/so101_teach.urdf",
+  "contact_model": "Rigid 0.2 mm octagonal patches near each inner distal edge; deformation is not simulated."
+}

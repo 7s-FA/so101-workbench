@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "table_height": 0.7,
+  "tables": [
+    {
+      "center": [
+        -0.325,
+        0
+      ],
+      "size": [
+        0.55,
+        0.7
+      ]
+    },
+    {
+      "center": [
+        0.325,
+        0
+      ],
+      "size": [
+        0.55,
+        0.7
+      ]
+    }
+  ],
+  "robots": {
+    "omx": {
+      "position": [
+        -0.12,
+        -0.03,
+        0.704
+      ],
+      "yaw": 1.5707963267948966
+    },
+    "so101": {
+      "position": [
+        0.48,
+        -0.18,
+        0.704
+      ],
+      "yaw": 3.141592653589793
+    }
+  },
+  "trays": [
+    {
+      "part": "housing",
+      "center": [
+        -0.4,
+        -0.1
+      ],
+      "pitch": 0.068,
+      "slot": 0.058,
+      "depth": 0.01
+    },
+    {
+      "part": "ball",
+      "center": [
+        -0.17,
+        0.18
+      ],
+      "pitch": 0.048,
+      "slot": 0.036,
+      "depth": 0.012
+    },
+    {
+      "part": "cap",
+      "center": [
+        -0.4,
+        0.14
+      ],
+      "pitch": 0.068,
+      "slot": 0.058,
+      "depth": 0.004
+    }
+  ],
+  "preparation": {
+    "center": [
+      0.13,
+      0.01
+    ],
+    "pitch": 0.076,
+    "parts": [
+      "housing",
+      "ball",
+      "cap"
+    ]
+  },
+  "jig": [
+    0.32,
+    0.04
+  ],
+  "finished": [
+    0.47,
+    0.18
+  ],
+  "physics": {
+    "friction": 0.8,
+    "mass_kg": {
+      "housing": 0.035,
+      "ball": 0.018,
+      "cap": 0.015
+    },
+    "contact_offset": 0.0005
+  },
+  "notes": "Provisional dimensions/masses/friction; verify physical reach, gripping and fit before transfer to hardware. One kit in preparation, one finished product; magnets not simulated."
+}

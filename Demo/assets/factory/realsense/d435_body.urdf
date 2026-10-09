@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="d435_visual"><link name="d435_body"><visual><origin xyz="0.0149 0 0.0125" rpy="1.5707963267948966 0 1.5707963267948966" /><geometry><mesh filename="/path/to/Final_Arm/Demo/assets/factory/realsense/d435.dae" /></geometry></visual></link></robot>

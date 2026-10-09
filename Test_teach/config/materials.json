@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "parts": {
+    "housing": {
+      "material": "PLA Matte",
+      "infill_fraction": 0.05,
+      "source": "user_confirmed",
+      "mass_kg": 0.012771628627084025,
+      "wall_count": null,
+      "top_bottom_thickness_mm": null,
+      "density_kg_m3": null,
+      "infill_source": "Bambu Studio setting, user confirmed",
+      "file_evidence": {
+        "report": "../reports/print_settings.json",
+        "sha256": "c968c1c60e43f0dde3941603e26ce84c327168bef8c8efe1347e53e20f150312",
+        "infill_fraction": 0.15,
+        "plate_filament_estimate_g": 16.87,
+        "density_kg_m3": 1320.0,
+        "wall_count": 2,
+        "layer_height_mm": 0.2,
+        "top_shell_layers": 5,
+        "bottom_shell_layers": 3,
+        "applicable_to_actual_mass": false,
+        "mass_note": "Plate filament usage is not measured part mass; housing/cap were printed at different infill."
+      },
+      "fuzzy_skin": {
+        "enabled": false,
+        "scope": "none",
+        "point_distance_mm": null,
+        "thickness_mm": null,
+        "source": "attached Bambu Studio settings"
+      },
+      "infill_status": "user_confirmed_actual_print_overrides_attached_file",
+      "mass_status": "provisional extrusion estimate; not resliced or weighed",
+      "mass_estimation_method": "positive XY extrusion by feature; scale Sparse infill from 15% to 5% for housing/cap, keep shells; not exact reslicing",
+      "extrusion_mm_by_feature": {
+        "Inner wall": 838.7904900000059,
+        "Outer wall": 782.9372299999986,
+        "Bottom surface": 192.88817000000043,
+        "Internal solid infill": 850.5808299999995,
+        "Sparse infill": 1938.277820000011,
+        "Bridge": 288.6684000000006,
+        "Top surface": 157.30204,
+        "Gap infill": 1.6935899999999982,
+        "Floating vertical shell": 263.6422199999998
+      }
+    },
+    "ball": {
+      "material": "PLA Matte",
+      "infill_fraction": 0.05,
+      "source": "user_confirmed",
+      "mass_kg": 0.004318673152971986,
+      "wall_count": null,
+      "top_bottom_thickness_mm": null,
+      "density_kg_m3": null,
+      "infill_source": "Bambu Studio setting, user confirmed",
+      "file_evidence": {
+        "report": "../reports/print_settings.json",
+        "sha256": "c347b67187e445de698584263a24e1ec4337ccfdda8ce216987b368d7956d5d2",
+        "infill_fraction": 0.05,
+        "plate_filament_estimate_g": 4.32,
+        "density_kg_m3": 1320.0,
+        "wall_count": 2,
+        "layer_height_mm": 0.2,
+        "top_shell_layers": 5,
+        "bottom_shell_layers": 3,
+        "applicable_to_actual_mass": false,
+        "mass_note": "Plate filament usage is not measured part mass; housing/cap were printed at different infill."
+      },
+      "fuzzy_skin": {
+        "enabled": true,
+        "scope": "allwalls",
+        "point_distance_mm": 0.6,
+        "thickness_mm": 0.4,
+        "source": "attached Bambu Studio settings"
+      },
+      "infill_status": "user_confirmed_actual_print_overrides_attached_file",
+      "mass_status": "provisional extrusion estimate; not resliced or weighed",
+      "mass_estimation_method": "positive XY extrusion by feature; scale Sparse infill from 15% to 5% for housing/cap, keep shells; not exact reslicing",
+      "extrusion_mm_by_feature": {
+        "Brim": 4.588510000000001,
+        "Inner wall": 404.2693300000001,
+        "Outer wall": 371.69364000000496,
+        "Bottom surface": 0.08994,
+        "Overhang wall": 22.068689999999986,
+        "Bridge": 10.12241,
+        "Internal solid infill": 96.47185999999991,
+        "Sparse infill": 271.0862700000002,
+        "Floating vertical shell": 173.82432000000006,
+        "Top surface": 5.72357,
+        "Gap infill": 0.28544
+      }
+    },
+    "cap": {
+      "material": "PLA Matte",
+      "infill_fraction": 0.05,
+      "source": "user_confirmed",
+      "mass_kg": 0.008908343549806465,
+      "wall_count": null,
+      "top_bottom_thickness_mm": null,
+      "density_kg_m3": null,
+      "infill_source": "Bambu Studio setting, user confirmed",
+      "file_evidence": {
+        "report": "../reports/print_settings.json",
+        "sha256": "ef52f5e10154a6d9bdbaee28705a124183f0c34d7570862bf8a95216fba52827",
+        "infill_fraction": 0.15,
+        "plate_filament_estimate_g": 10.91,
+        "density_kg_m3": 1320.0,
+        "wall_count": 2,
+        "layer_height_mm": 0.2,
+        "top_shell_layers": 5,
+        "bottom_shell_layers": 3,
+        "applicable_to_actual_mass": false,
+        "mass_note": "Plate filament usage is not measured part mass; housing/cap were printed at different infill."
+      },
+      "fuzzy_skin": {
+        "enabled": false,
+        "scope": "none",
+        "point_distance_mm": null,
+        "thickness_mm": null,
+        "source": "attached Bambu Studio settings"
+      },
+      "infill_status": "user_confirmed_actual_print_overrides_attached_file",
+      "mass_status": "provisional extrusion estimate; not resliced or weighed",
+      "mass_estimation_method": "positive XY extrusion by feature; scale Sparse infill from 15% to 5% for housing/cap, keep shells; not exact reslicing",
+      "extrusion_mm_by_feature": {
+        "Inner wall": 617.1762100000013,
+        "Outer wall": 585.8996200000026,
+        "Bottom surface": 141.23921000000007,
+        "Internal solid infill": 690.3772199999931,
+        "Sparse infill": 947.1951400000119,
+        "Floating vertical shell": 80.59879000000001,
+        "Bridge": 202.2358200000007,
+        "Top surface": 140.7300099999999,
+        "Gap infill": 31.813579999999984
+      }
+    }
+  },
+  "contact": {
+    "gripper_surface": "rubber octagonal pad",
+    "static_friction": 1.5,
+    "dynamic_friction": 1.07142855,
+    "restitution": 0.0,
+    "status": "demonstration assumption, not measured; lower-friction trials failed; physical calibration pending",
+    "pad_span_m": 0.01,
+    "pad_thickness_m": 0.0005,
+    "pad_thickness_status": "provisional thin pad, user has not measured"
+  },
+  "notes": [
+    "Infill fraction is not a multiplier for total solid mass; walls and top/bottom shells contribute separately.",
+    "Material name does not establish the friction coefficient of the part/gripper contact pair.",
+    "Unknown values are null; no measured mass or calibrated physical grasp is claimed."
+  ],
+  "pending_surface_observations": [],
+  "slicer": "Bambu Studio"
+}

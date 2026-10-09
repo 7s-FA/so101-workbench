@@ -1,0 +1,557 @@
+{
+  "schema": 2,
+  "identity": {
+    "side": "right",
+    "pair_name": "opencv_follower_right",
+    "robot_type": "so101",
+    "serials": {
+      "follower": "usb-YOUR_ROBOT-if00"
+    },
+    "demo": false,
+    "calibration_sha256": {
+      "follower_right": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea"
+    },
+    "control_mode": "follower_only",
+    "follower_id": "follower_right"
+  },
+  "units": {
+    "shoulder_pan.pos": "degrees",
+    "shoulder_lift.pos": "degrees",
+    "elbow_flex.pos": "degrees",
+    "wrist_flex.pos": "degrees",
+    "wrist_roll.pos": "degrees",
+    "gripper.pos": "normalized_0_100"
+  },
+  "title": "A 구 · 집고 제자리에 놓기",
+  "updated_at": "2026-09-22T16:22:23.893605+09:00",
+  "steps": [
+    {
+      "name": "시작 · 안전 자세",
+      "pose": {
+        "shoulder_pan.pos": 2.989010989010989,
+        "shoulder_lift.pos": -54.51648351648352,
+        "elbow_flex.pos": 14.56043956043956,
+        "wrist_flex.pos": 84.95604395604396,
+        "wrist_roll.pos": 1.8241758241758241,
+        "gripper.pos": 14.468085106382992
+      },
+      "captured_at": "",
+      "safe_boundary": "start"
+    },
+    {
+      "name": "A 구 · 집기 위에서 대기",
+      "pose": {
+        "shoulder_pan.pos": 2.049119902625125,
+        "shoulder_lift.pos": -28.711980432120814,
+        "elbow_flex.pos": 34.295972186325656,
+        "wrist_flex.pos": 84.41637011430737,
+        "wrist_roll.pos": 94.83788730283206,
+        "gripper.pos": 43.95332875772135
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "approach"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 2.049119902625125,
+        "shoulder_lift.pos": -28.711980432120814,
+        "elbow_flex.pos": 34.295972186325656,
+        "wrist_flex.pos": 84.41637011430737,
+        "wrist_roll.pos": 94.83788730283206,
+        "gripper.pos": 43.95332875772135
+      }
+    },
+    {
+      "name": "A 구 · 집기 내려서 집기점으로 접근",
+      "pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 43.95332875772135
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "descend"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 43.95332875772135
+      }
+    },
+    {
+      "name": "A 구 · 집기 집게 닫기",
+      "pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "grip"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 0.0
+      }
+    },
+    {
+      "name": "A 구 · 집기 위로 빼고 필요시 기울이기",
+      "pose": {
+        "shoulder_pan.pos": 0.7819318187234499,
+        "shoulder_lift.pos": -57.83745947370882,
+        "elbow_flex.pos": 30.690845120301194,
+        "wrist_flex.pos": 92.98083884658274,
+        "wrist_roll.pos": 93.57079435654637,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "retreat"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 0.7819318187234499,
+        "shoulder_lift.pos": -57.83745947370882,
+        "elbow_flex.pos": 30.690845120301194,
+        "wrist_flex.pos": 92.98083884658274,
+        "wrist_roll.pos": 93.57079435654637,
+        "gripper.pos": 0.0
+      }
+    },
+    {
+      "name": "A 구 · 집기 같은 자리에 내려놓기",
+      "pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "return"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 0.0
+      }
+    },
+    {
+      "name": "A 구 · 집기 집게 열어 놓기",
+      "pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 43.95332875772135
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "release"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 0.7819504602696478,
+        "shoulder_lift.pos": -24.015062914891786,
+        "elbow_flex.pos": 47.95725146832045,
+        "wrist_flex.pos": 66.0581800379144,
+        "wrist_roll.pos": 93.57071786046663,
+        "gripper.pos": 43.95332875772135
+      }
+    },
+    {
+      "name": "A 구 · 집기 빈 집게를 위로 빼기",
+      "pose": {
+        "shoulder_pan.pos": 2.049119902625752,
+        "shoulder_lift.pos": -28.711980432233368,
+        "elbow_flex.pos": 34.29597218641465,
+        "wrist_flex.pos": 84.41637011425468,
+        "wrist_roll.pos": 94.8378873028352,
+        "gripper.pos": 43.95332875772135
+      },
+      "captured_at": "",
+      "motion": {
+        "target": "sim_A_ball",
+        "phase": "withdraw"
+      },
+      "fixed_pose": {
+        "shoulder_pan.pos": 2.049119902625752,
+        "shoulder_lift.pos": -28.711980432233368,
+        "elbow_flex.pos": 34.29597218641465,
+        "wrist_flex.pos": 84.41637011425468,
+        "wrist_roll.pos": 94.8378873028352,
+        "gripper.pos": 43.95332875772135
+      }
+    },
+    {
+      "name": "종료 · 안전 자세",
+      "pose": {
+        "shoulder_pan.pos": 2.989010989010989,
+        "shoulder_lift.pos": -54.51648351648352,
+        "elbow_flex.pos": 14.56043956043956,
+        "wrist_flex.pos": 84.95604395604396,
+        "wrist_roll.pos": 1.8241758241758241,
+        "gripper.pos": 14.468085106382992
+      },
+      "captured_at": "",
+      "safe_boundary": "end"
+    }
+  ],
+  "vision_plan": {
+    "targets": {
+      "sim_A_ball": {
+        "jig_name": "시뮬 A 하위 지그 220×148",
+        "long_mm": 220.0,
+        "short_mm": 148.0,
+        "surface_z_mm": 2.4,
+        "expected_yaw_deg": -90.0,
+        "yaw_tolerance_deg": 30.0,
+        "size_tolerance_pct": 5.0,
+        "appearance": "white_frame",
+        "shape_model": "carrier_6jigs",
+        "detection_method": "hybrid",
+        "roi_x_pct": 0.0,
+        "roi_y_pct": 0.0,
+        "roi_w_pct": 100.0,
+        "roi_h_pct": 100.0,
+        "geometry_verified": false,
+        "name": "A 구",
+        "product": "제품 A",
+        "mode": "rectangle",
+        "operation": "pick",
+        "return_to_start": true,
+        "x_mm": 11.7,
+        "y_mm": -36.0,
+        "z_mm": 15.052091538906781,
+        "yaw_deg": 0.0,
+        "pitch_deg": 180.0,
+        "hover_mm": 40.0,
+        "retreat_mm": 100.0,
+        "approach_x_mm": 3.0,
+        "approach_y_mm": 0.0,
+        "lift_tilt_deg": 25.0,
+        "lift_clearance_mm": 40.0,
+        "retreat_wait_s": 3.0,
+        "open": 43.95332875772135,
+        "closed": 0.0,
+        "speed_mm_s": 10.0,
+        "wait_s": 0.4,
+        "roll_deg": 180.0
+      }
+    },
+    "calibration_signature": "1314e1677aae0831845d5f2b3ed7992fb982472b01e36c18989475dec81f7a45",
+    "preview_tool": {
+      "xyz_mm": [
+        1.773409675938293,
+        0.6026567343814877,
+        6.549653899876567
+      ],
+      "rpy_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_offsets_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "verified": false,
+      "reference": {
+        "kind": "model_fixed_finger_tip",
+        "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+        "frame": "gripper_frame_link",
+        "visual": "xlerobot_fixed_finger",
+        "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+        "xyz_mm": [
+          1.773409675938293,
+          0.6026567343814877,
+          6.549653899876567
+        ],
+        "edge_endpoints_mm": [
+          [
+            1.7722147223729783,
+            -4.98369275258973,
+            6.549786982542699
+          ],
+          [
+            1.7746046295036075,
+            6.189006221352705,
+            6.5495208172104356
+          ]
+        ],
+        "edge_width_mm": 11.172699232720552,
+        "source_sha256": {
+          "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+          "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+        },
+        "physically_verified": false
+      },
+      "motor_limits_deg": [
+        [
+          -88.13186813186813,
+          88.13186813186813
+        ],
+        [
+          -104.74725274725274,
+          104.74725274725274
+        ],
+        [
+          -96.52747252747253,
+          96.52747252747253
+        ],
+        [
+          -103.51648351648352,
+          103.51648351648352
+        ],
+        [
+          -180.0,
+          180.0
+        ]
+      ],
+      "motor_zero_reference": {
+        "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+        "accepted_by_user": true,
+        "accepted_at": "2026-09-22T15:42:25.094296+09:00",
+        "model_offsets_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tcp_precision_verified": false
+      }
+    },
+    "preview_kind": "simulation_candidate",
+    "simulation_reference": {
+      "kind": "simulation_candidate",
+      "hardware_verified": false,
+      "source": "/path/to/Final_Arm/Test_teach/config/so101_scene.json",
+      "configuration_sha256": "4faed10648e080778698e871ff58ac4d72a98f36480ab748f4624d7a73c48ea7",
+      "part": "ball",
+      "jig_center_carrier_mm": [
+        0.0,
+        -36.0,
+        4.850000190735195
+      ],
+      "part_offset_jig_mm": [
+        0.0,
+        4.0,
+        1.602091348171586
+      ],
+      "source_tool": {
+        "xyz_mm": [
+          1.773409675938293,
+          0.6026567343814877,
+          6.549653899876567
+        ],
+        "rpy_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_offsets_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verified": false,
+        "reference": {
+          "kind": "model_fixed_finger_tip",
+          "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+          "frame": "gripper_frame_link",
+          "visual": "xlerobot_fixed_finger",
+          "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+          "xyz_mm": [
+            1.773409675938293,
+            0.6026567343814877,
+            6.549653899876567
+          ],
+          "edge_endpoints_mm": [
+            [
+              1.7722147223729783,
+              -4.98369275258973,
+              6.549786982542699
+            ],
+            [
+              1.7746046295036075,
+              6.189006221352705,
+              6.5495208172104356
+            ]
+          ],
+          "edge_width_mm": 11.172699232720552,
+          "source_sha256": {
+            "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+            "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+          },
+          "physically_verified": false
+        },
+        "motor_limits_deg": [
+          [
+            -88.13186813186813,
+            88.13186813186813
+          ],
+          [
+            -104.74725274725274,
+            104.74725274725274
+          ],
+          [
+            -96.52747252747253,
+            96.52747252747253
+          ],
+          [
+            -103.51648351648352,
+            103.51648351648352
+          ],
+          [
+            -180.0,
+            180.0
+          ]
+        ],
+        "motor_zero_reference": {
+          "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+          "accepted_by_user": true,
+          "accepted_at": "2026-09-22T15:42:25.094296+09:00",
+          "model_offsets_deg": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tcp_precision_verified": false
+        }
+      },
+      "contact_reference_only": {
+        "product": "Razer Universal Grip Tape",
+        "static_friction": 1.0,
+        "dynamic_friction": 0.8,
+        "restitution": 0.0,
+        "combine_mode": "max",
+        "thickness_mm": 0.2,
+        "span_mm": 8.0,
+        "shape": "octagon",
+        "pad_count": 2,
+        "status": "friction and 8 mm patch width are engineering estimates; thickness 0.2 mm specified by user; rigid contact approximation"
+      },
+      "mass_reference_only": "/path/to/Final_Arm/OpenCV_teach/calibration/link_mass/link_mass_estimate.json",
+      "part_settings": {
+        "label": "구",
+        "jig_center_carrier_mm": [
+          0.0,
+          -36.0,
+          4.850000190735195
+        ],
+        "jig_yaw_deg": 90.0,
+        "part_offset_jig_mm": [
+          0.0,
+          4.0,
+          1.602091348171586
+        ],
+        "part_yaw_deg": -90.0,
+        "mesh_height_mm": 30.0,
+        "grasp_tcp_part_mm": [
+          15.7,
+          0.0,
+          11.0
+        ],
+        "grasp_yaw_deg": 0.0,
+        "grasp_pitch_deg": 180.0,
+        "hover_mm": 40,
+        "lift_mm": 100.0,
+        "open_percent": 43.95332875772135,
+        "close_percent": 0.0,
+        "mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/ball.stl",
+        "jig_mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/ball_jig.stl",
+        "mass_kg": 0.004318673152971986,
+        "lift_tilt_deg": 25.0,
+        "lift_clearance_mm": 40.0,
+        "approach_clearance_mm": 3.0,
+        "hold_effort_nm": 0.12
+      },
+      "actuators_reference_only": {
+        "arm_effort_nm": 2.0,
+        "gripper_effort_nm": 0.15,
+        "arm_stiffness": 80.0,
+        "arm_damping": 4.0,
+        "gripper_stiffness": 2.0,
+        "gripper_damping": 0.08,
+        "gripper_effort_note": "Simulation tuning for 4-13 g parts and assumed pad friction; not a real servo current/torque calibration.",
+        "wrist_effort_nm": 0.6,
+        "gripper_hold_effort_nm": 0.08
+      },
+      "source_home_deg_reference_only": [
+        2.989010989010989,
+        -54.51648351648352,
+        14.56043956043956,
+        84.95604395604396,
+        1.8241758241758241,
+        14.468085106382992
+      ],
+      "source_safe_deg_reference_only": [
+        2.989010989010989,
+        -54.51648351648352,
+        14.56043956043956,
+        84.95604395604396,
+        1.8241758241758241,
+        14.468085106382992
+      ],
+      "motion_transfer": "Carrier-relative approach offset; vertical lift then shoulder-axis adaptive tilt, <=2 mm IK samples; high hold 3 s; reverse ascent to original seat, release, withdraw. Physical torque is not set. Return placement has not been tested in contact simulation.",
+      "nominal_carrier_base_mm": [
+        210.0,
+        0.0,
+        -2.4
+      ],
+      "note": "Z and heading are simulation installation candidates. Verify actual rim height, docking direction, camera extrinsics and TCP. Mass/friction do not change motor commands."
+    },
+    "safe_pose_reference": {
+      "source": "Test_teach safe_deg",
+      "model_candidate": true,
+      "pose": {
+        "shoulder_pan.pos": 2.989010989010989,
+        "shoulder_lift.pos": -54.51648351648352,
+        "elbow_flex.pos": 14.56043956043956,
+        "wrist_flex.pos": 84.95604395604396,
+        "wrist_roll.pos": 1.8241758241758241,
+        "gripper.pos": 14.468085106382992
+      }
+    },
+    "calibration_rebase": {
+      "at": "2026-09-22T15:42:26.218683+09:00",
+      "from": "0e7825a97f7db3375ca93ac2d1920a2daf57bdd5a6abcf49f01a4412a04804fa",
+      "to": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+      "previous_step_count": 9,
+      "method": "Physical safe pose preserved; current scene targets recompiled into pick-lift-replace roundtrip",
+      "source_episode_sha256": "a9d67d5bf14340e68bd1e9ffc436962fcf6f8ad98aca11009c5c1c61c681702b"
+    },
+    "camera_reference_source": "cad_estimate; PCB plane centre, 0 mm"
+  }
+}

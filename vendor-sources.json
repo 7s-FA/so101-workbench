@@ -1,0 +1,17 @@
+[
+  {
+    "name": "so_arm100",
+    "url": "https://github.com/TheRobotStudio/SO-ARM100.git",
+    "revision": "eecbe3e0a9ebb23e25ad7b2759b03884c6660903"
+  },
+  {
+    "name": "so101_workshop",
+    "url": "https://github.com/isaac-sim/Sim-to-Real-SO-101-Workshop.git",
+    "revision": "ce807d99724cb65671abec01f908a2fcb4a6eab7"
+  },
+  {
+    "name": "lerobot",
+    "url": "https://github.com/huggingface/lerobot.git",
+    "revision": "71a11efe77f55e61f3ab2ce45b40da8cf626afa9"
+  }
+]

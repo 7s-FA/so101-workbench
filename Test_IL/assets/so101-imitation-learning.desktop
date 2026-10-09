@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SO-101 모방 학습
+Name[ko]=SO-101 모방 학습
+Name[ko_KR]=SO-101 모방 학습
+Comment=SO-101 시연 기록 · D435 컬러·깊이 저장 · ACT 학습·실행
+Exec=/path/to/Final_Arm/Test_IL/start.sh
+Path=/path/to/Final_Arm/Test_IL
+Icon=/path/to/Final_Arm/Test_IL/web/icon.svg
+Terminal=false
+Categories=Science;Engineering;
+StartupWMClass=so101-imitation-learning

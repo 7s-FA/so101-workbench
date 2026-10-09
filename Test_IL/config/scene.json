@@ -1,0 +1,51 @@
+{
+  "robot": "so101",
+  "table": {
+    "size": [
+      0.65,
+      0.8
+    ],
+    "center": [
+      0.22,
+      0.0
+    ],
+    "height": 0.23
+  },
+  "base": [
+    0,
+    0,
+    0.2374
+  ],
+  "model_source": "/path/to/Final_Arm/Test_IL/assets/so101/so101_il.urdf",
+  "start_angles_deg": [
+    0.0,
+    -55.0,
+    14.999999999999998,
+    85.0,
+    90.0,
+    15.000006428635198
+  ],
+  "parts": {},
+  "jigs_enabled": false,
+  "start_pose_reference": {
+    "source": "/path/to/Final_Arm/OpenCV_teach/teaching/A \uad6c \u00b7 \uc9d1\uace0 \uc81c\uc790\ub9ac\uc5d0 \ub193\uae30.json",
+    "boundary": "start",
+    "updated_at": "2026-09-22T11:59:44.338052+09:00",
+    "pose": {
+      "shoulder_pan.pos": 0.0,
+      "shoulder_lift.pos": -55.0,
+      "elbow_flex.pos": 15.0,
+      "wrist_flex.pos": 85.0,
+      "wrist_roll.pos": 90.0,
+      "gripper.pos": 15.0
+    }
+  },
+  "reference_source": "/path/to/Final_Arm/Test_teach/config/so101_scene.json",
+  "camera_models": {
+    "gripper": "32x32 UVC module",
+    "table": "RealSense D435"
+  },
+  "gripper_model": "xlerobot_tpu",
+  "camera_assembly": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/assembly.json",
+  "camera_extrinsics_status": "CAD nominal; not physically calibrated"
+}

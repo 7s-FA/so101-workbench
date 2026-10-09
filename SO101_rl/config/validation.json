@@ -1,0 +1,6 @@
+{
+  "status": "layout_restored_angle_calibration_pending",
+  "previous_result": "outputs/assembly_current_12/trial_00.json",
+  "previous_result_applies_to_current_layout": false,
+  "reason": "User rejected relocated fixture layout; evaluate tick-to-angle mapping on the original workcell."
+}

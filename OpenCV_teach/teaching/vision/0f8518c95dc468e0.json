@@ -1,0 +1,264 @@
+{
+  "schema": 2,
+  "identity": {
+    "side": "right",
+    "pair_name": "opencv_follower_right",
+    "robot_type": "so101",
+    "serials": {
+      "follower": "usb-YOUR_ROBOT-if00"
+    },
+    "demo": false,
+    "calibration_sha256": {
+      "follower_right": "0e7825a97f7db3375ca93ac2d1920a2daf57bdd5a6abcf49f01a4412a04804fa"
+    },
+    "control_mode": "follower_only",
+    "follower_id": "follower_right"
+  },
+  "camera": {
+    "source": "/dev/v4l/by-id/usb-Innomaker_Innomaker-U20CAM-720P_SN0001-video-index0",
+    "width": 1280,
+    "height": 720
+  },
+  "board": {
+    "cols": 13,
+    "rows": 9,
+    "square_mm": 20.0
+  },
+  "intrinsics": {
+    "normal_spread_deg": 85.07132313914785,
+    "usable_for_metric": true,
+    "quality_note": "",
+    "K": [
+      [
+        1032.2503683943196,
+        0.0,
+        687.7723709834622
+      ],
+      [
+        0.0,
+        1032.1059987177996,
+        347.780289252618
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      -0.4927825484416793,
+      0.3175725472843906,
+      0.0009627245882526294,
+      0.0006415581739380303,
+      -0.12739109971931759
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "rms_px": 0.3345732736611807,
+    "errors_px": [
+      0.23249447345733643,
+      0.1988622546195984,
+      0.22880753874778748,
+      0.2220085859298706,
+      0.22482919692993164,
+      0.21837042272090912,
+      0.20347148180007935,
+      0.18097226321697235,
+      0.1993337720632553,
+      0.2389938235282898,
+      0.17893920838832855,
+      0.2486308366060257,
+      0.22204460203647614,
+      0.2081262469291687,
+      0.19880735874176025,
+      0.21454742550849915,
+      0.20125927031040192,
+      0.4574057459831238,
+      0.5114720463752747,
+      0.7521030306816101,
+      0.5389497876167297,
+      0.36063769459724426,
+      0.49417808651924133,
+      0.5819027423858643,
+      0.3164055347442627,
+      0.210563525557518,
+      0.25723108649253845,
+      0.31445592641830444,
+      0.31573325395584106,
+      0.33514919877052307,
+      0.17703188955783844,
+      0.23043052852153778,
+      0.3805907070636749,
+      0.412645548582077,
+      0.4242311716079712
+    ],
+    "camera": {
+      "source": "/dev/v4l/by-id/usb-Innomaker_Innomaker-U20CAM-720P_SN0001-video-index0",
+      "width": 1280,
+      "height": 720
+    },
+    "board": {
+      "cols": 13,
+      "rows": 9,
+      "square_mm": 20.0
+    },
+    "source_files": [
+      "Photo from 2026-09-21 14-22-19.002897.jpeg",
+      "Photo from 2026-09-21 14-22-23.603922.jpeg",
+      "Photo from 2026-09-21 14-22-27.277905.jpeg",
+      "Photo from 2026-09-21 14-22-30.754915.jpeg",
+      "Photo from 2026-09-21 14-22-34.231099.jpeg",
+      "Photo from 2026-09-21 14-22-41.698608.jpeg",
+      "Photo from 2026-09-21 14-22-55.991840.jpeg",
+      "Photo from 2026-09-21 14-23-02.367464.jpeg",
+      "Photo from 2026-09-21 14-23-07.709889.jpeg",
+      "Photo from 2026-09-21 14-23-14.268171.jpeg",
+      "Photo from 2026-09-21 14-23-20.038546.jpeg",
+      "Photo from 2026-09-21 14-23-28.527615.jpeg",
+      "Photo from 2026-09-21 14-23-31.768654.jpeg",
+      "Photo from 2026-09-21 14-23-34.924734.jpeg",
+      "Photo from 2026-09-21 14-23-44.434608.jpeg",
+      "Photo from 2026-09-21 14-23-49.117827.jpeg",
+      "Photo from 2026-09-21 14-23-54.069995.jpeg",
+      "Photo from 2026-09-21 14-47-30.456972.jpeg",
+      "Photo from 2026-09-21 14-47-37.321896.jpeg",
+      "Photo from 2026-09-21 14-47-42.473514.jpeg",
+      "Photo from 2026-09-21 14-47-49.883488.jpeg",
+      "Photo from 2026-09-21 14-47-54.635372.jpeg",
+      "Photo from 2026-09-21 14-48-02.212012.jpeg",
+      "Photo from 2026-09-21 14-48-11.209132.jpeg",
+      "Photo from 2026-09-21 14-48-16.337043.jpeg",
+      "Photo from 2026-09-21 14-59-33.967505.jpeg",
+      "Photo from 2026-09-21 14-59-39.829627.jpeg",
+      "Photo from 2026-09-21 14-59-45.155029.jpeg",
+      "Photo from 2026-09-21 14-59-55.019602.jpeg",
+      "Photo from 2026-09-21 15-00-12.849223.jpeg",
+      "Photo from 2026-09-21 15-00-23.577830.jpeg",
+      "Photo from 2026-09-21 15-00-31.274409.jpeg",
+      "Photo from 2026-09-21 15-00-38.254069.jpeg",
+      "Photo from 2026-09-21 15-00-50.713060.jpeg",
+      "Photo from 2026-09-21 15-00-57.878643.jpeg"
+    ],
+    "source_directory": "/path/to/Final_Arm/OpenCV_teach/calibration/camera_images"
+  },
+  "extrinsics": {
+    "source": "cad_estimate",
+    "verified_for_robot_motion": false,
+    "base_from_camera": [
+      [
+        8.236175720257466e-06,
+        -0.9063119925854385,
+        0.4226092427148011,
+        25.987375015717188
+      ],
+      [
+        -0.9999999999660827,
+        -7.46454482856353e-06,
+        3.4806839841220946e-06,
+        -116.04778651153569
+      ],
+      [
+        0.0,
+        -0.42260924272913486,
+        -0.9063119926161781,
+        545.6718787079634
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "intrinsics_signature": "f6fe093ef752b6f6ea89f091380059f1a0c85a73683a3cf0871c3c7aaa11523b",
+    "optical_offset_mm": 0.0,
+    "image_roll_deg": 0.0,
+    "geometry_source": "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/nominal_pose.json",
+    "geometry_sha256": "2b1797eff88514e9c20e5880861874c290a240145700fb1edc0fb3fe25cd2c25",
+    "lens_protrusion_mm_reference_only": 20.0,
+    "note": "User specifies optical centre at PCB plane centre (0 mm). Lens protrusion of 20 mm is not added. CAD mounting pose and image axes remain estimates; confirm with physical points."
+  },
+  "tool": {
+    "xyz_mm": [
+      1.773409675938293,
+      0.6026567343814877,
+      6.549653899876567
+    ],
+    "rpy_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_offsets_deg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -90.0
+    ],
+    "verified": false,
+    "reference": {
+      "kind": "model_fixed_finger_tip",
+      "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+      "frame": "gripper_frame_link",
+      "visual": "xlerobot_fixed_finger",
+      "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+      "xyz_mm": [
+        1.773409675938293,
+        0.6026567343814877,
+        6.549653899876567
+      ],
+      "edge_endpoints_mm": [
+        [
+          1.7722147223729783,
+          -4.98369275258973,
+          6.549786982542699
+        ],
+        [
+          1.7746046295036075,
+          6.189006221352705,
+          6.5495208172104356
+        ]
+      ],
+      "edge_width_mm": 11.172699232720552,
+      "source_sha256": {
+        "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+        "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+      },
+      "physically_verified": false
+    }
+  },
+  "jigs": {
+    "rectangle:하위 지그 220×148": {
+      "name": "하단",
+      "product": "제품 A",
+      "mode": "rectangle",
+      "operation": "pick",
+      "jig_name": "하위 지그 220×148",
+      "appearance": "white_frame",
+      "shape_model": "rectangle",
+      "long_mm": 220.0,
+      "short_mm": 148.0,
+      "surface_z_mm": 0.0,
+      "expected_yaw_deg": 0.0,
+      "yaw_tolerance_deg": 30.0,
+      "size_tolerance_pct": 5.0,
+      "roi_x_pct": 0.0,
+      "roi_y_pct": 0.0,
+      "roi_w_pct": 100.0,
+      "roi_h_pct": 100.0,
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "z_mm": 18.0,
+      "yaw_deg": 180.0,
+      "hover_mm": 20.0,
+      "open": 80.0,
+      "closed": 20.0,
+      "speed_mm_s": 10.0,
+      "wait_s": 0.4,
+      "geometry_verified": false
+    }
+  }
+}

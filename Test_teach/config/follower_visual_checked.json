@@ -1,0 +1,227 @@
+{
+  "kind": "omx_follower_urdf",
+  "verified": false,
+  "port": "/dev/serial/by-id/usb-YOUR_ROBOT-if00",
+  "ids": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "models": [
+    1060,
+    1060,
+    1060,
+    1200,
+    1200,
+    1200
+  ],
+  "zero_ticks": [
+    2048,
+    2016.0222222222221,
+    1988.9555555555555,
+    2048,
+    2048,
+    2039
+  ],
+  "ticks_per_rad": [
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033
+  ],
+  "limits": [
+    [
+      -4.71238898038469,
+      6.283185307179586
+    ],
+    [
+      -2.0943951023931953,
+      1.5707963267948966
+    ],
+    [
+      -2.0943951023931953,
+      1.5707963267948966
+    ],
+    [
+      -1.7453292519943295,
+      1.7453292519943295
+    ],
+    [
+      -4.71238898038469,
+      4.71238898038469
+    ],
+    [
+      0,
+      1.1
+    ]
+  ],
+  "tick_limits": [
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      2039,
+      3209
+    ]
+  ],
+  "motor_config": [
+    {
+      "id": 11,
+      "model": 1060,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 12,
+      "model": 1060,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 13,
+      "model": 1060,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 14,
+      "model": 1200,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 15,
+      "model": 1200,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 16,
+      "model": 1200,
+      "mode": 5,
+      "drive": 0,
+      "offset": 0
+    }
+  ],
+  "note": "Arm IDs 12 and 13 use provisional 2026-09-17 single-pose link-body inclination correction. Other arm zeros nominal; gripper closure measured. Not multi-pose precision calibration. Motor EEPROM unchanged.",
+  "gripper_endpoints": {
+    "closed_ticks": 2039,
+    "open_ticks": 3209,
+    "span_ticks": 1170,
+    "arm_ticks": [
+      2064,
+      2027,
+      2052,
+      3042,
+      2034
+    ],
+    "arm_delta_since_closed": [
+      11,
+      2,
+      1,
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "calibration_verified": false,
+    "note": "Observed encoder endpoints only. Opening-angle mapping and arm URDF calibration are not yet verified."
+  },
+  "operator_confirmation": {
+    "method": "user_visual_real_to_sim",
+    "confirmed_at": "2026-09-16",
+    "accepted_for_low_speed_control": true,
+    "precision_calibrated": false,
+    "evidence": "User confirmed the real-to-sim observation mode works, then requested actual motor control. Previous per-joint manual direction observations are recorded separately."
+  },
+  "link_body_calibration": {
+    "date": "2026-09-17",
+    "status": "provisional_single_pose",
+    "measurement_source": "User measured link bodies; photograph supplies direction, not metric angles",
+    "photo_path": "/tmp/codex-remote-attachments/01a0a7f5-4948-7ca3-bb4f-c177e221c800/c5c4a960-8d06-4510-9aa8-04bd1ec520bd/1-Photo-1.jpg",
+    "upper_body_direction": "8 deg backward from vertical, away from wrist",
+    "forearm_body_direction": "8 deg down toward wrist",
+    "body_inclination_from_horizontal_deg": {
+      "upper": 98,
+      "forearm": -8
+    },
+    "urdf_joint_angles_deg": {
+      "joint2": -8,
+      "joint3": 16
+    },
+    "body_reference_axes": {
+      "link2": [
+        0,
+        0,
+        1
+      ],
+      "link3": [
+        1,
+        0,
+        0
+      ]
+    },
+    "encoder_snapshot_unix": 1789615820.903212,
+    "encoder_snapshot_ticks": [
+      1624,
+      1925,
+      2171,
+      3069,
+      1627,
+      2514
+    ],
+    "previous_zero_ticks": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2039
+    ],
+    "calibrated_ids": [
+      12,
+      13
+    ],
+    "independent_validation_complete": false,
+    "uncertainty_deg": null,
+    "limitations": [
+      "One pose cannot separate constant zero offset from load-dependent frame deflection.",
+      "Measurement time not precisely synchronized; snapshot was captured while the same target pose was held.",
+      "Wrist and base geometric calibration unchanged."
+    ],
+    "activation": "Loaded on next control connection/application launch; not hot-applied to armed worker."
+  }
+}

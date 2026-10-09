@@ -1,0 +1,220 @@
+{
+  "extrusion_mm_by_object_feature": {
+    "200": {
+      "stationary_extrusion": 0.0007900000000081076,
+      "Outer wall": 2130.6947900000055,
+      "Inner wall": 624.109720000003,
+      "Bottom surface": 5.671449999999999,
+      "Gap infill": 458.9149400000033,
+      "Internal solid infill": 98.91941999999999,
+      "Sparse infill": 231.52256999999898,
+      "Top surface": 21.17038999999993,
+      "Floating vertical shell": 14.99952,
+      "Bridge": 4.7760299999999996
+    },
+    "264": {
+      "stationary_extrusion": 0.0008200000000080821,
+      "Outer wall": 2130.694810000006,
+      "Inner wall": 624.109720000003,
+      "Bottom surface": 5.671449999999999,
+      "Gap infill": 458.9149600000034,
+      "Internal solid infill": 98.91941999999999,
+      "Sparse infill": 231.522549999999,
+      "Top surface": 21.17040999999993,
+      "Floating vertical shell": 14.99952,
+      "Bridge": 4.7760299999999996
+    },
+    "287": {
+      "stationary_extrusion": 0.0008300000000080365,
+      "Outer wall": 2130.6948000000057,
+      "Inner wall": 624.109720000003,
+      "Bottom surface": 5.671449999999999,
+      "Gap infill": 458.91497000000317,
+      "Internal solid infill": 98.91941999999999,
+      "Sparse infill": 231.522559999999,
+      "Top surface": 21.17039999999993,
+      "Floating vertical shell": 14.99952,
+      "Bridge": 4.7760299999999996
+    },
+    "309": {
+      "stationary_extrusion": 0.0008400000000081021,
+      "Outer wall": 2130.6948000000057,
+      "Inner wall": 624.109720000003,
+      "Bottom surface": 5.671449999999999,
+      "Gap infill": 458.9150000000033,
+      "Internal solid infill": 98.91941999999999,
+      "Sparse infill": 231.5225499999989,
+      "Top surface": 21.17038999999993,
+      "Floating vertical shell": 14.99952,
+      "Bridge": 4.7760299999999996
+    }
+  },
+  "path_bounds_mm": {
+    "200": [
+      96.256,
+      154.229,
+      162.654,
+      177.968,
+      24.0
+    ],
+    "264": [
+      96.256,
+      128.041,
+      162.654,
+      151.779,
+      24.0
+    ],
+    "287": [
+      96.256,
+      101.852,
+      162.654,
+      125.591,
+      24.0
+    ],
+    "309": [
+      93.79,
+      78.003,
+      160.189,
+      101.741,
+      24.0
+    ]
+  },
+  "header": {
+    "total filament length [mm]": 14363.13,
+    "total filament volume [cm^3]": 34547.37,
+    "total filament weight [g]": 42.15
+  },
+  "e_positive_mm": 27906.326839992482,
+  "e_negative_mm": 13544.00811000628,
+  "retraction_debt_mm": 0.8,
+  "extrusion_command_counts": {
+    "G1": 156081,
+    "G2": 20690,
+    "G3": 15934
+  },
+  "source": "OpenCV_teach/calibration/link_mass/generated/tpu_sliced.3mf",
+  "source_sha256": "50f6d45145b06210ec7dae4f8348c5138288d037b575209d2d3cd3b4377ad29d",
+  "density_g_cm3": 1.22,
+  "filament_diameter_mm": 1.75,
+  "plate_mass_g": 42.15,
+  "profile": {
+    "filament_settings_id": [
+      "Bambu TPU 95A HF @BBL P2S"
+    ],
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "gyroid",
+    "wall_loops": "2",
+    "layer_height": "0.2",
+    "top_shell_layers": "3",
+    "bottom_shell_layers": "3"
+  },
+  "objects": [
+    {
+      "id": "200",
+      "name": "SO101_soft_fin.stl_2",
+      "part_mass_g": 10.536938990830757,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 10.53694130904143,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0007900000000081076,
+        "Outer wall": 2130.6947900000055,
+        "Inner wall": 624.109720000003,
+        "Bottom surface": 5.671449999999999,
+        "Gap infill": 458.9149400000033,
+        "Internal solid infill": 98.91941999999999,
+        "Sparse infill": 231.52256999999898,
+        "Top surface": 21.17038999999993,
+        "Floating vertical shell": 14.99952,
+        "Bridge": 4.7760299999999996
+      },
+      "bounds_mm": [
+        96.256,
+        154.229,
+        162.654,
+        177.968,
+        24.0
+      ]
+    },
+    {
+      "id": "264",
+      "name": "SO101_soft_fin.stl_2",
+      "part_mass_g": 10.536939108208513,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 10.536941514452502,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0008200000000080821,
+        "Outer wall": 2130.694810000006,
+        "Inner wall": 624.109720000003,
+        "Bottom surface": 5.671449999999999,
+        "Gap infill": 458.9149600000034,
+        "Internal solid infill": 98.91941999999999,
+        "Sparse infill": 231.522549999999,
+        "Top surface": 21.17040999999993,
+        "Floating vertical shell": 14.99952,
+        "Bridge": 4.7760299999999996
+      },
+      "bounds_mm": [
+        96.256,
+        128.041,
+        162.654,
+        151.779,
+        24.0
+      ]
+    },
+    {
+      "id": "287",
+      "name": "SO101_soft_fin.stl_2",
+      "part_mass_g": 10.536939108208513,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 10.53694154379694,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0008300000000080365,
+        "Outer wall": 2130.6948000000057,
+        "Inner wall": 624.109720000003,
+        "Bottom surface": 5.671449999999999,
+        "Gap infill": 458.91497000000317,
+        "Internal solid infill": 98.91941999999999,
+        "Sparse infill": 231.522559999999,
+        "Top surface": 21.17039999999993,
+        "Floating vertical shell": 14.99952,
+        "Bridge": 4.7760299999999996
+      },
+      "bounds_mm": [
+        96.256,
+        101.852,
+        162.654,
+        125.591,
+        24.0
+      ]
+    },
+    {
+      "id": "309",
+      "name": "SO101_soft_fin.stl_2",
+      "part_mass_g": 10.53693913755295,
+      "auxiliary_mass_g": 0.0,
+      "all_deposited_mass_g": 10.536941602485818,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 0.0008400000000081021,
+        "Outer wall": 2130.6948000000057,
+        "Inner wall": 624.109720000003,
+        "Bottom surface": 5.671449999999999,
+        "Gap infill": 458.9150000000033,
+        "Internal solid infill": 98.91941999999999,
+        "Sparse infill": 231.5225499999989,
+        "Top surface": 21.17038999999993,
+        "Floating vertical shell": 14.99952,
+        "Bridge": 4.7760299999999996
+      },
+      "bounds_mm": [
+        93.79,
+        78.003,
+        160.189,
+        101.741,
+        24.0
+      ]
+    }
+  ],
+  "method": "Net extruded filament after retraction recovery; separate auxiliary/custom/stationary extrusion. No scaling to force plate total.",
+  "input_project_sha256": "26c08e81eb8b382676a4a3f0f52c332e414cbc19c1d9ea2fb1d61433ab08d146",
+  "input_project_hash_provenance": "Preserved from the original 3MF analysis; input archive may be moved after slicing."
+}

@@ -1,0 +1,133 @@
+{
+  "kind": "so101_follower_urdf",
+  "robot_type": "so101",
+  "gripper_model": "xlerobot_tpu",
+  "ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "models": [
+    "sts3215",
+    "sts3215",
+    "sts3215",
+    "sts3215",
+    "sts3215",
+    "sts3215"
+  ],
+  "zero_ticks": [
+    2053.5,
+    2027.0,
+    2052.0,
+    2018.0,
+    2047.5,
+    1996
+  ],
+  "ticks_per_rad": [
+    651.7394919613114,
+    651.7394919613114,
+    651.7394919613114,
+    651.7394919613114,
+    651.7394919613114,
+    820.4752109916176
+  ],
+  "limits": [
+    [
+      -2.0675438831317443,
+      2.0675438831317443
+    ],
+    [
+      -1.8243485543923146,
+      1.8243485543923146
+    ],
+    [
+      -1.6831878588463995,
+      1.6831878588463995
+    ],
+    [
+      -1.796730157437679,
+      1.796730157437679
+    ],
+    [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    [
+      0.0,
+      1.74533
+    ]
+  ],
+  "tick_limits": [
+    [
+      706,
+      3401
+    ],
+    [
+      838,
+      3216
+    ],
+    [
+      955,
+      3149
+    ],
+    [
+      847,
+      3189
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      1996,
+      3428
+    ]
+  ],
+  "calibration": {
+    "shoulder_pan": {
+      "id": 1,
+      "drive_mode": 0,
+      "homing_offset": -1994,
+      "range_min": 706,
+      "range_max": 3401
+    },
+    "shoulder_lift": {
+      "id": 2,
+      "drive_mode": 0,
+      "homing_offset": -1298,
+      "range_min": 838,
+      "range_max": 3216
+    },
+    "elbow_flex": {
+      "id": 3,
+      "drive_mode": 0,
+      "homing_offset": 1596,
+      "range_min": 955,
+      "range_max": 3149
+    },
+    "wrist_flex": {
+      "id": 4,
+      "drive_mode": 0,
+      "homing_offset": 1720,
+      "range_min": 847,
+      "range_max": 3189
+    },
+    "wrist_roll": {
+      "id": 5,
+      "drive_mode": 0,
+      "homing_offset": 1443,
+      "range_min": 0,
+      "range_max": 4095
+    },
+    "gripper": {
+      "id": 6,
+      "drive_mode": 0,
+      "homing_offset": 1381,
+      "range_min": 1996,
+      "range_max": 3428
+    }
+  }
+}

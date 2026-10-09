@@ -1,0 +1,19 @@
+{
+  "empty": {
+    "velocity_rad_s": 2.24,
+    "acceleration_rad_s2": 5.0176
+  },
+  "loaded": {
+    "velocity_rad_s": 1.68,
+    "acceleration_rad_s2": 3.136
+  },
+  "precision": {
+    "velocity_rad_s": 0.952,
+    "acceleration_rad_s2": 2.5088
+  },
+  "gripper": {
+    "velocity_rad_s": 0.896,
+    "acceleration_rad_s2": 2.25792
+  },
+  "scope": "Nominal simulation design limits; physical loaded motion and grip validation required before hardware deployment."
+}

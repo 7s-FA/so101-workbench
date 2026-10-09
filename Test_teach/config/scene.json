@@ -1,0 +1,98 @@
+{
+  "table": {
+    "size": [
+      0.4,
+      0.6
+    ],
+    "center": [
+      0.14,
+      0
+    ],
+    "height": 0.23
+  },
+  "base": [
+    0,
+    0,
+    0.23
+  ],
+  "model_source": "/path/to/Final_Arm/Test_teach/assets/omx_teach.urdf",
+  "rest_point": [
+    0.205,
+    0,
+    0.325
+  ],
+  "parts": {
+    "housing": {
+      "source": [
+        0.08663674365684337,
+        -0.18579309634251323
+      ],
+      "destination": [
+        0.08663674365684337,
+        0.18579309634251323
+      ],
+      "mesh": "/path/to/Final_Arm/Sim_real/assets/generated/conveyor_demo/parts/01_housing_matched_10mm_cap.stl",
+      "jig": "/path/to/Final_Arm/Sim_real/assets/generated/conveyor_demo/parts/01_housing_and_finished_jig_68mm_lightweight.stl",
+      "seating_z": 0.0035001,
+      "offset_xy": [
+        0,
+        0.004
+      ],
+      "grasp_height": 0.012
+    },
+    "ball": {
+      "source": [
+        0.15703911083939048,
+        -0.13177145998574055
+      ],
+      "destination": [
+        0.15703911083939048,
+        0.13177145998574055
+      ],
+      "mesh": "/path/to/Final_Arm/Sim_real/assets/product/02_ball_d30.stl",
+      "jig": "/path/to/Final_Arm/Sim_real/assets/generated/conveyor_demo/parts/02_ball_jig_68mm_two_side_cradle.stl",
+      "seating_z": 0.0015561,
+      "offset_xy": [
+        0,
+        0.004
+      ],
+      "grasp_height": 0.016
+    },
+    "cap": {
+      "source": [
+        0.19801479438925898,
+        -0.05305790424601675
+      ],
+      "destination": [
+        0.19801479438925898,
+        0.05305790424601675
+      ],
+      "mesh": "/path/to/Final_Arm/Sim_real/assets/generated/conveyor_demo/parts/03_cap_10mm_original_ball_exposure.stl",
+      "jig": "/path/to/Final_Arm/Sim_real/assets/generated/conveyor_demo/parts/03_cap_jig_center_post_68mm_lightweight.stl",
+      "seating_z": 0.0035,
+      "offset_xy": [
+        0,
+        0.004
+      ],
+      "grasp_height": 0.004,
+      "destination_seating_z": 0.0035,
+      "destination_fixture": "flat receiving platform, no centre post; transport test, not insertion",
+      "fixture": "flat source/destination receiving platforms; isolate transport from centre-post extraction"
+    }
+  },
+  "dt": 0.0020833333333333333,
+  "arm_effort_nm": 2.0,
+  "jaw_effort_nm": 0.4,
+  "actuator_status": "Provisional total gripper torque 0.4 N m from two prior 0.2 N m drives; now one driven gear joint. Not hardware calibrated.",
+  "grasp_mode": "physics_only_no_attachment",
+  "pad_thickness_m": 0.0005,
+  "start_angles_deg": [
+    0,
+    -25,
+    -55,
+    80,
+    0,
+    10
+  ],
+  "start_pose_source": "2026-09-17 upright start selected by nominal URDF static-load and mesh checks; not an encoder zero change or a measured physical load guarantee"
+}

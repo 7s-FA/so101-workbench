@@ -1,0 +1,963 @@
+{
+  "station": {
+    "schema": 2,
+    "identity": {
+      "side": "right",
+      "pair_name": "opencv_follower_right",
+      "robot_type": "so101",
+      "serials": {
+        "follower": "usb-YOUR_ROBOT-if00"
+      },
+      "demo": false,
+      "calibration_sha256": {
+        "follower_right": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea"
+      },
+      "control_mode": "follower_only",
+      "follower_id": "follower_right"
+    },
+    "camera": {
+      "source": "/dev/v4l/by-id/usb-Innomaker_Innomaker-U20CAM-720P_SN0001-video-index0",
+      "width": 1280,
+      "height": 720
+    },
+    "board": {
+      "cols": 13,
+      "rows": 9,
+      "square_mm": 20.0
+    },
+    "intrinsics": {
+      "normal_spread_deg": 85.07132313914785,
+      "usable_for_metric": true,
+      "quality_note": "",
+      "K": [
+        [
+          1032.2503683943196,
+          0.0,
+          687.7723709834622
+        ],
+        [
+          0.0,
+          1032.1059987177996,
+          347.780289252618
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "D": [
+        -0.4927825484416793,
+        0.3175725472843906,
+        0.0009627245882526294,
+        0.0006415581739380303,
+        -0.12739109971931759
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "rms_px": 0.3345732736611807,
+      "errors_px": [
+        0.23249447345733643,
+        0.1988622546195984,
+        0.22880753874778748,
+        0.2220085859298706,
+        0.22482919692993164,
+        0.21837042272090912,
+        0.20347148180007935,
+        0.18097226321697235,
+        0.1993337720632553,
+        0.2389938235282898,
+        0.17893920838832855,
+        0.2486308366060257,
+        0.22204460203647614,
+        0.2081262469291687,
+        0.19880735874176025,
+        0.21454742550849915,
+        0.20125927031040192,
+        0.4574057459831238,
+        0.5114720463752747,
+        0.7521030306816101,
+        0.5389497876167297,
+        0.36063769459724426,
+        0.49417808651924133,
+        0.5819027423858643,
+        0.3164055347442627,
+        0.210563525557518,
+        0.25723108649253845,
+        0.31445592641830444,
+        0.31573325395584106,
+        0.33514919877052307,
+        0.17703188955783844,
+        0.23043052852153778,
+        0.3805907070636749,
+        0.412645548582077,
+        0.4242311716079712
+      ],
+      "camera": {
+        "source": "/dev/v4l/by-id/usb-Innomaker_Innomaker-U20CAM-720P_SN0001-video-index0",
+        "width": 1280,
+        "height": 720
+      },
+      "board": {
+        "cols": 13,
+        "rows": 9,
+        "square_mm": 20.0
+      },
+      "source_files": [
+        "Photo from 2026-09-21 14-22-19.002897.jpeg",
+        "Photo from 2026-09-21 14-22-23.603922.jpeg",
+        "Photo from 2026-09-21 14-22-27.277905.jpeg",
+        "Photo from 2026-09-21 14-22-30.754915.jpeg",
+        "Photo from 2026-09-21 14-22-34.231099.jpeg",
+        "Photo from 2026-09-21 14-22-41.698608.jpeg",
+        "Photo from 2026-09-21 14-22-55.991840.jpeg",
+        "Photo from 2026-09-21 14-23-02.367464.jpeg",
+        "Photo from 2026-09-21 14-23-07.709889.jpeg",
+        "Photo from 2026-09-21 14-23-14.268171.jpeg",
+        "Photo from 2026-09-21 14-23-20.038546.jpeg",
+        "Photo from 2026-09-21 14-23-28.527615.jpeg",
+        "Photo from 2026-09-21 14-23-31.768654.jpeg",
+        "Photo from 2026-09-21 14-23-34.924734.jpeg",
+        "Photo from 2026-09-21 14-23-44.434608.jpeg",
+        "Photo from 2026-09-21 14-23-49.117827.jpeg",
+        "Photo from 2026-09-21 14-23-54.069995.jpeg",
+        "Photo from 2026-09-21 14-47-30.456972.jpeg",
+        "Photo from 2026-09-21 14-47-37.321896.jpeg",
+        "Photo from 2026-09-21 14-47-42.473514.jpeg",
+        "Photo from 2026-09-21 14-47-49.883488.jpeg",
+        "Photo from 2026-09-21 14-47-54.635372.jpeg",
+        "Photo from 2026-09-21 14-48-02.212012.jpeg",
+        "Photo from 2026-09-21 14-48-11.209132.jpeg",
+        "Photo from 2026-09-21 14-48-16.337043.jpeg",
+        "Photo from 2026-09-21 14-59-33.967505.jpeg",
+        "Photo from 2026-09-21 14-59-39.829627.jpeg",
+        "Photo from 2026-09-21 14-59-45.155029.jpeg",
+        "Photo from 2026-09-21 14-59-55.019602.jpeg",
+        "Photo from 2026-09-21 15-00-12.849223.jpeg",
+        "Photo from 2026-09-21 15-00-23.577830.jpeg",
+        "Photo from 2026-09-21 15-00-31.274409.jpeg",
+        "Photo from 2026-09-21 15-00-38.254069.jpeg",
+        "Photo from 2026-09-21 15-00-50.713060.jpeg",
+        "Photo from 2026-09-21 15-00-57.878643.jpeg"
+      ],
+      "source_directory": "/path/to/Final_Arm/OpenCV_teach/calibration/camera_images"
+    },
+    "extrinsics": {
+      "source": "cad_estimate",
+      "verified_for_robot_motion": false,
+      "base_from_camera": [
+        [
+          8.236175720257466e-06,
+          -0.9063119925854385,
+          0.4226092427148011,
+          25.987375015717188
+        ],
+        [
+          -0.9999999999660827,
+          -7.46454482856353e-06,
+          3.4806839841220946e-06,
+          -116.04778651153569
+        ],
+        [
+          0.0,
+          -0.42260924272913486,
+          -0.9063119926161781,
+          545.6718787079634
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "intrinsics_signature": "f6fe093ef752b6f6ea89f091380059f1a0c85a73683a3cf0871c3c7aaa11523b",
+      "optical_offset_mm": 0.0,
+      "image_roll_deg": 0.0,
+      "geometry_source": "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/nominal_pose.json",
+      "geometry_sha256": "2b1797eff88514e9c20e5880861874c290a240145700fb1edc0fb3fe25cd2c25",
+      "lens_protrusion_mm_reference_only": 20.0,
+      "note": "User specifies optical centre at PCB plane centre (0 mm). Lens protrusion of 20 mm is not added. CAD mounting pose and image axes remain estimates; confirm with physical points.",
+      "verified": false
+    },
+    "tool": {
+      "xyz_mm": [
+        1.773409675938293,
+        0.6026567343814877,
+        6.549653899876567
+      ],
+      "rpy_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_offsets_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "verified": false,
+      "reference": {
+        "kind": "model_fixed_finger_tip",
+        "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+        "frame": "gripper_frame_link",
+        "visual": "xlerobot_fixed_finger",
+        "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+        "xyz_mm": [
+          1.773409675938293,
+          0.6026567343814877,
+          6.549653899876567
+        ],
+        "edge_endpoints_mm": [
+          [
+            1.7722147223729783,
+            -4.98369275258973,
+            6.549786982542699
+          ],
+          [
+            1.7746046295036075,
+            6.189006221352705,
+            6.5495208172104356
+          ]
+        ],
+        "edge_width_mm": 11.172699232720552,
+        "source_sha256": {
+          "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+          "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+        },
+        "physically_verified": false
+      },
+      "motor_limits_deg": [
+        [
+          -88.13186813186813,
+          88.13186813186813
+        ],
+        [
+          -104.74725274725274,
+          104.74725274725274
+        ],
+        [
+          -96.52747252747253,
+          96.52747252747253
+        ],
+        [
+          -103.51648351648352,
+          103.51648351648352
+        ],
+        [
+          -180.0,
+          180.0
+        ]
+      ],
+      "motor_zero_reference": {
+        "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+        "accepted_by_user": true,
+        "accepted_at": "2026-09-22T15:42:25.094296+09:00",
+        "model_offsets_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tcp_precision_verified": false
+      }
+    },
+    "jigs": {
+      "rectangle:하위 지그 220×148": {
+        "name": "용기 1번 칸",
+        "product": "제품 A",
+        "mode": "rectangle",
+        "operation": "pick",
+        "jig_name": "하위 지그 220×148",
+        "return_to_start": false,
+        "appearance": "white_frame",
+        "shape_model": "carrier_6jigs",
+        "detection_method": "hybrid",
+        "long_mm": 220.0,
+        "short_mm": 148.0,
+        "surface_z_mm": 0.0,
+        "expected_yaw_deg": 0.0,
+        "yaw_tolerance_deg": 30.0,
+        "size_tolerance_pct": 5.0,
+        "roi_x_pct": 37.372709,
+        "roi_y_pct": 21.014493,
+        "roi_w_pct": 44.399185,
+        "roi_h_pct": 78.985507,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 30.0,
+        "yaw_deg": 180.0,
+        "pitch_deg": 180.0,
+        "roll_deg": 180.0,
+        "hover_mm": 20.0,
+        "retreat_mm": 20.0,
+        "approach_x_mm": 0.0,
+        "approach_y_mm": 0.0,
+        "lift_clearance_mm": 40.0,
+        "lift_tilt_deg": 0.0,
+        "retreat_wait_s": 0.4,
+        "open": 80.0,
+        "closed": 20.0,
+        "speed_mm_s": 10.0,
+        "wait_s": 0.4,
+        "geometry_verified": false
+      },
+      "rectangle:시뮬 A 하위 지그 220×148": {
+        "name": "A 하단",
+        "product": "제품 A",
+        "mode": "rectangle",
+        "operation": "pick",
+        "jig_name": "시뮬 A 하위 지그 220×148",
+        "return_to_start": true,
+        "appearance": "white_frame",
+        "shape_model": "carrier_6jigs",
+        "detection_method": "hybrid",
+        "long_mm": 220.0,
+        "short_mm": 148.0,
+        "surface_z_mm": 2.4,
+        "expected_yaw_deg": -172.78519366768202,
+        "yaw_tolerance_deg": 30.0,
+        "size_tolerance_pct": 5.0,
+        "roi_x_pct": 37.169043,
+        "roi_y_pct": 22.463768,
+        "roi_w_pct": 42.158859,
+        "roi_h_pct": 74.637681,
+        "x_mm": 97.7,
+        "y_mm": 40.0,
+        "z_mm": 11.000000190735536,
+        "yaw_deg": 0.0,
+        "pitch_deg": 180.0,
+        "roll_deg": 180.0,
+        "hover_mm": 40.0,
+        "retreat_mm": 100.0,
+        "approach_x_mm": 3.0,
+        "approach_y_mm": 0.0,
+        "lift_clearance_mm": 40.0,
+        "lift_tilt_deg": 25.0,
+        "retreat_wait_s": 3.0,
+        "open": 53.78174330816749,
+        "closed": 0.0,
+        "speed_mm_s": 10.0,
+        "wait_s": 0.4,
+        "geometry_verified": false
+      }
+    },
+    "detection_alignment": {
+      "source": "20260922_reference_recovery/live-raw.png",
+      "nominal_yaw_before": -90.0,
+      "expected_yaw_deg": -172.78519366768202,
+      "physical_axis_branch": "closest undirected branch to previous expected heading",
+      "not_camera_or_tcp_recalibration": true
+    },
+    "tcp_execution_reference": {
+      "mode": "model_estimate",
+      "tool_signature": "cb8be3b57c1c432462653c5e5c99dc2c4d51ba1136a67fa52e6d30d3dedfde02",
+      "identity_signature": "d2a355c6404a64764f0a0f3189f9321c9f0cec46594cce0979b0ae8874e94ce2",
+      "selected_at": "2026-09-22T18:29:56.077041+09:00",
+      "reason": "사용자 요청: 현재 계산된 TCP를 테스트 기준으로 사용",
+      "physically_verified": false
+    }
+  },
+  "document": {
+    "schema": 2,
+    "kind": "teaching",
+    "identity": {
+      "side": "right",
+      "pair_name": "opencv_follower_right",
+      "robot_type": "so101",
+      "serials": {
+        "follower": "usb-YOUR_ROBOT-if00"
+      },
+      "demo": false,
+      "calibration_sha256": {
+        "follower_right": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea"
+      },
+      "control_mode": "follower_only",
+      "follower_id": "follower_right"
+    },
+    "units": {
+      "shoulder_pan.pos": "degrees",
+      "shoulder_lift.pos": "degrees",
+      "elbow_flex.pos": "degrees",
+      "wrist_flex.pos": "degrees",
+      "wrist_roll.pos": "degrees",
+      "gripper.pos": "normalized_0_100"
+    },
+    "title": "A 하단 · 집고 제자리에 놓기",
+    "updated_at": "2026-09-22T15:42:26.205706+09:00",
+    "steps": [
+      {
+        "name": "시작 · 안전 자세",
+        "pose": {
+          "shoulder_pan.pos": 2.989010989010989,
+          "shoulder_lift.pos": -54.51648351648352,
+          "elbow_flex.pos": 14.56043956043956,
+          "wrist_flex.pos": 84.95604395604396,
+          "wrist_roll.pos": -88.17582417582418,
+          "gripper.pos": 14.468085106382992
+        },
+        "captured_at": "",
+        "safe_boundary": "start"
+      },
+      {
+        "name": "A 하단 · 집기 위에서 대기",
+        "pose": {
+          "shoulder_pan.pos": 51.85089409497423,
+          "shoulder_lift.pos": 4.881854420501113,
+          "elbow_flex.pos": 10.066349683664113,
+          "wrist_flex.pos": 46.6812595012203,
+          "wrist_roll.pos": -88.17582417582418,
+          "gripper.pos": 53.78174330816749
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "approach"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 23.237718675325244,
+          "shoulder_lift.pos": 20.090284640978222,
+          "elbow_flex.pos": -19.61242152355458,
+          "wrist_flex.pos": 89.52238965018887,
+          "wrist_roll.pos": 116.0264860758143,
+          "gripper.pos": 53.78174330816749
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "A 하단 · 집기 내려서 집기점으로 접근",
+        "pose": {
+          "shoulder_pan.pos": 52.42554292969394,
+          "shoulder_lift.pos": 55.59258045809709,
+          "elbow_flex.pos": -61.64050181374963,
+          "wrist_flex.pos": 94.99984017946113,
+          "wrist_roll.pos": -96.53625134719633,
+          "gripper.pos": 53.78174330816749
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "descend"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 22.5484190176625,
+          "shoulder_lift.pos": 21.93760190376409,
+          "elbow_flex.pos": -5.238964247032514,
+          "wrist_flex.pos": 73.30161848100633,
+          "wrist_roll.pos": 115.33718641806648,
+          "gripper.pos": 53.78174330816749
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "A 하단 · 집기 집게 닫기",
+        "pose": {
+          "shoulder_pan.pos": 52.42554292969394,
+          "shoulder_lift.pos": 55.59258045809709,
+          "elbow_flex.pos": -61.64050181374963,
+          "wrist_flex.pos": 94.99984017946113,
+          "wrist_roll.pos": -96.53625134719633,
+          "gripper.pos": 0.0
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "grip"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 22.5484190176625,
+          "shoulder_lift.pos": 21.93760190376409,
+          "elbow_flex.pos": -5.238964247032514,
+          "wrist_flex.pos": 73.30161848100633,
+          "wrist_roll.pos": 115.33718641806648,
+          "gripper.pos": 0.0
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "A 하단 · 집기 위로 빼고 필요시 기울이기",
+        "pose": {
+          "shoulder_pan.pos": 52.46280859780987,
+          "shoulder_lift.pos": 22.517453200716524,
+          "elbow_flex.pos": -45.271457834987864,
+          "wrist_flex.pos": 92.99984017946127,
+          "wrist_roll.pos": -88.17582417582418,
+          "gripper.pos": 0.0
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "retreat"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 22.548375815169113,
+          "shoulder_lift.pos": 1.1790221443589368,
+          "elbow_flex.pos": -17.277990640434545,
+          "wrist_flex.pos": 92.00971846131475,
+          "wrist_roll.pos": 115.33719168908287,
+          "gripper.pos": 0.0
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "A 하단 · 집기 같은 자리에 내려놓기",
+        "pose": {
+          "shoulder_pan.pos": 52.42554292969394,
+          "shoulder_lift.pos": 55.59258045809709,
+          "elbow_flex.pos": -61.64050181374963,
+          "wrist_flex.pos": 94.99984017946113,
+          "wrist_roll.pos": -96.53625134719633,
+          "gripper.pos": 0.0
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "return"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 22.5484190176625,
+          "shoulder_lift.pos": 21.93760190376409,
+          "elbow_flex.pos": -5.238964247032514,
+          "wrist_flex.pos": 73.30161848100633,
+          "wrist_roll.pos": 115.33718641806648,
+          "gripper.pos": 0.0
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "A 하단 · 집기 집게 열어 놓기",
+        "pose": {
+          "shoulder_pan.pos": 52.42554292969394,
+          "shoulder_lift.pos": 55.59258045809709,
+          "elbow_flex.pos": -61.64050181374963,
+          "wrist_flex.pos": 94.99984017946113,
+          "wrist_roll.pos": -96.53625134719633,
+          "gripper.pos": 53.78174330816749
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "release"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 22.5484190176625,
+          "shoulder_lift.pos": 21.93760190376409,
+          "elbow_flex.pos": -5.238964247032514,
+          "wrist_flex.pos": 73.30161848100633,
+          "wrist_roll.pos": 115.33718641806648,
+          "gripper.pos": 53.78174330816749
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "A 하단 · 집기 빈 집게를 위로 빼기",
+        "pose": {
+          "shoulder_pan.pos": 51.85089409497423,
+          "shoulder_lift.pos": 4.881854420501113,
+          "elbow_flex.pos": 10.066349683664113,
+          "wrist_flex.pos": 46.6812595012203,
+          "wrist_roll.pos": -88.17582417582418,
+          "gripper.pos": 53.78174330816749
+        },
+        "captured_at": "",
+        "motion": {
+          "target": "sim_A_housing",
+          "phase": "withdraw"
+        },
+        "fixed_pose": {
+          "shoulder_pan.pos": 23.237718675325265,
+          "shoulder_lift.pos": 20.090284640998565,
+          "elbow_flex.pos": -19.61242152358562,
+          "wrist_flex.pos": 89.52238965020891,
+          "wrist_roll.pos": 116.02648607581382,
+          "gripper.pos": 53.78174330816749
+        },
+        "trial_ik": {
+          "position_limit_mm": 4.0,
+          "angle_limit_deg": 6.0
+        }
+      },
+      {
+        "name": "종료 · 안전 자세",
+        "pose": {
+          "shoulder_pan.pos": 2.989010989010989,
+          "shoulder_lift.pos": -54.51648351648352,
+          "elbow_flex.pos": 14.56043956043956,
+          "wrist_flex.pos": 84.95604395604396,
+          "wrist_roll.pos": -88.17582417582418,
+          "gripper.pos": 14.468085106382992
+        },
+        "captured_at": "",
+        "safe_boundary": "end"
+      }
+    ],
+    "vision_plan": {
+      "targets": {
+        "sim_A_housing": {
+          "jig_name": "시뮬 A 하위 지그 220×148",
+          "long_mm": 220.0,
+          "short_mm": 148.0,
+          "surface_z_mm": 2.4,
+          "expected_yaw_deg": -172.78519366768202,
+          "yaw_tolerance_deg": 30.0,
+          "size_tolerance_pct": 5.0,
+          "appearance": "white_frame",
+          "shape_model": "carrier_6jigs",
+          "detection_method": "hybrid",
+          "roi_x_pct": 35.947047,
+          "roi_y_pct": 31.884058,
+          "roi_w_pct": 37.06721,
+          "roi_h_pct": 59.782609,
+          "geometry_verified": false,
+          "name": "A 하단",
+          "product": "제품 A",
+          "mode": "rectangle",
+          "operation": "pick",
+          "return_to_start": true,
+          "x_mm": 46.3,
+          "y_mm": 40.0,
+          "z_mm": 11.000000190735536,
+          "yaw_deg": -180.0,
+          "pitch_deg": 180.0,
+          "hover_mm": 40.0,
+          "retreat_mm": 100.0,
+          "approach_x_mm": -3.0,
+          "approach_y_mm": 0.0,
+          "lift_tilt_deg": 25.0,
+          "lift_clearance_mm": 40.0,
+          "retreat_wait_s": 3.0,
+          "open": 53.78174330816749,
+          "closed": 0.0,
+          "speed_mm_s": 10.0,
+          "wait_s": 0.4,
+          "roll_deg": 180.0,
+          "upper_strategy": "height_first",
+          "grasp_side": "part_left"
+        }
+      },
+      "calibration_signature": "1314e1677aae0831845d5f2b3ed7992fb982472b01e36c18989475dec81f7a45",
+      "preview_tool": {
+        "xyz_mm": [
+          1.773409675938293,
+          0.6026567343814877,
+          6.549653899876567
+        ],
+        "rpy_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_offsets_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "verified": false,
+        "reference": {
+          "kind": "model_fixed_finger_tip",
+          "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+          "frame": "gripper_frame_link",
+          "visual": "xlerobot_fixed_finger",
+          "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+          "xyz_mm": [
+            1.773409675938293,
+            0.6026567343814877,
+            6.549653899876567
+          ],
+          "edge_endpoints_mm": [
+            [
+              1.7722147223729783,
+              -4.98369275258973,
+              6.549786982542699
+            ],
+            [
+              1.7746046295036075,
+              6.189006221352705,
+              6.5495208172104356
+            ]
+          ],
+          "edge_width_mm": 11.172699232720552,
+          "source_sha256": {
+            "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+            "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+          },
+          "physically_verified": false
+        },
+        "motor_limits_deg": [
+          [
+            -88.13186813186813,
+            88.13186813186813
+          ],
+          [
+            -104.74725274725274,
+            104.74725274725274
+          ],
+          [
+            -96.52747252747253,
+            96.52747252747253
+          ],
+          [
+            -103.51648351648352,
+            103.51648351648352
+          ],
+          [
+            -180.0,
+            180.0
+          ]
+        ],
+        "motor_zero_reference": {
+          "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+          "accepted_by_user": true,
+          "accepted_at": "2026-09-22T15:42:25.094296+09:00",
+          "model_offsets_deg": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tcp_precision_verified": false
+        }
+      },
+      "preview_kind": "offline",
+      "simulation_reference": {
+        "kind": "simulation_candidate",
+        "hardware_verified": false,
+        "source": "/path/to/Final_Arm/Test_teach/config/so101_scene.json",
+        "configuration_sha256": "4faed10648e080778698e871ff58ac4d72a98f36480ab748f4624d7a73c48ea7",
+        "part": "housing",
+        "jig_center_carrier_mm": [
+          72.0,
+          36.0,
+          4.850000190735195
+        ],
+        "part_offset_jig_mm": [
+          0.0,
+          4.0,
+          3.55000000000034
+        ],
+        "source_tool": {
+          "xyz_mm": [
+            1.773409675938293,
+            0.6026567343814877,
+            6.549653899876567
+          ],
+          "rpy_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "joint_offsets_deg": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "verified": false,
+          "reference": {
+            "kind": "model_fixed_finger_tip",
+            "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+            "frame": "gripper_frame_link",
+            "visual": "xlerobot_fixed_finger",
+            "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+            "xyz_mm": [
+              1.773409675938293,
+              0.6026567343814877,
+              6.549653899876567
+            ],
+            "edge_endpoints_mm": [
+              [
+                1.7722147223729783,
+                -4.98369275258973,
+                6.549786982542699
+              ],
+              [
+                1.7746046295036075,
+                6.189006221352705,
+                6.5495208172104356
+              ]
+            ],
+            "edge_width_mm": 11.172699232720552,
+            "source_sha256": {
+              "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+              "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+            },
+            "physically_verified": false
+          },
+          "motor_limits_deg": [
+            [
+              -88.13186813186813,
+              88.13186813186813
+            ],
+            [
+              -104.74725274725274,
+              104.74725274725274
+            ],
+            [
+              -96.52747252747253,
+              96.52747252747253
+            ],
+            [
+              -103.51648351648352,
+              103.51648351648352
+            ],
+            [
+              -180.0,
+              180.0
+            ]
+          ],
+          "motor_zero_reference": {
+            "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+            "accepted_by_user": true,
+            "accepted_at": "2026-09-22T15:42:25.094296+09:00",
+            "model_offsets_deg": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "tcp_precision_verified": false
+          }
+        },
+        "contact_reference_only": {
+          "product": "Razer Universal Grip Tape",
+          "static_friction": 1.0,
+          "dynamic_friction": 0.8,
+          "restitution": 0.0,
+          "combine_mode": "max",
+          "thickness_mm": 0.2,
+          "span_mm": 8.0,
+          "shape": "octagon",
+          "pad_count": 2,
+          "status": "friction and 8 mm patch width are engineering estimates; thickness 0.2 mm specified by user; rigid contact approximation"
+        },
+        "mass_reference_only": "/path/to/Final_Arm/OpenCV_teach/calibration/link_mass/link_mass_estimate.json",
+        "part_settings": {
+          "label": "하단 · 하우징",
+          "jig_center_carrier_mm": [
+            72.0,
+            36.0,
+            4.850000190735195
+          ],
+          "jig_yaw_deg": 0.0,
+          "part_offset_jig_mm": [
+            0.0,
+            4.0,
+            3.55000000000034
+          ],
+          "part_yaw_deg": 0.0,
+          "mesh_height_mm": 18.000000000000004,
+          "grasp_tcp_part_mm": [
+            25.7,
+            0.0,
+            5.000000000000002
+          ],
+          "grasp_yaw_deg": 0.0,
+          "grasp_pitch_deg": 180.0,
+          "hover_mm": 40,
+          "lift_mm": 100.0,
+          "open_percent": 53.78174330816749,
+          "close_percent": 0.0,
+          "mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/housing.stl",
+          "jig_mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/housing_jig.stl",
+          "mass_kg": 0.012771628627084025,
+          "lift_tilt_deg": 25.0,
+          "lift_clearance_mm": 40.0,
+          "approach_clearance_mm": 3.0,
+          "hold_effort_nm": 0.08
+        },
+        "actuators_reference_only": {
+          "arm_effort_nm": 2.0,
+          "gripper_effort_nm": 0.15,
+          "arm_stiffness": 80.0,
+          "arm_damping": 4.0,
+          "gripper_stiffness": 2.0,
+          "gripper_damping": 0.08,
+          "gripper_effort_note": "Simulation tuning for 4-13 g parts and assumed pad friction; not a real servo current/torque calibration.",
+          "wrist_effort_nm": 0.6,
+          "gripper_hold_effort_nm": 0.08
+        },
+        "source_home_deg_reference_only": [
+          2.989010989010989,
+          -54.51648351648352,
+          14.56043956043956,
+          84.95604395604396,
+          1.8241758241758241,
+          14.468085106382992
+        ],
+        "source_safe_deg_reference_only": [
+          2.989010989010989,
+          -54.51648351648352,
+          14.56043956043956,
+          84.95604395604396,
+          1.8241758241758241,
+          14.468085106382992
+        ],
+        "motion_transfer": "Carrier-relative approach offset; vertical lift then shoulder-axis adaptive tilt, <=2 mm IK samples; high hold 3 s; reverse ascent to original seat, release, withdraw. Physical torque is not set. Return placement has not been tested in contact simulation.",
+        "nominal_carrier_base_mm": [
+          210.0,
+          0.0,
+          -2.4
+        ],
+        "note": "Z and heading are simulation installation candidates. Verify actual rim height, docking direction, camera extrinsics and TCP. Mass/friction do not change motor commands."
+      },
+      "safe_pose_reference": {
+        "source": "Test_teach safe_deg",
+        "pose": {
+          "shoulder_pan.pos": 2.989010989010989,
+          "shoulder_lift.pos": -54.51648351648352,
+          "elbow_flex.pos": 14.56043956043956,
+          "wrist_flex.pos": 84.95604395604396,
+          "wrist_roll.pos": -88.17582417582418,
+          "gripper.pos": 14.468085106382992
+        },
+        "clockwise_90_from_arm": true
+      },
+      "calibration_rebase": {
+        "at": "2026-09-22T15:42:26.212479+09:00",
+        "from": "0e7825a97f7db3375ca93ac2d1920a2daf57bdd5a6abcf49f01a4412a04804fa",
+        "to": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+        "previous_step_count": 9,
+        "method": "Physical safe pose preserved; current scene targets recompiled into pick-lift-replace roundtrip",
+        "source_episode_sha256": "d19cd8440984b6917a24c5b55af11fc881990cbfb02ab017ab2be0b29f1c073c"
+      },
+      "camera_reference_source": "cad_estimate; PCB plane centre, 0 mm",
+      "execution_trial": {
+        "position_mm": 4.0,
+        "angle_deg": 6.0
+      }
+    }
+  },
+  "observation": {
+    "x_mm": 237.7,
+    "y_mm": -157.7,
+    "yaw_deg": -151.7
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "robot_type": "so101",
+  "mode": "follower_only",
+  "pair_name": "opencv_follower_right",
+  "side": "right",
+  "follower_id": "follower_right",
+  "follower_port": "/dev/serial/by-id/usb-YOUR_ROBOT-if00"
+}

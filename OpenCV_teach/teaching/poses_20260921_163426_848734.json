@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "identity": {
+    "side": "right",
+    "pair_name": "opencv_follower_right",
+    "robot_type": "so101",
+    "serials": {
+      "follower": "usb-YOUR_ROBOT-if00"
+    },
+    "demo": false,
+    "calibration_sha256": {
+      "follower_right": "0e7825a97f7db3375ca93ac2d1920a2daf57bdd5a6abcf49f01a4412a04804fa"
+    },
+    "control_mode": "follower_only",
+    "follower_id": "follower_right"
+  },
+  "units": {
+    "shoulder_pan.pos": "degrees",
+    "shoulder_lift.pos": "degrees",
+    "elbow_flex.pos": "degrees",
+    "wrist_flex.pos": "degrees",
+    "wrist_roll.pos": "degrees",
+    "gripper.pos": "normalized_0_100"
+  },
+  "title": "",
+  "updated_at": "2026-09-21T16:49:31.852429+09:00",
+  "steps": [],
+  "vision_plan": {
+    "targets": {
+      "b88680761736": {
+        "name": "하단",
+        "product": "제품 A",
+        "mode": "rectangle",
+        "operation": "pick",
+        "jig_name": "하위 지그 220×148",
+        "appearance": "white_frame",
+        "shape_model": "rectangle",
+        "long_mm": 220.0,
+        "short_mm": 148.0,
+        "surface_z_mm": 0.0,
+        "expected_yaw_deg": 0.0,
+        "yaw_tolerance_deg": 30.0,
+        "size_tolerance_pct": 5.0,
+        "roi_x_pct": 0.0,
+        "roi_y_pct": 0.0,
+        "roi_w_pct": 100.0,
+        "roi_h_pct": 100.0,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 18.0,
+        "yaw_deg": 180.0,
+        "hover_mm": 20.0,
+        "open": 80.0,
+        "closed": 20.0,
+        "speed_mm_s": 10.0,
+        "wait_s": 0.4,
+        "geometry_verified": false
+      },
+      "dbbc255b9399": {
+        "name": "구",
+        "product": "제품 A",
+        "mode": "rectangle",
+        "operation": "pick",
+        "jig_name": "하위 지그 220×148",
+        "appearance": "white_frame",
+        "shape_model": "rectangle",
+        "long_mm": 220.0,
+        "short_mm": 148.0,
+        "surface_z_mm": 0.0,
+        "expected_yaw_deg": 0.0,
+        "yaw_tolerance_deg": 30.0,
+        "size_tolerance_pct": 5.0,
+        "roi_x_pct": 0.0,
+        "roi_y_pct": 0.0,
+        "roi_w_pct": 100.0,
+        "roi_h_pct": 100.0,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 18.0,
+        "yaw_deg": 180.0,
+        "hover_mm": 20.0,
+        "open": 80.0,
+        "closed": 20.0,
+        "speed_mm_s": 10.0,
+        "wait_s": 0.4,
+        "geometry_verified": false
+      },
+      "350c630a6a55": {
+        "name": "상단",
+        "product": "제품 A",
+        "mode": "rectangle",
+        "operation": "pick",
+        "jig_name": "하위 지그 220×148",
+        "appearance": "white_frame",
+        "shape_model": "rectangle",
+        "long_mm": 220.0,
+        "short_mm": 148.0,
+        "surface_z_mm": 0.0,
+        "expected_yaw_deg": 0.0,
+        "yaw_tolerance_deg": 30.0,
+        "size_tolerance_pct": 5.0,
+        "roi_x_pct": 0.0,
+        "roi_y_pct": 0.0,
+        "roi_w_pct": 100.0,
+        "roi_h_pct": 100.0,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "z_mm": 18.0,
+        "yaw_deg": 180.0,
+        "hover_mm": 20.0,
+        "open": 80.0,
+        "closed": 20.0,
+        "speed_mm_s": 10.0,
+        "wait_s": 0.4,
+        "geometry_verified": false
+      }
+    },
+    "calibration_signature": "d16d0e0a6b785943da45f32902e5ae2805a64975fa2a215377f4ce1f22caccdd",
+    "preview_tool": {
+      "xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_offsets_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "verified": false
+    },
+    "preview_kind": "offline"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "scope": "Triangle-mesh fit for the current local URDF; 0.15 mm contact allowance, no force closure validation",
+  "profiles": {
+    "so101": {
+      "housing": {
+        "part_base_in_tool": [
+          -0.025150010229554026,
+          0,
+          0.018
+        ],
+        "closed": 0.4773582556517796,
+        "open": 0.5973582556517796
+      },
+      "ball": {
+        "part_base_in_tool": [
+          -0.0151470335572958,
+          0,
+          0.016
+        ],
+        "closed": 0.19581957254558802,
+        "open": 0.315819572545588
+      },
+      "cap": {
+        "part_base_in_tool": [
+          -0.025149991635698823,
+          0,
+          0.011
+        ],
+        "closed": 0.42956855029333385,
+        "open": 0.5495685502933338
+      },
+      "product": {
+        "part_base_in_tool": [
+          -0.025150010229554026,
+          0,
+          0.018
+        ],
+        "closed": 0.4817541803233326,
+        "open": 0.6017541803233326
+      }
+    },
+    "omx": {
+      "housing": {
+        "part_base_in_tool": [
+          0.012,
+          -5e-05,
+          0
+        ],
+        "closed": 0.42202937947586183,
+        "open": 0.5020293794758618
+      },
+      "ball": {
+        "part_base_in_tool": [
+          0.016,
+          -5e-05,
+          0
+        ],
+        "closed": 0.24542584172450005,
+        "open": 0.32542584172450006
+      },
+      "cap": {
+        "part_base_in_tool": [
+          0.004,
+          -5e-05,
+          0
+        ],
+        "closed": 0.41708311254624286,
+        "open": 0.4970831125462429
+      },
+      "product": {
+        "part_base_in_tool": [
+          0.012,
+          -5e-05,
+          0
+        ],
+        "closed": 0.42202937947586183,
+        "open": 0.5020293794758618
+      }
+    }
+  }
+}

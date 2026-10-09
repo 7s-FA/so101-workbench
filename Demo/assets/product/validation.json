@@ -1,0 +1,41 @@
+{
+  "01_housing": {
+    "watertight": true,
+    "dimensions_mm": [
+      50.0,
+      50.0,
+      23.0
+    ],
+    "volume_mm3": 43756.99367183055
+  },
+  "02_ball_d30": {
+    "watertight": true,
+    "dimensions_mm": [
+      29.991339683532715,
+      29.9857120513916,
+      30.0
+    ],
+    "volume_mm3": 14120.88558434254
+  },
+  "03_cap_print_upside_down": {
+    "watertight": true,
+    "dimensions_mm": [
+      50.0,
+      50.0,
+      7.69999980926514
+    ],
+    "volume_mm3": 9825.18278158358
+  },
+  "04_optional_assembly_jig": {
+    "watertight": true,
+    "dimensions_mm": [
+      70.0,
+      70.0,
+      9.0
+    ],
+    "volume_mm3": 27951.329311996207
+  },
+  "housing_ball_interference_mm3": 0,
+  "cap_ball_interference_mm3": 0,
+  "housing_cap_interference_mm3": 0
+}

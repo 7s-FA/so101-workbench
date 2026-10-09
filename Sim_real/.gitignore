@@ -1,0 +1,6 @@
+.venv-io/
+__pycache__/
+vendor/
+assets/generated/
+outputs/
+config/*_neutral.json

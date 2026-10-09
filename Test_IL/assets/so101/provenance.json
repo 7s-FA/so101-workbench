@@ -1,0 +1,42 @@
+{
+  "robot": "SO-101",
+  "gripper": "XLeRobot TPU",
+  "cameras": {
+    "gripper": "32x32 UVC",
+    "table": "RealSense D435"
+  },
+  "source": "/path/to/Final_Arm/Test_teach/assets/so101/so101_teach.urdf",
+  "scope": "measured joint display; nominal camera frames and unverified printed bracket fit",
+  "files": {
+    "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/arm_base.stl": "169adfd40bcca689334efd1188c9b42cc03c914dc0afeaa98cb5431013610833",
+    "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/cam_mount_bottom.stl": "b3545b6cae437210e17b7dcfee2e12e00dc7a59ece9264f4b13ab9fd8ceb8088",
+    "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/cam_mount_middle.stl": "f6f3980df74777f74cf53a4697cbb63e4e000ab53f418de209559214f733f84b",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/assembly.json": "310388575d21ff4048d5e6df936e636d6ec5e7d58fc528bac2b49e112f564eec",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/d435_body_mm.stl": "0116caa453d3a942bdd6c3c37061ae0115c0cef9ca6e82d2190a29d3bf25ce3d",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_screw_0.stl": "5dde227317e02475cf40271a71930e450ba37c38d081daaa32ba69f7563cca96",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_screw_1.stl": "53d92680088e6721c218a86c2b8106434e5460372edd75a58d433430cde4514c",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_top_d435.stl": "7be469cdc6a600ac0cd31717b4b191f65ac1e1a1b63357c8ab5524ed9fb44776",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_washer_0.stl": "dd73d718b0f022603ad4e7b01e67cc37c007eee0a0f65379c4d7a8e9a7fc71e8",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_washer_1.stl": "181545e8fbfe5249a95e7806480db25bd02f9d6f0b4dfc5442ef7894fc27253d",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/wrist_xlerobot_camera.stl": "67bbea618c949872ad9509986a39816a65b956d4f79262f23be401c7d49435ac",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/wrist_xlerobot_mount.stl": "b3655d8d97a9ae10bddb5da22c8ac0b7558c432da36a67fc83968331bf49a47a",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/base_motor_holder_so101_v1.stl": "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/base_so101_v2.stl": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/motor_holder_so101_base_v1.stl": "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/motor_holder_so101_wrist_v1.stl": "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/razer_fixed_pad.stl": "1aa2865545f54063a222c4357ac20ce749b0d9e45f871965a73f4a0030a7806a",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/razer_moving_pad.stl": "022754be8694d2a8f647199703c544f4dd338b190c9f14117b096e716c3985fe",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/rotation_pitch_so101_v1.stl": "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/sts3215_03a_no_horn_v1.stl": "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/sts3215_03a_v1.stl": "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/under_arm_so101_v1.stl": "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/upper_arm_so101_v1.stl": "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/waveshare_mounting_plate_so101_v2.stl": "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/wrist_roll_pitch_so101_v2.stl": "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/xlerobot_fixed_holder.stl": "c20484dd173281e62dc28629b242c8915e9fd05f9abd5080d7f72ad9ddcf2492",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/xlerobot_moving_finger.stl": "9115d3cf63a73c03101da6bf0f021db26c038d4225318732bb64241ae2af91c6",
+    "/path/to/Final_Arm/Test_teach/assets/so101/meshes/xlerobot_moving_holder.stl": "7d9774684e3ec350a28f54813d723c6f2619e9f4246f9603564bc279d41a0daa",
+    "/path/to/Final_Arm/Test_teach/assets/so101/so101_teach.urdf": "a3c93ba73e58d17133e6a180943e29d300a8a893b38fd9bdbf9b00875b3ebb79"
+  }
+}

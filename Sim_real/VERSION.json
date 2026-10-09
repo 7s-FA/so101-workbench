@@ -1,0 +1,20 @@
+{
+  "root": "/path/to/Final_Arm/Sim_real",
+  "entry": "scripts/conveyor_preview.sh",
+  "shared_environment": "/home/fresh/.virtualenvs/final-arm-io",
+  "source_snapshot": "2026-09-16",
+  "copied_trees": [
+    "arm_sim",
+    "scripts",
+    "config",
+    "assets",
+    "vendor",
+    "web",
+    "tests",
+    "docs"
+  ],
+  "captured_outputs": [
+    "conveyor_preview_latest"
+  ],
+  "runtime": "latest hardware layout preview; full motion pending"
+}

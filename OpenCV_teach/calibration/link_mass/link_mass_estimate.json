@@ -1,0 +1,387 @@
+{
+  "schema": 1,
+  "status": "calculated_mass_estimate",
+  "units": "g",
+  "derived_teaching_model": "../Test_teach/assets/so101/so101_teach.urdf",
+  "derived_inertia_reference": "../Test_teach/assets/so101/physics_provenance.json",
+  "source_urdf": "assets/so101/so101_modified.urdf",
+  "source_urdf_sha256": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+  "bambu_version": "02.08.02.61",
+  "components": [
+    {
+      "print_object": "Ender_Follower_SO101.stl_6",
+      "object_id": "468",
+      "mesh": "waveshare_mounting_plate_so101_v2.stl",
+      "mass_g": 6.616661934736377,
+      "mesh_dimensions_mm": [
+        50.999999046325684,
+        41.999999433755875,
+        7.600000128149986
+      ],
+      "deposited_path_dimensions_mm": [
+        50.78,
+        7.379999999999999,
+        42.0
+      ],
+      "max_dimension_difference_mm": 0.22000012814998726,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_3",
+      "object_id": "402",
+      "mesh": "base_motor_holder_so101_v1.stl",
+      "mass_g": 15.872098913961468,
+      "mesh_dimensions_mm": [
+        47.64743335545063,
+        31.39999881386757,
+        80.19999973475933
+      ],
+      "deposited_path_dimensions_mm": [
+        47.42099999999999,
+        79.98,
+        31.4
+      ],
+      "max_dimension_difference_mm": 0.22643335545063792,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_9",
+      "object_id": "534",
+      "mesh": "upper_arm_so101_v1.stl",
+      "mass_g": 47.26088430355334,
+      "mesh_dimensions_mm": [
+        142.16997474431992,
+        24.499999359250236,
+        67.29999929666519
+      ],
+      "deposited_path_dimensions_mm": [
+        141.927,
+        67.08,
+        24.5
+      ],
+      "max_dimension_difference_mm": 0.24297474431992327,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_1",
+      "object_id": "358",
+      "mesh": "motor_holder_so101_base_v1.stl",
+      "mass_g": 11.589490237042728,
+      "mesh_dimensions_mm": [
+        27.9999990016222,
+        38.09705376625061,
+        55.08044362068176
+      ],
+      "deposited_path_dimensions_mm": [
+        37.858000000000004,
+        54.827999999999975,
+        28.0
+      ],
+      "max_dimension_difference_mm": 0.25244362068178816,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_2",
+      "object_id": "380",
+      "mesh": "base_so101_v2.stl",
+      "mass_g": 71.72196158610274,
+      "mesh_dimensions_mm": [
+        110.92499643564224,
+        71.99999690055817,
+        87.00000308454037
+      ],
+      "deposited_path_dimensions_mm": [
+        110.705,
+        71.78,
+        87.0
+      ],
+      "max_dimension_difference_mm": 0.21999690055817211,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_4",
+      "object_id": "424",
+      "mesh": "motor_holder_so101_wrist_v1.stl",
+      "mass_g": 11.955750062720062,
+      "mesh_dimensions_mm": [
+        27.9999990016222,
+        36.89999878406525,
+        56.39096535742283
+      ],
+      "deposited_path_dimensions_mm": [
+        56.17099999999999,
+        36.678000000000026,
+        28.0
+      ],
+      "max_dimension_difference_mm": 0.2219987840652209,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_5",
+      "object_id": "446",
+      "mesh": "rotation_pitch_so101_v1.stl",
+      "mass_g": 30.05393965855399,
+      "mesh_dimensions_mm": [
+        59.79999899864197,
+        84.19999819307122,
+        46.00000008940697
+      ],
+      "deposited_path_dimensions_mm": [
+        83.97999999999999,
+        59.577,
+        46.0
+      ],
+      "max_dimension_difference_mm": 0.2229989986419696,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_12",
+      "object_id": "600",
+      "mesh": "wrist_roll_pitch_so101_v2.stl",
+      "mass_g": 22.551477564339972,
+      "mesh_dimensions_mm": [
+        62.300000339746475,
+        35.659750923514366,
+        77.82606407999992
+      ],
+      "deposited_path_dimensions_mm": [
+        35.439,
+        77.608,
+        62.3
+      ],
+      "max_dimension_difference_mm": 0.2207509235143661,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "print_object": "Ender_Follower_SO101.stl_10",
+      "object_id": "556",
+      "mesh": "under_arm_so101_v1.stl",
+      "mass_g": 37.90709040414036,
+      "mesh_dimensions_mm": [
+        130.69981336593628,
+        24.000000208616257,
+        64.40000236034393
+      ],
+      "deposited_path_dimensions_mm": [
+        130.477,
+        64.18,
+        24.0
+      ],
+      "max_dimension_difference_mm": 0.22281336593627543,
+      "method": "original_gcode_object_extrusion"
+    },
+    {
+      "mesh": "xlerobot_fixed_holder.stl",
+      "mass_g": 23.178041476092456,
+      "method": "new_slice_same_confirmed_PLA_profile"
+    },
+    {
+      "mesh": "xlerobot_fixed_finger.stl",
+      "mass_g": 10.536939086200183,
+      "method": "new_slice_original_TPU_3MF_4_identical_fingers"
+    },
+    {
+      "mesh": "xlerobot_moving_holder.stl",
+      "mass_g": 6.478082150571097,
+      "method": "new_slice_same_confirmed_PLA_profile"
+    },
+    {
+      "mesh": "xlerobot_moving_finger.stl",
+      "mass_g": 10.536939086200183,
+      "method": "new_slice_original_TPU_3MF_4_identical_fingers"
+    }
+  ],
+  "links": [
+    {
+      "link": "base_link",
+      "label_ko": "베이스",
+      "printed_components": [
+        {
+          "mesh": "base_motor_holder_so101_v1.stl",
+          "mass_g": 15.872098913961468
+        },
+        {
+          "mesh": "base_so101_v2.stl",
+          "mass_g": 71.72196158610274
+        },
+        {
+          "mesh": "waveshare_mounting_plate_so101_v2.stl",
+          "mass_g": 6.616661934736377
+        }
+      ],
+      "printed_mass_g": 94.21072243480057,
+      "servo_count": 1,
+      "servo_nominal_mass_g": 55.0,
+      "mass_g_estimate": 149.21072243480057,
+      "mass_kg_estimate": 0.14921072243480057,
+      "old_urdf_mass_g": 147.0
+    },
+    {
+      "link": "shoulder_link",
+      "label_ko": "어깨",
+      "printed_components": [
+        {
+          "mesh": "motor_holder_so101_base_v1.stl",
+          "mass_g": 11.589490237042728
+        },
+        {
+          "mesh": "rotation_pitch_so101_v1.stl",
+          "mass_g": 30.05393965855399
+        }
+      ],
+      "printed_mass_g": 41.64342989559672,
+      "servo_count": 1,
+      "servo_nominal_mass_g": 55.0,
+      "mass_g_estimate": 96.64342989559671,
+      "mass_kg_estimate": 0.09664342989559671,
+      "old_urdf_mass_g": 100.006
+    },
+    {
+      "link": "upper_arm_link",
+      "label_ko": "상완",
+      "printed_components": [
+        {
+          "mesh": "upper_arm_so101_v1.stl",
+          "mass_g": 47.26088430355334
+        }
+      ],
+      "printed_mass_g": 47.26088430355334,
+      "servo_count": 1,
+      "servo_nominal_mass_g": 55.0,
+      "mass_g_estimate": 102.26088430355334,
+      "mass_kg_estimate": 0.10226088430355335,
+      "old_urdf_mass_g": 103.0
+    },
+    {
+      "link": "lower_arm_link",
+      "label_ko": "전완",
+      "printed_components": [
+        {
+          "mesh": "under_arm_so101_v1.stl",
+          "mass_g": 37.90709040414036
+        },
+        {
+          "mesh": "motor_holder_so101_wrist_v1.stl",
+          "mass_g": 11.955750062720062
+        }
+      ],
+      "printed_mass_g": 49.862840466860426,
+      "servo_count": 1,
+      "servo_nominal_mass_g": 55.0,
+      "mass_g_estimate": 104.86284046686043,
+      "mass_kg_estimate": 0.10486284046686044,
+      "old_urdf_mass_g": 104.0
+    },
+    {
+      "link": "wrist_link",
+      "label_ko": "손목",
+      "printed_components": [
+        {
+          "mesh": "wrist_roll_pitch_so101_v2.stl",
+          "mass_g": 22.551477564339972
+        }
+      ],
+      "printed_mass_g": 22.551477564339972,
+      "servo_count": 1,
+      "servo_nominal_mass_g": 55.0,
+      "mass_g_estimate": 77.55147756433998,
+      "mass_kg_estimate": 0.07755147756433997,
+      "old_urdf_mass_g": 79.0
+    },
+    {
+      "link": "gripper_link",
+      "label_ko": "고정 집게 측",
+      "printed_components": [
+        {
+          "mesh": "xlerobot_fixed_holder.stl",
+          "mass_g": 23.178041476092456
+        },
+        {
+          "mesh": "xlerobot_fixed_finger.stl",
+          "mass_g": 10.536939086200183
+        }
+      ],
+      "printed_mass_g": 33.71498056229264,
+      "servo_count": 1,
+      "servo_nominal_mass_g": 55.0,
+      "mass_g_estimate": 88.71498056229264,
+      "mass_kg_estimate": 0.08871498056229264,
+      "old_urdf_mass_g": 87.0
+    },
+    {
+      "link": "moving_jaw_so101_v1_link",
+      "label_ko": "가동 집게",
+      "printed_components": [
+        {
+          "mesh": "xlerobot_moving_holder.stl",
+          "mass_g": 6.478082150571097
+        },
+        {
+          "mesh": "xlerobot_moving_finger.stl",
+          "mass_g": 10.536939086200183
+        }
+      ],
+      "printed_mass_g": 17.01502123677128,
+      "servo_count": 0,
+      "servo_nominal_mass_g": 0.0,
+      "mass_g_estimate": 17.01502123677128,
+      "mass_kg_estimate": 0.017015021236771278,
+      "old_urdf_mass_g": 12.0
+    }
+  ],
+  "total_mass_g_estimate": 636.259356464215,
+  "total_printed_mass_g": 306.259356464215,
+  "total_servo_mass_g": 330.0,
+  "servo": {
+    "model": "STS3215",
+    "nominal_mass_g_each": 55.0,
+    "manufacturer_tolerance_g_each": 1.0,
+    "source": "https://files.seeedstudio.com/products/Feetech/108090023_STS3215-C001_Datasheet.pdf",
+    "page": 4
+  },
+  "rubber_pad": {
+    "surface": "rubber pad attached near the TPU finger tip",
+    "rubber_pad_present": true,
+    "pad_thickness_m": 0.0002,
+    "pad_thickness_mm": 0.2,
+    "thickness_status": "user specified approximate thickness on 2026-09-21",
+    "area_mm2_per_pad": null,
+    "density_g_cm3": null,
+    "mass_g_per_pad": null,
+    "pad_count_confirmed": null,
+    "static_friction": 1.0,
+    "dynamic_friction": 0.8,
+    "restitution": 0.0,
+    "mass_included_in_link_estimates": false,
+    "note": "Pad location is observed in the user's photograph. The prior OMX pad friction is not a measured SO101 rubber-contact value. Thickness is not a direct offset along the TCP Z axis.",
+    "product": "Razer Universal Grip Tape",
+    "pad_count_simulated": 2,
+    "span_mm_estimate": 8.0,
+    "friction_combine_mode": "max",
+    "friction_status": "Engineering estimate authorized by user, not a manufacturer or measured value.",
+    "applied_model": "../Test_teach/assets/so101/so101_teach.urdf",
+    "contact_model": "Rigid 0.2 mm octagonal patches near each inner distal edge; deformation is not simulated."
+  },
+  "excluded_unweighed_items": [
+    "rubber pads and adhesive",
+    "separate screws, nuts and other fasteners",
+    "controller PCB",
+    "additional wiring outside the nominal servo assembly",
+    "table clamp and overhead camera mount"
+  ],
+  "limitations": [
+    "Slicer estimates and manufacturer nominal mass, not weighed link assemblies.",
+    "Current holder print settings were confirmed by the user; original model print orientation used for fresh slicing.",
+    "A per-link mass update does not determine a new centre of mass or inertia tensor.",
+    "Original URDF mass values and motor calibration are untouched."
+  ],
+  "source_archive_sha256": {
+    "so101 부품들.gcode.3mf": "3ccc912e86163015c298d5f0843c4510bfac86aa76756b0e2a9bc902a531ead6",
+    "so101 tpu그립.3mf": "26c08e81eb8b382676a4a3f0f52c332e414cbc19c1d9ea2fb1d61433ab08d146"
+  },
+  "verification": {
+    "plate_vs_extrusion_max_allowed_difference_g": 0.05,
+    "objects_mapped_by_dimensions": 9,
+    "geometry_tolerance_mm": 0.35
+  }
+}

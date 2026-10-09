@@ -1,0 +1,7 @@
+{
+  "source": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/calibrate_so101_2.mp4",
+  "documentation": "https://raw.githubusercontent.com/huggingface/lerobot/v0.4.4/docs/source/so101.mdx",
+  "frame_time_seconds": 10,
+  "image": "calibration_middle.jpg",
+  "purpose": "Official SO-101 middle-pose reference; original frame, no pose editing"
+}

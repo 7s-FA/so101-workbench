@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "identity": {
+    "side": "left",
+    "serials": {
+      "leader": "5B61035944",
+      "follower": "5B91028218"
+    },
+    "demo": true,
+    "calibration_sha256": {}
+  },
+  "units": {
+    "shoulder_pan.pos": "degrees",
+    "shoulder_lift.pos": "degrees",
+    "elbow_flex.pos": "degrees",
+    "wrist_flex.pos": "degrees",
+    "wrist_roll.pos": "degrees",
+    "gripper.pos": "normalized_0_100"
+  },
+  "title": "",
+  "updated_at": "2026-09-20T23:13:25.366895+09:00",
+  "steps": [
+    {
+      "name": "step1",
+      "pose": {
+        "shoulder_pan.pos": 0.0,
+        "shoulder_lift.pos": 0.0,
+        "elbow_flex.pos": 0.0,
+        "wrist_flex.pos": 0.0,
+        "wrist_roll.pos": 0.0,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "2026-09-20T23:13:25.056539+09:00"
+    },
+    {
+      "name": "step2",
+      "pose": {
+        "shoulder_pan.pos": 0.0,
+        "shoulder_lift.pos": 0.0,
+        "elbow_flex.pos": 0.0,
+        "wrist_flex.pos": 0.0,
+        "wrist_roll.pos": 0.0,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "2026-09-20T23:13:25.198629+09:00"
+    },
+    {
+      "name": "step3",
+      "pose": {
+        "shoulder_pan.pos": 0.0,
+        "shoulder_lift.pos": 0.0,
+        "elbow_flex.pos": 0.0,
+        "wrist_flex.pos": 0.0,
+        "wrist_roll.pos": 0.0,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "2026-09-20T23:13:25.352990+09:00"
+    }
+  ]
+}

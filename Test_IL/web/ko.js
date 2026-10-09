@@ -1,0 +1,87 @@
+'use strict';
+// Display text only: stored results, API commands and raw diagnostic values stay unchanged.
+const koText = {
+  Success:'성공', Failure:'실패', ready:'표시 중', loading:'준비 중', stopped:'종료됨', disabled:'꺼짐', stale:'화면 수신 지연', reconnecting:'다시 연결 중', error:'오류',
+  model:'모델 실행 중', idle:'대기 중', holding:'자세 유지 중', preview:'기록 보기', checking:'이동 경로 확인 중', preparing:'시작 자세로 이동 중', teleop:'팔 조작 중', recording:'녹화 중', replay:'실물 실행 중', fault:'오류로 정지',
+  'Connect devices to teach. Saved episodes can be reviewed offline.':'장치 연결 대기 · 저장한 기록은 바로 확인할 수 있습니다.',
+  'Checking entry against the nominal robot, table':'시뮬의 팔·작업대와 부딪히지 않는지 시작 경로를 확인하고 있습니다.',
+  'Recorded joint state and camera frames · Original timing':'기록 재생 · 원본 속도',
+  'Connected read-only · No motor enabled':'장치를 연결했습니다. 실제 모터 힘 상태는 위에서 확인하세요.',
+  'Recording both RGB views, measured joints and nominal actions':'카메라 2대의 영상과 실제 관절 각도, 조작 명령을 녹화하고 있습니다.',
+  'Draft ready · Leader remains in control':'녹화가 끝났습니다. 저장 전이며 팔 조작은 계속됩니다.',
+  'Stopped · Holding current measured pose':'멈췄습니다. 모터가 켜져 있으면 현재 자세를 유지합니다.',
+  Disconnected:'연결 안 됨', Connecting:'연결 중', 'Not connected':'연결 안 됨',
+  'Moving slowly to the start pose; this is not part of the episode':'시작 자세로 천천히 이동합니다. 이 준비 동작은 기록에 포함되지 않습니다.',
+  'Leader control enabled · Absolute workshop joint targets':'팔 조작을 시작했습니다. 조작용 팔의 관절 각도를 따라갑니다.',
+  'Leader moved during alignment; stop and start alignment again':'준비 중 조작용 팔이 움직여 멈췄습니다. 자세를 유지한 뒤 다시 시작해 주세요.',
+  'Leader motor homing offset differs from workshop calibration':'조작용 팔의 모터 영점 설정이 자료의 보정 파일과 다릅니다.',
+  'Leader arm direction differs from workshop calibration':'조작용 팔의 모터 방향이 자료의 보정 파일과 다릅니다.',
+  'Leader position is outside a single encoder turn':'조작용 팔의 값이 한 바퀴 범위를 벗어났습니다. 팔 자세와 보정을 확인해 주세요.',
+  'Physical replay · Original timestamp schedule':'저장한 동작을 실물 팔로 실행합니다. 녹화한 속도를 유지합니다.',
+  'Arm returned · Reposition the housing by hand':'팔이 처음 자세로 돌아왔습니다. 작업할 물체는 직접 제자리에 놓아 주세요.',
+  'Recorded commands completed · Check physical placement; grasp success is not assumed':'저장한 동작을 모두 실행했습니다. 부품을 제대로 옮겼는지 직접 확인해 주세요.',
+  'Isaac viewer stopped; robot motion held. Check outputs/isaac.log.':'시뮬 화면이 종료되어 팔 동작을 멈췄습니다. outputs/isaac.log를 확인해 주세요.',
+  'Test fixtures cannot run a physical robot':'화면 확인용 기록으로는 실물 팔을 움직일 수 없습니다.',
+  'Robot/scene calibration differs from this episode':'녹화할 때와 팔 보정이나 작업대 배치가 달라 실물 실행을 할 수 없습니다.',
+  'Recording has a control gap over 200 ms; physical replay blocked':'기록에 0.2초 넘게 비어 있는 구간이 있어 실물 실행을 멈췄습니다.',
+  'Recorded target exceeds the existing controller velocity bounds':'기록된 동작이 현재 팔의 허용 속도보다 빠릅니다.',
+  'Recording writer is too slow; stopped instead of dropping observations':'저장 속도가 느려 녹화를 멈췄습니다. 중간 기록을 건너뛰지는 않았습니다.',
+  'Recording writer has not finished; draft preserved':'저장이 아직 끝나지 않았습니다. 임시 기록은 보관했습니다.',
+  'Command timed out; inspect the current state before retrying':'응답이 늦어 요청을 끝내지 못했습니다. 현재 상태를 확인한 뒤 다시 시도해 주세요.',
+  'Stop the active operation before selecting another episode':'진행 중인 작업을 멈춘 뒤 다른 기록을 선택해 주세요.',
+  'Connect the follower first':'작업용 팔을 먼저 연결해 주세요.',
+  'Calibration or scene changed while running; restart before physical control':'실행 중 보정이나 배치가 바뀌었습니다. 프로그램을 다시 시작한 뒤 팔을 움직여 주세요.',
+  'Stop the robot and select a saved episode first':'팔을 멈추고 저장한 기록을 선택해 주세요.',
+  'Timeline unavailable during robot motion':'팔이 움직이는 동안에는 재생 시점을 바꿀 수 없습니다.',
+  'Invalid timeline position':'선택한 재생 시점이 올바르지 않습니다.',
+  'Disconnect existing devices first':'현재 장치의 연결을 먼저 끊어 주세요.',
+  'Select connected USB serial devices':'USB로 연결된 팔을 선택해 주세요.',
+  'Select two distinct capture devices':'서로 다른 카메라 2대를 선택해 주세요.',
+  'Connect both arms and stop the active operation first':'두 팔을 모두 연결하고 진행 중인 작업을 멈춰 주세요.',
+  'Confirm the workspace is clear':'팔이 움직일 공간이 비어 있는지 확인해 주세요.',
+  'Browser heartbeat missing':'조작 화면과 연결이 끊겼습니다. 프로그램 연결을 확인해 주세요.',
+  'Enable leader control before recording':'‘리더 따라가기’을 누른 뒤 녹화해 주세요.',
+  'Not recording':'현재 녹화 중이 아닙니다.',
+  'Stop recording before saving':'녹화를 끝낸 뒤 저장해 주세요.',
+  'Stop the active operation before reset':'진행 중인 작업을 멈춘 뒤 처음 자세로 돌아가 주세요.',
+  'Confirm reset path is clear':'처음 자세로 돌아갈 경로에 장애물이 없는지 확인해 주세요.',
+  'Stop leader control and select an episode first':'팔 조작을 멈추고 저장한 기록을 선택해 주세요.',
+  'Place housing at the recorded start and confirm workspace clear':'작업할 물체를 녹화 시작 위치에 놓고 팔이 움직일 공간을 확인해 주세요.',
+  'Save or discard the draft before replay':'저장 전 녹화를 저장하거나 버린 뒤 다시 실행해 주세요.',
+  'Support the arm before releasing motors':'모터 힘을 끄기 전에 팔이 처지지 않도록 받쳐 주세요.',
+  'Unknown operation':'알 수 없는 요청입니다.',
+  'Both gripper and table cameras are required for recording/replay':'녹화와 실물 실행에는 그리퍼 카메라와 작업대 카메라가 모두 필요합니다.',
+  'Camera timestamps differ by more than 100 ms':'두 카메라 영상의 수신 시각이 0.1초 넘게 차이 납니다.',
+  'Replay scheduling stalled; stopped rather than skipping queued motion':'동작 전달이 늦어져 멈췄습니다. 중간 동작을 건너뛰지는 않았습니다.',
+  'Browser connection lost; motion stopped':'웹 화면과 연결이 끊겨 팔 동작을 멈췄습니다.',
+  'Arm moved during entry check; try again with a supported pose':'경로를 확인하는 동안 팔이 움직였습니다. 팔을 받쳐 자세를 유지한 뒤 다시 시도해 주세요.',
+  'Start pose did not settle':'팔이 시작 자세에 안정적으로 도달하지 못했습니다.',
+  'Control capture stalled; recording stopped without filling the gap':'관절 기록이 지연되어 녹화를 멈췄습니다. 비어 있는 기록을 임의로 채우지 않았습니다.',
+  'Control owner did not stop; supervisor will handle shutdown':'제어 프로그램이 응답하지 않아 종료 관리 프로그램이 종료를 처리합니다.',
+  'Leader and follower must use different ports':'조작용 팔과 작업용 팔은 서로 다른 USB 장치를 선택해야 합니다.',
+  'Leader calibration belongs to another USB device':'선택한 조작용 팔과 저장된 보정 정보의 장치가 다릅니다.',
+  'Leader arm joints must have torque OFF for manual teaching':'손으로 시연하려면 조작용 팔 관절의 모터 힘이 꺼져 있어야 합니다.',
+  'Connect the leader arm first':'조작용 팔을 먼저 연결해 주세요.',
+  'Cannot open camera; check USB and other programs':'카메라를 열지 못했습니다. USB 연결과 다른 프로그램의 카메라 사용 여부를 확인해 주세요.',
+  'Camera frame read failed':'카메라 영상을 읽지 못했습니다.', 'JPEG encoding failed':'카메라 영상을 이미지로 바꾸지 못했습니다.', 'Camera frame is stale':'카메라에서 새 영상이 들어오지 않습니다.',
+  'At least two complete observations are required':'기록이 너무 짧습니다. 영상과 관절값이 함께 기록된 시점이 2개 이상 필요합니다.',
+  'Episode timestamps must be finite and strictly increasing':'기록의 시간 순서가 올바르지 않습니다.',
+  'Both camera records are required':'카메라 2대의 영상 기록이 모두 필요합니다.',
+  'Save or discard the current draft first':'현재 녹화를 저장하거나 버린 뒤 다시 시작해 주세요.',
+  'No active recording':'진행 중인 녹화가 없습니다.', 'Non-monotonic observation':'녹화 시각의 순서가 올바르지 않습니다.',
+  'Choose Success or Failure':'작업 결과를 성공 또는 실패로 선택해 주세요.', 'No draft to save':'저장할 녹화가 없습니다.',
+  'Invalid episode ID':'작업 기록 번호가 올바르지 않습니다.', 'Episode not found':'작업 기록을 찾지 못했습니다.', 'included must be boolean':'학습 사용 여부를 올바르게 선택해 주세요.',
+  'Hardware commands are disabled in test mode':'화면 확인 모드에서는 실물 팔을 움직일 수 없습니다.', 'Recorded frame missing':'저장된 영상 파일을 찾지 못했습니다.',
+  'Failed to fetch':'서버에 연결하지 못했습니다.', 'Load failed':'불러오지 못했습니다.', 'NetworkError when attempting to fetch resource.':'서버에 연결하지 못했습니다.'
+};
+function ko(value){
+  const text=String(value??'');
+  if(koText[text])return koText[text];
+  const saved=text.match(/^Saved Episode (\d+)$/);if(saved)return '기록 '+saved[1]+'을 저장했습니다.';
+  if(text.startsWith('Stopped: '))return '오류로 멈췄습니다. '+ko(text.slice(9));
+  for(const [prefix,label] of [['Torque release not confirmed: ','모터 힘이 꺼졌는지 확인하지 못했습니다.'],['Entry path check failed: ','시작 자세까지의 경로를 확인하지 못했습니다.'],['Entry path intersects the nominal table/robot: ','시작 경로에서 팔·작업대가 겹칩니다.'],['Recording disk error: ','녹화 파일을 저장하지 못했습니다.'],['Invalid six-joint ','관절 6개의 기록값이 올바르지 않습니다.']]){
+    if(text.startsWith(prefix))return label+'\n상세 정보: '+text.slice(prefix.length);
+  }
+  // Keep unrecognized driver diagnostics intact rather than guessing a cause.
+  return /[가-힣]/.test(text)||!text?text:'문제가 발생했습니다. 상세 정보: '+text;
+}

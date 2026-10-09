@@ -1,0 +1,374 @@
+{
+  "version": 1,
+  "units": "metres",
+  "table_height": 0.21,
+  "tables": [
+    {
+      "id": "supply",
+      "center": [
+        -0.9,
+        0.6
+      ],
+      "size": [
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "id": "assembly",
+      "center": [
+        0.25,
+        0.6
+      ],
+      "size": [
+        0.65,
+        0.5
+      ]
+    },
+    {
+      "id": "output",
+      "center": [
+        0.87,
+        0.6
+      ],
+      "size": [
+        0.45,
+        0.5
+      ]
+    }
+  ],
+  "arms": {
+    "arm_a": {
+      "model": "so101",
+      "position": [
+        -0.9,
+        0.42
+      ],
+      "yaw": 1.5707963268,
+      "label": "A  SO-101 / LOAD",
+      "mount_height": 0.0,
+      "mount_height_status": "follower_original_height"
+    },
+    "arm_b": {
+      "model": "omx",
+      "position": [
+        0.045,
+        0.45499999999999996
+      ],
+      "yaw": 1.5707963268,
+      "label": "B  OMX / UNLOAD"
+    },
+    "arm_c": {
+      "model": "so101",
+      "position": [
+        0.43,
+        0.77
+      ],
+      "yaw": -1.5707963268,
+      "label": "C  SO-101 / ASSEMBLE",
+      "mount_height": 0.0,
+      "mount_height_status": "follower_original_height"
+    },
+    "arm_d": {
+      "model": "omx",
+      "position": [
+        0.75,
+        0.42999999999999994
+      ],
+      "yaw": 1.5707963268,
+      "label": "D  OMX / DISPATCH"
+    }
+  },
+  "source": {
+    "columns": {
+      "housing": -1.04,
+      "ball": -0.9,
+      "cap": -0.76
+    },
+    "center_y": 0.6849999999999999,
+    "count": 3,
+    "pitch": 0.09
+  },
+  "preparation": {
+    "columns": {
+      "housing": 0.13,
+      "ball": 0.22,
+      "cap": 0.31
+    },
+    "center_y": 0.64,
+    "count": 3,
+    "pitch": 0.09
+  },
+  "jig": [
+    0.44,
+    0.54
+  ],
+  "handoff": [
+    0.56,
+    0.6749999999999999
+  ],
+  "finished": {
+    "center": [
+      0.86,
+      0.7
+    ],
+    "count": 3,
+    "pitch": 0.09
+  },
+  "burger": {
+    "deck_top": 0.21,
+    "deck_size": [
+      0.13,
+      0.28
+    ],
+    "post_start": 0.15,
+    "poses": [
+      [
+        -0.9,
+        0.19499999999999995,
+        1.5707963268
+      ],
+      [
+        -1.24,
+        0.10999999999999999,
+        1.5707963268
+      ]
+    ],
+    "post_half_span": [
+      0.055,
+      0.06
+    ],
+    "post_width": 0.008
+  },
+  "unload_dock": [
+    0.035,
+    0.19499999999999995
+  ],
+  "waffle": {
+    "pose": [
+      0.87,
+      -0.020000000000000018,
+      1.5707963268
+    ],
+    "fork_top": 0.16,
+    "mast_height": 0.3,
+    "fork_length": 0.19,
+    "mast_start": 0.11
+  },
+  "warehouse": {
+    "center": [
+      1.28,
+      0.54
+    ],
+    "size": [
+      0.3,
+      0.38
+    ],
+    "levels": [
+      0.14,
+      0.34
+    ]
+  },
+  "depth_camera": {
+    "body_size": [
+      0.09,
+      0.025,
+      0.025
+    ],
+    "resolution": [
+      320,
+      240
+    ],
+    "focal_length_mm": 12.0,
+    "mount_xyz": [
+      0,
+      0,
+      0.05
+    ],
+    "body_mass_kg": 0.0,
+    "aim_targets": {
+      "depth_a": [
+        -0.9,
+        0.64,
+        0.22
+      ],
+      "depth_c": [
+        0.28,
+        0.62,
+        0.22
+      ]
+    }
+  },
+  "physics": {
+    "friction": 0.8,
+    "contact_offset": 0.0005,
+    "mass_kg": {
+      "housing": 0.035,
+      "ball": 0.018,
+      "cap": 0.015
+    }
+  },
+  "assumptions": [
+    "All workbench dimensions, height, cargo deck, lift and camera mounting are provisional, editable dimensions, not measurements from the photograph.",
+    "Burger cargo deck is 210 mm, 11 mm above the stock LDS mesh. Four 8 mm posts cross the scan plane; partial occlusion is accepted. Check real brackets, load and vibration before fabrication.",
+    "90 mm centre pitch leaves 40 mm between 50 mm parts. Finger approach cut-outs are provided; collision-free grasping still requires actual gripper CAD.",
+    "Each mobile tray holds 3 parts. Two Burgers alternate supply loading and share the unloading dock; batch allocation is not automated.",
+    "Photo camera model, blue finger CAD, mass and extrinsics are unknown. Camera shell is visual only, stock gripper collision geometry retained.",
+    "Scene is a physical layout preview with held arms and parked vehicles, not a completed navigation or assembly policy.",
+    "Waffle fork top is 160 mm, mast top 410 mm. Stock LiDAR height is preserved; mast columns partly obstruct the scan. Clearance is a geometric estimate, not an actual scan test.",
+    "User clarified that only the SO-101 leader arms were raised. Simulated follower arms A and C retain their original mounting height with no added riser (0 mm)."
+  ],
+  "map": {
+    "size": [
+      3.0,
+      3.0
+    ],
+    "floor_color": [
+      0.008,
+      0.008,
+      0.008
+    ]
+  },
+  "factory_y_offset": 0.6,
+  "traffic": {
+    "lane_width": 0.4,
+    "routes": [
+      {
+        "name": "OuterLoop",
+        "points": [
+          [
+            -1.12,
+            -0.48
+          ],
+          [
+            1.16,
+            -0.48
+          ],
+          [
+            1.16,
+            -1.18
+          ],
+          [
+            -1.12,
+            -1.18
+          ],
+          [
+            -1.12,
+            -0.48
+          ]
+        ]
+      },
+      {
+        "name": "CrossLink",
+        "points": [
+          [
+            0,
+            -0.48
+          ],
+          [
+            0,
+            -1.18
+          ]
+        ]
+      },
+      {
+        "name": "LoadAccess",
+        "points": [
+          [
+            -1.12,
+            -0.48
+          ],
+          [
+            -1.12,
+            -0.1
+          ],
+          [
+            -0.9,
+            -0.1
+          ],
+          [
+            -0.9,
+            0.195
+          ]
+        ]
+      },
+      {
+        "name": "UnloadAccess",
+        "points": [
+          [
+            0.035,
+            -0.48
+          ],
+          [
+            0.035,
+            0.195
+          ]
+        ]
+      },
+      {
+        "name": "ForkliftAccess",
+        "points": [
+          [
+            0.87,
+            -0.48
+          ],
+          [
+            0.87,
+            -0.08
+          ]
+        ]
+      },
+      {
+        "name": "RearAisle",
+        "points": [
+          [
+            -0.4,
+            -0.48
+          ],
+          [
+            -0.4,
+            1.15
+          ],
+          [
+            0.7,
+            1.15
+          ]
+        ]
+      }
+    ],
+    "obstacles": [
+      {
+        "center": [
+          -0.7,
+          -0.84
+        ],
+        "size": [
+          0.36,
+          0.18,
+          0.2
+        ]
+      },
+      {
+        "center": [
+          0.56,
+          -0.84
+        ],
+        "size": [
+          0.38,
+          0.18,
+          0.2
+        ]
+      }
+    ],
+    "note": "Painted route concepts only. Not Nav2 paths or swept-volume verified trajectories."
+  },
+  "lidar_clearance": {
+    "burger_scan_z": 0.182,
+    "burger_body_top_z": 0.191,
+    "waffle_scan_z": 0.132,
+    "deck_body_margin": 0.01,
+    "fork_beam_margin": 0.01,
+    "source": "Bundled ROBOTIS URDF scan_joint + base_joint; LDS mesh top +9 mm. Local vehicle coordinates, excluding 1 mm ground offset.",
+    "policy": "Keep stock LiDAR transforms; accept partial occlusion by support posts and lift masts."
+  }
+}

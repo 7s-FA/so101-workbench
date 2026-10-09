@@ -1,0 +1,120 @@
+{
+  "units": "mm",
+  "frame": "X forward (toward work area), Y left, Z up; origin = raw bottom STL origin on support table",
+  "left_robot": true,
+  "assembly_translations_original_stl": {
+    "arm_base": [
+      93.92092,
+      5.0,
+      -26.08911
+    ],
+    "cam_mount_bottom": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cam_mount_middle": [
+      18.7,
+      188.1,
+      36.512
+    ],
+    "cam_mount_top": [
+      18.7,
+      188.1,
+      36.512
+    ]
+  },
+  "assembly_to_forward_left_up": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "robot_base_link_in_assembly": [
+    20.975058471081997,
+    79.51948431336113,
+    7.4
+  ],
+  "shoulder_pan_joint_origin_in_assembly": [
+    59.810358471082,
+    79.51947533679113,
+    69.8
+  ],
+  "camera_board_seating_center_in_assembly": [
+    46.962433486799185,
+    -36.528302198174565,
+    553.0718787079634
+  ],
+  "camera_board_center_in_base_link": [
+    25.987375015717188,
+    -116.04778651153569,
+    545.6718787079634
+  ],
+  "camera_board_center_relative_to_j1_origin": [
+    -12.847924984282812,
+    -116.04777753496569,
+    483.27187870796337
+  ],
+  "nominal_optical_axis_in_robot_axes": [
+    0.4226092427148011,
+    3.4806839841220946e-06,
+    -0.9063119926161781
+  ],
+  "camera_tilt_from_vertical_deg": 24.999429829351048,
+  "board_hole_centers_in_plane": [
+    [
+      166.35793109230926,
+      13.5225018022425
+    ],
+    [
+      166.4122347351769,
+      -13.45466637728458
+    ],
+    [
+      193.29202709545712,
+      13.50381199951623
+    ],
+    [
+      193.37078513101014,
+      -13.506438631775891
+    ]
+  ],
+  "board_hole_fit_max_residual_mm": 0.0015478641005784999,
+  "robot_base_hole_registration_residual_mm": [
+    0.010468103451413765,
+    0.01023490223417445,
+    0.010249476225295573,
+    0.010453528853394223
+  ],
+  "mount_top_height_above_table_mm": 560.4380126953125,
+  "verified_for_robot_motion": false,
+  "camera_optical_transform": null,
+  "notes": [
+    "Camera optical/projection center offset from PCB seating plane is unknown.",
+    "Optical axis assumes module lens axis is perpendicular to PCB.",
+    "Camera image rotation around the optical axis is unknown.",
+    "Robot assembly coordinates are nominal CAD alignment, not measured calibration.",
+    "Frame origin and robot base_link differ from the shoulder_pan rotation-axis origin."
+  ],
+  "camera_board_center_from_j1_ground": [
+    -12.847924984282812,
+    -116.04777753496569,
+    553.0718787079634
+  ],
+  "camera_lens_axis_table_intersection_from_j1_ground": [
+    245.04702701003606,
+    -116.04565346682364,
+    0.0
+  ]
+}

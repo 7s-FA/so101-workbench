@@ -1,0 +1,141 @@
+{
+  "extrusion_mm_by_object_feature": {
+    "1": {
+      "stationary_extrusion": 3.0000000000000004e-05,
+      "Inner wall": 2934.183919999612,
+      "Outer wall": 1019.9064500000751,
+      "Bottom surface": 30.312449999999917,
+      "Overhang wall": 3.530309999999999,
+      "Internal solid infill": 534.963080000002,
+      "Sparse infill": 2120.249369999724,
+      "Floating vertical shell": 456.12039000001175,
+      "Bridge": 108.10535000000054,
+      "Top surface": 63.19844000000029,
+      "Gap infill": 29.66498999999999
+    },
+    "2": {
+      "stationary_extrusion": 2e-05,
+      "Outer wall": 299.3280200000034,
+      "Inner wall": 879.4606900000261,
+      "Bottom surface": 3.3592400000000016,
+      "Gap infill": 12.134320000000004,
+      "Overhang wall": 17.04693000000001,
+      "Internal solid infill": 181.98069000000373,
+      "Sparse infill": 325.77887999999774,
+      "Bridge": 66.02398999999997,
+      "Floating vertical shell": 202.56159000000048,
+      "Top surface": 52.6844299999999
+    }
+  },
+  "path_bounds_mm": {
+    "1": [
+      102.11,
+      114.821,
+      153.89,
+      163.179,
+      65.2
+    ],
+    "2": [
+      113.309,
+      92.823,
+      149.37,
+      112.587,
+      48.0
+    ]
+  },
+  "header": {
+    "total filament length [mm]": 9343.59,
+    "total filament volume [cm^3]": 22473.98,
+    "total filament weight [g]": 29.67
+  },
+  "e_positive_mm": 15291.593579994336,
+  "e_negative_mm": 5951.800000000805,
+  "retraction_debt_mm": 0.8,
+  "extrusion_command_counts": {
+    "G1": 254814,
+    "G2": 127080,
+    "G3": 109732
+  },
+  "objects": [
+    {
+      "id": "1",
+      "name": "fixed_holder",
+      "part_mass_g": 23.178041476092456,
+      "all_deposited_mass_g": 23.17804157134162,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 3.0000000000000004e-05,
+        "Inner wall": 2934.183919999612,
+        "Outer wall": 1019.9064500000751,
+        "Bottom surface": 30.312449999999917,
+        "Overhang wall": 3.530309999999999,
+        "Internal solid infill": 534.963080000002,
+        "Sparse infill": 2120.249369999724,
+        "Floating vertical shell": 456.12039000001175,
+        "Bridge": 108.10535000000054,
+        "Top surface": 63.19844000000029,
+        "Gap infill": 29.66498999999999
+      }
+    },
+    {
+      "id": "2",
+      "name": "moving_holder",
+      "part_mass_g": 6.478082150571097,
+      "all_deposited_mass_g": 6.478082214070538,
+      "extrusion_mm_by_feature": {
+        "stationary_extrusion": 2e-05,
+        "Outer wall": 299.3280200000034,
+        "Inner wall": 879.4606900000261,
+        "Bottom surface": 3.3592400000000016,
+        "Gap infill": 12.134320000000004,
+        "Overhang wall": 17.04693000000001,
+        "Internal solid infill": 181.98069000000373,
+        "Sparse infill": 325.77887999999774,
+        "Bridge": 66.02398999999997,
+        "Floating vertical shell": 202.56159000000048,
+        "Top surface": 52.6844299999999
+      }
+    }
+  ],
+  "profile": {
+    "filament_density": [
+      "1.32",
+      "1.32",
+      "1.26",
+      "1.27",
+      "1.26",
+      "1.32",
+      "1.26",
+      "1.32",
+      "1.32",
+      "1.32",
+      "1.32",
+      "1.32",
+      "1.32"
+    ],
+    "filament_diameter": [
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75",
+      "1.75"
+    ],
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "gyroid",
+    "wall_loops": "4",
+    "layer_height": "0.1",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "5"
+  },
+  "source_gcode": "generated/holders.gcode.gz",
+  "source_gcode_sha256": "e2e8a9c87c08c6ff32a0a8da489fc4542a627188d5fa7a62837c627a47016b9c",
+  "settings_confirmed_by_user": true,
+  "method": "Source holder print orientation; same user-confirmed PLA profile as original robot G-code; new Bambu 2.8.2.61 slicing."
+}

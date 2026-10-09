@@ -1,0 +1,17 @@
+node_modules/
+.venv*/
+__pycache__/
+*.pyc
+*.log
+*.lock
+MUJOCO_LOG.TXT
+.pytest_cache/
+.env*
+!.env.example
+web-demo/dist/
+SO101_teach/data/
+**/outputs/
+**/output/
+**/verification/
+**/checkpoints/
+**/datasets/

@@ -1,0 +1,7 @@
+# Required in both the Isaac Python environment and .venv-io for mesh checks.
+python-fcl==0.7.0.11
+
+threadpoolctl==3.6.0
+
+# Continuous, phase-specific nominal demo trajectory planning.
+toppra==0.6.3

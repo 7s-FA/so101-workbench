@@ -1,0 +1,6 @@
+{
+  "source": "ball_transfer_30mm.zip",
+  "sha256": "4fc76947c485a0b59ce4ab3789f45420756a94bbcfeae76b00f41648b52c8b02",
+  "units": "mm",
+  "executable_files_excluded": true
+}

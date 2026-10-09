@@ -1,0 +1,377 @@
+{
+  "metrics": {
+    "overhead_top_d435__overhead_d435": {
+      "intersections": 0,
+      "distance_mm": 0.5011017578730766
+    },
+    "wrist_xlerobot_mount__wrist_32x32_camera": {
+      "intersections": 0,
+      "distance_mm": 0.049350053055574446
+    },
+    "wrist_xlerobot_mount__fixed_gripper": {
+      "intersections": 0,
+      "distance_mm": 0.1322691264097243
+    },
+    "wrist_32x32_camera__fixed_gripper": {
+      "intersections": 0,
+      "distance_mm": 37.40175749112826
+    }
+  },
+  "gripper_sweep": [
+    {
+      "opening_deg": 0,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 1.9391682637477587
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.40281750944565
+      }
+    },
+    {
+      "opening_deg": 5,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 1.9571546251886527
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.60667341830545
+      }
+    },
+    {
+      "opening_deg": 10,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 2.01131166300702
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.843163891415514
+      }
+    },
+    {
+      "opening_deg": 15,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 2.126015618382838
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.00488296690502
+      }
+    },
+    {
+      "opening_deg": 20,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 2.3223210899038262
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.93102034856948
+      }
+    },
+    {
+      "opening_deg": 25,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 2.6120698452457685
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.876251190600634
+      }
+    },
+    {
+      "opening_deg": 30,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 2.9965977899639635
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.84100925161868
+      }
+    },
+    {
+      "opening_deg": 35,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.4697998128005283
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.82411880619141
+      }
+    },
+    {
+      "opening_deg": 40,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.5249979863205487
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.82564267636177
+      }
+    },
+    {
+      "opening_deg": 45,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.525031874183458
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.84738571635081
+      }
+    },
+    {
+      "opening_deg": 50,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.525117731254665
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.889397924155055
+      }
+    },
+    {
+      "opening_deg": 55,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.525150442439612
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.951468102396035
+      }
+    },
+    {
+      "opening_deg": 60,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.5251014094136353
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.033067041502385
+      }
+    },
+    {
+      "opening_deg": 65,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.524975996592354
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.1334027608057
+      }
+    },
+    {
+      "opening_deg": 70,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.52490490714975
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.2518238806486
+      }
+    },
+    {
+      "opening_deg": 75,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.5247872192888097
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.387307302077616
+      }
+    },
+    {
+      "opening_deg": 80,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.5245872503444042
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.4704304586759
+      }
+    },
+    {
+      "opening_deg": 85,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.5243142323407244
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 40.24635648289073
+      }
+    },
+    {
+      "opening_deg": 90,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.5241038259389628
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.97565705313864
+      }
+    },
+    {
+      "opening_deg": 95,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.523851236117165
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.73240382693136
+      }
+    },
+    {
+      "opening_deg": 100,
+      "wrist_xlerobot_mount": {
+        "intersections": 0,
+        "distance_mm": 3.2603979409496415
+      },
+      "wrist_32x32_camera": {
+        "intersections": 0,
+        "distance_mm": 39.518970698931575
+      }
+    }
+  ],
+  "ready_pose": {
+    "wrist_xlerobot_mount": {
+      "base_link": {
+        "intersections": 0,
+        "distance_mm": 125.52184561141875
+      },
+      "shoulder_link": {
+        "intersections": 0,
+        "distance_mm": 57.842656140069124
+      },
+      "upper_arm_link": {
+        "intersections": 0,
+        "distance_mm": 47.55902569348527
+      },
+      "lower_arm_link": {
+        "intersections": 0,
+        "distance_mm": 33.60151821502189
+      },
+      "wrist_link": {
+        "intersections": 0,
+        "distance_mm": 11.420293665414155
+      },
+      "arm_base": {
+        "intersections": 0,
+        "distance_mm": 185.3919797568371
+      },
+      "cam_mount_bottom": {
+        "intersections": 0,
+        "distance_mm": 109.2833348515071
+      },
+      "cam_mount_middle": {
+        "intersections": 0,
+        "distance_mm": 112.56734345704207
+      },
+      "overhead_top_d435": {
+        "intersections": 0,
+        "distance_mm": 190.14436214113047
+      },
+      "overhead_d435": {
+        "intersections": 0,
+        "distance_mm": 326.3282288165289
+      },
+      "overhead_washer_0": {
+        "intersections": 0,
+        "distance_mm": 366.7752454767152
+      },
+      "overhead_screw_0": {
+        "intersections": 0,
+        "distance_mm": 365.0892207605165
+      },
+      "overhead_washer_1": {
+        "intersections": 0,
+        "distance_mm": 354.2498761211771
+      },
+      "overhead_screw_1": {
+        "intersections": 0,
+        "distance_mm": 352.33626459071826
+      }
+    },
+    "wrist_32x32_camera": {
+      "base_link": {
+        "intersections": 0,
+        "distance_mm": 125.69003449146615
+      },
+      "shoulder_link": {
+        "intersections": 0,
+        "distance_mm": 58.7507428468965
+      },
+      "upper_arm_link": {
+        "intersections": 0,
+        "distance_mm": 46.83768247193606
+      },
+      "lower_arm_link": {
+        "intersections": 0,
+        "distance_mm": 34.39332654123665
+      },
+      "wrist_link": {
+        "intersections": 0,
+        "distance_mm": 43.59180342231258
+      },
+      "arm_base": {
+        "intersections": 0,
+        "distance_mm": 186.21337722686422
+      },
+      "cam_mount_bottom": {
+        "intersections": 0,
+        "distance_mm": 109.00350834040574
+      },
+      "cam_mount_middle": {
+        "intersections": 0,
+        "distance_mm": 112.34431003350475
+      },
+      "overhead_top_d435": {
+        "intersections": 0,
+        "distance_mm": 190.9523684511259
+      },
+      "overhead_d435": {
+        "intersections": 0,
+        "distance_mm": 329.86880478761424
+      },
+      "overhead_washer_0": {
+        "intersections": 0,
+        "distance_mm": 370.4597950700887
+      },
+      "overhead_screw_0": {
+        "intersections": 0,
+        "distance_mm": 368.9437946441098
+      },
+      "overhead_washer_1": {
+        "intersections": 0,
+        "distance_mm": 357.67775730809944
+      },
+      "overhead_screw_1": {
+        "intersections": 0,
+        "distance_mm": 355.9672060533597
+      }
+    }
+  },
+  "failures": [],
+  "physical_fit_verified": false,
+  "scope": "21 gripper positions, body/camera static geometry. Not full-arm motion, structural FEA, real hole fit or cable bend validation.",
+  "optical_delta_mm": 41.003048667141805,
+  "optical_delta_deg": 0.0,
+  "unchanged_socket_surface_delta_mm": 5.364569153566396e-06
+}

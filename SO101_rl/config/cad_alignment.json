@@ -1,0 +1,16 @@
+{
+  "offset_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "frame": "arm2_base",
+  "measured": false,
+  "scope": "Original workcell layout restored; no trial-dependent fixture or part relocation. Physical registration remains unmeasured.",
+  "yaw_deg": 0.0,
+  "tilt_deg": [
+    0.0,
+    0.0
+  ],
+  "nest_offsets_mm": {}
+}

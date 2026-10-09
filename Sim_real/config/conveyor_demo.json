@@ -1,0 +1,253 @@
+{
+  "version": 2,
+  "status": "four_arm_layout_preview_motion_pending",
+  "units": "metres",
+  "map_size": [
+    4.0,
+    3.0
+  ],
+  "arms": {
+    "arm_a": {
+      "model": "so101_xlerobot",
+      "role": "material_loading",
+      "added_follower_riser": 0.0
+    },
+    "arm_b": {
+      "model": "omx",
+      "role": "unloading_to_fixed_kit_stations"
+    },
+    "arm_c": {
+      "model": "so101_xlerobot",
+      "role": "assembly_and_handoff",
+      "added_follower_riser": 0.0072
+    },
+    "arm_d": {
+      "model": "omx",
+      "role": "finished_container_loading"
+    }
+  },
+  "conveyor": {
+    "enabled": false,
+    "replacement": "one fixed three-part preparation kit; exclusive B/C access"
+  },
+  "shipping": {
+    "container_support": "separate_130mm_low_stand",
+    "forklift_holds_container_during_assembly": false,
+    "warehouse_count": 2,
+    "future_product_types": 2,
+    "second_product_geometry_available": false
+  },
+  "cameras": {
+    "arm_c_wrist": {
+      "model": "RealSense D435",
+      "mount": "Optional/Wrist_Cam_Mount_RealSense_D435"
+    },
+    "overhead": {
+      "module_size": [
+        0.032,
+        0.032
+      ],
+      "mount": "Optional/Overhead_Cam_Mount_32x32_UVC_Module",
+      "intrinsics_calibrated": false,
+      "module": "official SO101 simulation 32x32 camera mesh; nominal fit",
+      "product_reference": "https://www.amazon.com/dp/B0CLRJZG8D",
+      "support": "official arm_base connected to cam_mount_bottom; C seated on 7.2mm support ribs"
+    },
+    "display_fps": 15,
+    "arm_a_wrist": {
+      "model": "RealSense D435",
+      "mount": "Optional/Wrist_Cam_Mount_RealSense_D435"
+    }
+  },
+  "parts": {
+    "housing": "01_housing_matched_10mm_cap.stl",
+    "cap": "03_cap_10mm_mating_face_down.stl",
+    "housing_jig": "01_housing_and_finished_jig_68mm_lightweight.stl",
+    "ball_jig": "02_ball_jig_68mm_two_side_cradle.stl",
+    "cap_jig": "03_cap_jig_center_post_68mm_lightweight.stl",
+    "pallet": "pallet_jig_70x70x28mm.stl"
+  },
+  "verification": {
+    "paths": "pending",
+    "arm_clearance": "pending",
+    "camera_mount_transform": "five manually drilled holes; direct side mounting; translation 1mm toward fixed finger to match approx. 4.4mm photographed side gap; rotations unchanged; rear camera washers provisional",
+    "physical_grasp": "not_validated",
+    "reuse_four_arm_pass_report": false,
+    "rest_pose": "URDF arm/table rest poses clear; full fixture audit tracked in hardware_check.json",
+    "isolated_grasp": "306 sampled approach/closing poses clear; not force closure",
+    "hardware": "see hardware_check.json: direct mounting with five indicated fasteners; 81 opening samples per arm; real assembly dimensions and full paths unverified"
+  },
+  "jig_seating": {
+    "offset_xy": [
+      0,
+      0.004
+    ],
+    "contact_height": {
+      "housing": 0.0035001,
+      "ball": 0.0015561,
+      "cap": 0.008000000005958404
+    },
+    "render_gap": 5e-05,
+    "method": "first vertical triangle contact at pocket centre; unforced seating"
+  },
+  "assembly_table": {
+    "size": [
+      0.9,
+      0.4
+    ],
+    "height": 0.23,
+    "height_status": "previous provisional height retained"
+  },
+  "purchased_worktops": {
+    "inventory": [
+      {
+        "size": [
+          0.4,
+          0.4
+        ],
+        "count": 2
+      },
+      {
+        "size": [
+          0.6,
+          0.4
+        ],
+        "count": 1
+      },
+      {
+        "size": [
+          0.9,
+          0.4
+        ],
+        "count": 1
+      }
+    ],
+    "cutting": false,
+    "assignment": "400x400: supply A and 9 parts; 900x400: assembly B/C/D",
+    "top_height": 0.23,
+    "thickness": 0.03,
+    "height_and_thickness_status": "provisional, not supplied with purchased dimensions",
+    "excludes": "existing low shipping stand and warehouse shelves; separate fabricated parts",
+    "omx_adapter_plates": {
+      "count": 0,
+      "position": "original OMX URDF base directly on worktop; adjacent edge clamps",
+      "status": "no supplementary plate; clamp contact at original 13mm rim, physical fastening unverified"
+    },
+    "unused": [
+      {
+        "size": [
+          0.4,
+          0.4
+        ],
+        "count": 1
+      },
+      {
+        "size": [
+          0.6,
+          0.4
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "map_size_basis": "final September 14 demo: 3m horizontal by 2m vertical, latest hardware retained",
+  "floorplan": {
+    "workcell_front_y": 0.4,
+    "outside_table_edges_x": [
+      -1.00546243,
+      1.36
+    ],
+    "warehouse_centers": [
+      [
+        -0.39,
+        0.79
+      ],
+      [
+        -0.01,
+        0.79
+      ]
+    ],
+    "parking_center": [
+      -1.28,
+      0.132
+    ],
+    "lane_width": 0.42,
+    "traffic_control": "legacy U shared corridor; exclusive vehicle reservation required, controller not ported to revised scene",
+    "forklift_turns": [
+      {
+        "center": [
+          1.19,
+          -0.42
+        ],
+        "yaw_range": [
+          1.5707963267948966,
+          3.141592653589793
+        ]
+      },
+      {
+        "center": [
+          -0.39,
+          -0.42
+        ],
+        "yaw_range": [
+          3.141592653589793,
+          1.5707963267948966
+        ]
+      },
+      {
+        "center": [
+          -0.01,
+          -0.42
+        ],
+        "yaw_range": [
+          3.141592653589793,
+          1.5707963267948966
+        ]
+      }
+    ]
+  },
+  "initial_materials": {
+    "mode": "first_batch_preloaded",
+    "source_parts": 9,
+    "burger_1_parts": 9,
+    "burger_2_parts": 0,
+    "total_parts": 18
+  },
+  "layout_reference": {
+    "entrypoint": "scripts/demo.sh",
+    "source": "arm_sim/factory_demo.py:demo_layout",
+    "capture": "outputs/final_demo_reference/top.png",
+    "retained_new_hardware": [
+      "XLeRobot compliant gripper",
+      "D435 and direct side mount with 5 fasteners",
+      "independent overhead camera",
+      "guided low lift and subframe",
+      "separate low shipping stand",
+      "two low warehouses",
+      "new.zip parts and jigs"
+    ],
+    "removed": "conveyor only"
+  },
+  "initial_containers": {
+    "warehouses": [
+      1,
+      1
+    ],
+    "shipping_stand": 0,
+    "forklift": 0
+  },
+  "cap_orientation": {
+    "source": "03_cap_10mm_original_ball_exposure.stl",
+    "derived": "03_cap_10mm_mating_face_down.stl",
+    "rotation_xyz_degrees": [
+      180,
+      0,
+      0
+    ],
+    "z_translation_mm": 12.699999809265133,
+    "supply": "mating_face_down",
+    "four_holes": "future_magnets",
+    "magnetic_force_calibrated": false,
+    "assembly_base_z_m": 0.015350000196693475
+  }
+}

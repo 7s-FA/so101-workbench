@@ -1,0 +1,87 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.10000000149011612,
+    "plate_index": 1,
+    "prepare_time": 114,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 99.45796203613281,
+                "Bridge": 342.6275939941406,
+                "Custom": 400.7928466796875,
+                "Flush": 26.0,
+                "Gap infill": 207.9972686767578,
+                "Inner wall": 5899.93701171875,
+                "Internal solid infill": 2602.498779296875,
+                "Outer wall": 2560.8447265625,
+                "Overhang wall": 248.4766082763672,
+                "Sparse infill": 5855.86767578125,
+                "Top surface": 227.72349548339844,
+                "Travel": 1779.8272705078125,
+                "Undefined": 1775.121337890625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 29.6656494140625,
+                    "total_used_g": 29.6656494140625
+                }
+            ],
+            "generate_support_material_time": 79,
+            "id": 1,
+            "infill_time": 459,
+            "layer_filament_change": 0,
+            "main_predication": 19797.0234375,
+            "make_perimeters_time": 283,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 48.58319091796875,
+                        "height": 65.19906616210938,
+                        "width": 52.0,
+                        "x": 102.0,
+                        "y": 114.7059555053711,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "fixed_holder",
+                    "triangle_count": 39690
+                },
+                {
+                    "bbox": {
+                        "depth": 22.223785400390625,
+                        "height": 48.0,
+                        "width": 37.678436279296875,
+                        "x": 112.59172058105469,
+                        "y": 91.3290786743164,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "moving_holder",
+                    "triangle_count": 18714
+                }
+            ],
+            "sliced_time": 2146,
+            "sliced_time_with_cache": 1140,
+            "total_predication": 20245.109375,
+            "triangle_count": 58404,
+            "warning_message": "It seems object fixed_holder has floating regions. Please re-orient the object or enable support generation."
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab A1 0.2 nozzle",
+        "Bambu Lab H2S 0.2 nozzle",
+        "Bambu Lab H2D 0.2 nozzle",
+        "Bambu Lab H2D Pro 0.2 nozzle",
+        "Bambu Lab H2C 0.2 nozzle",
+        "Bambu Lab X2D 0.2 nozzle",
+        "Bambu Lab A2L 0.2 nozzle"
+    ],
+    "wall_loops": 4
+}

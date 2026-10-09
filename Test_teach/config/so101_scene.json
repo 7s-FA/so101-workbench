@@ -1,0 +1,346 @@
+{
+  "schema": 1,
+  "robot": "so101",
+  "model_source": "/path/to/Final_Arm/Test_teach/assets/so101/so101_teach.urdf",
+  "table": {
+    "height_mm": 230.0,
+    "size_mm": [
+      650.0,
+      800.0
+    ],
+    "center_mm": [
+      220.0,
+      0.0
+    ]
+  },
+  "base_mm": [
+    0.0,
+    0.0,
+    237.4
+  ],
+  "carrier": {
+    "center_base_mm": [
+      210.0,
+      0.0,
+      -7.4
+    ],
+    "yaw_deg": -90.0,
+    "size_mm": [
+      220.0,
+      148.0,
+      6.0
+    ]
+  },
+  "tcp": {
+    "xyz_mm": [
+      1.773409675938293,
+      0.6026567343814877,
+      6.549653899876567
+    ],
+    "rpy_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "joint_offsets_deg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "verified": false,
+    "reference": {
+      "kind": "model_fixed_finger_tip",
+      "label": "왼쪽 고정 집게 끝단 중심 · 모델 기준",
+      "frame": "gripper_frame_link",
+      "visual": "xlerobot_fixed_finger",
+      "definition": "Midpoint of the two adjacent distal-edge vertices; +Z extension, 0.01 mm selection tolerance.",
+      "xyz_mm": [
+        1.773409675938293,
+        0.6026567343814877,
+        6.549653899876567
+      ],
+      "edge_endpoints_mm": [
+        [
+          1.7722147223729783,
+          -4.98369275258973,
+          6.549786982542699
+        ],
+        [
+          1.7746046295036075,
+          6.189006221352705,
+          6.5495208172104356
+        ]
+      ],
+      "edge_width_mm": 11.172699232720552,
+      "source_sha256": {
+        "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+        "assets/xlerobot_fixed_finger.stl": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+      },
+      "physically_verified": false
+    },
+    "motor_limits_deg": [
+      [
+        -88.13186813186813,
+        88.13186813186813
+      ],
+      [
+        -104.74725274725274,
+        104.74725274725274
+      ],
+      [
+        -96.52747252747253,
+        96.52747252747253
+      ],
+      [
+        -103.51648351648352,
+        103.51648351648352
+      ],
+      [
+        -180.0,
+        180.0
+      ]
+    ],
+    "motor_zero_reference": {
+      "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+      "accepted_by_user": true,
+      "accepted_at": "2026-09-22T15:42:25.094296+09:00",
+      "model_offsets_deg": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tcp_precision_verified": false
+    }
+  },
+  "part_order": [
+    "cap",
+    "ball",
+    "housing"
+  ],
+  "parts": {
+    "cap": {
+      "label": "상단 · 뚜껑",
+      "jig_center_carrier_mm": [
+        -72.0,
+        36.0,
+        4.850000190735195
+      ],
+      "jig_yaw_deg": 0.0,
+      "part_offset_jig_mm": [
+        0.0,
+        4.0,
+        8.050000000000312
+      ],
+      "part_yaw_deg": 0.0,
+      "mesh_height_mm": 12.699999809265137,
+      "grasp_tcp_part_mm": [
+        25.7,
+        0.0,
+        2.3499999046325684
+      ],
+      "grasp_yaw_deg": 0.0,
+      "grasp_pitch_deg": 180.0,
+      "hover_mm": 40,
+      "lift_mm": 100.0,
+      "open_percent": 53.78174330816749,
+      "close_percent": 0.0,
+      "mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/cap.stl",
+      "jig_mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/cap_jig.stl",
+      "mass_kg": 0.008908343549806465,
+      "lift_tilt_deg": 25.0,
+      "lift_clearance_mm": 40.0,
+      "approach_clearance_mm": 3.0,
+      "hold_effort_nm": 0.08
+    },
+    "ball": {
+      "label": "구",
+      "jig_center_carrier_mm": [
+        0.0,
+        -36.0,
+        4.850000190735195
+      ],
+      "jig_yaw_deg": 90.0,
+      "part_offset_jig_mm": [
+        0.0,
+        4.0,
+        1.602091348171586
+      ],
+      "part_yaw_deg": -90.0,
+      "mesh_height_mm": 30.0,
+      "grasp_tcp_part_mm": [
+        15.7,
+        0.0,
+        11.0
+      ],
+      "grasp_yaw_deg": 0.0,
+      "grasp_pitch_deg": 180.0,
+      "hover_mm": 40,
+      "lift_mm": 100.0,
+      "open_percent": 43.95332875772135,
+      "close_percent": 0.0,
+      "mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/ball.stl",
+      "jig_mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/ball_jig.stl",
+      "mass_kg": 0.004318673152971986,
+      "lift_tilt_deg": 25.0,
+      "lift_clearance_mm": 40.0,
+      "approach_clearance_mm": 3.0,
+      "hold_effort_nm": 0.12
+    },
+    "housing": {
+      "label": "하단 · 하우징",
+      "jig_center_carrier_mm": [
+        72.0,
+        36.0,
+        4.850000190735195
+      ],
+      "jig_yaw_deg": 0.0,
+      "part_offset_jig_mm": [
+        0.0,
+        4.0,
+        3.55000000000034
+      ],
+      "part_yaw_deg": 0.0,
+      "mesh_height_mm": 18.000000000000004,
+      "grasp_tcp_part_mm": [
+        25.7,
+        0.0,
+        5.000000000000002
+      ],
+      "grasp_yaw_deg": 0.0,
+      "grasp_pitch_deg": 180.0,
+      "hover_mm": 40,
+      "lift_mm": 100.0,
+      "open_percent": 53.78174330816749,
+      "close_percent": 0.0,
+      "mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/housing.stl",
+      "jig_mesh": "/path/to/Final_Arm/Test_teach/assets/so101_workcell/housing_jig.stl",
+      "mass_kg": 0.012771628627084025,
+      "lift_tilt_deg": 25.0,
+      "lift_clearance_mm": 40.0,
+      "approach_clearance_mm": 3.0,
+      "hold_effort_nm": 0.08
+    }
+  },
+  "dt": 0.0020833333333333333,
+  "home_deg": [
+    2.989010989010989,
+    -54.51648351648352,
+    14.56043956043956,
+    84.95604395604396,
+    -88.17582417582418,
+    14.468085106382992
+  ],
+  "contact": {
+    "product": "Razer Universal Grip Tape",
+    "static_friction": 1.0,
+    "dynamic_friction": 0.8,
+    "restitution": 0.0,
+    "combine_mode": "max",
+    "thickness_mm": 0.2,
+    "span_mm": 8.0,
+    "shape": "octagon",
+    "pad_count": 2,
+    "status": "friction and 8 mm patch width are engineering estimates; thickness 0.2 mm specified by user; rigid contact approximation"
+  },
+  "actuators": {
+    "arm_effort_nm": 2.0,
+    "gripper_effort_nm": 0.15,
+    "arm_stiffness": 80.0,
+    "arm_damping": 4.0,
+    "gripper_stiffness": 2.0,
+    "gripper_damping": 0.08,
+    "gripper_effort_note": "Simulation tuning for 4-13 g parts and assumed pad friction; not a real servo current/torque calibration.",
+    "wrist_effort_nm": 0.6,
+    "gripper_hold_effort_nm": 0.08
+  },
+  "mass_source": "/path/to/Final_Arm/OpenCV_teach/calibration/link_mass/link_mass_estimate.json",
+  "coordinate_note": "Distances in millimetres. Carrier local U is long side, V short side. Part seating offsets are retained.",
+  "home_note": "Same physical saved safe pose, re-expressed in the user-confirmed SO-101 calibration; wrist opens vertically. Not a new encoder measurement.",
+  "safe_deg": [
+    2.989010989010989,
+    -54.51648351648352,
+    14.56043956043956,
+    84.95604395604396,
+    -88.17582417582418,
+    14.468085106382992
+  ],
+  "safe_note": "Same physical saved safe pose, re-expressed in the user-confirmed SO-101 calibration; wrist opens vertically. Not a new encoder measurement.",
+  "motor_reference": {
+    "calibration_path": "/path/to/Final_Arm/OpenCV_teach/calibration/opencv_follower_right/follower_right.json",
+    "calibration_sha256": "46c11c35e16d276391cee84f7194a5fa89e5a66f61cd917256fcc4aab2ab65ea",
+    "calibration": {
+      "shoulder_pan": {
+        "id": 1,
+        "drive_mode": 0,
+        "homing_offset": 2038,
+        "range_min": 1081,
+        "range_max": 3086
+      },
+      "shoulder_lift": {
+        "id": 2,
+        "drive_mode": 0,
+        "homing_offset": -1308,
+        "range_min": 840,
+        "range_max": 3223
+      },
+      "elbow_flex": {
+        "id": 3,
+        "drive_mode": 0,
+        "homing_offset": 1665,
+        "range_min": 890,
+        "range_max": 3086
+      },
+      "wrist_flex": {
+        "id": 4,
+        "drive_mode": 0,
+        "homing_offset": 1681,
+        "range_min": 880,
+        "range_max": 3235
+      },
+      "wrist_roll": {
+        "id": 5,
+        "drive_mode": 0,
+        "homing_offset": -1650,
+        "range_min": 0,
+        "range_max": 4095
+      },
+      "gripper": {
+        "id": 6,
+        "drive_mode": 0,
+        "homing_offset": 1374,
+        "range_min": 2007,
+        "range_max": 3464
+      }
+    },
+    "accepted_by_user": true,
+    "accepted_at": "2026-09-22T15:42:25.095907+09:00",
+    "source_calibration_sha256": "0e7825a97f7db3375ca93ac2d1920a2daf57bdd5a6abcf49f01a4412a04804fa",
+    "safe_pose_method": "Preserve encoder angle modulo 4096; calibrated positions use 4095 divisor",
+    "gripper_endpoint_policy": "0 and 100 use newly measured endpoints; intermediate commands preserve encoder angle",
+    "hardware_motion_verified": false
+  },
+  "safe_orientation_adjustment": {
+    "kind": "clockwise_90_from_arm",
+    "delta_wrist_roll_deg": -90,
+    "view": "from_arm_toward_fingertips",
+    "urdf_axis_dot_tip_mm": -104.67705860575532,
+    "safe_before": [
+      2.989010989010989,
+      -54.51648351648352,
+      14.56043956043956,
+      84.95604395604396,
+      1.8241758241758241,
+      14.468085106382992
+    ],
+    "physical_motor_command_sent": false
+  },
+  "mount": {
+    "source": "OpenCV_teach/calibration/mount_geometry/nominal_pose.json",
+    "base_above_table_mm": 7.4,
+    "optical_center_offset_mm": 0.0
+  }
+}

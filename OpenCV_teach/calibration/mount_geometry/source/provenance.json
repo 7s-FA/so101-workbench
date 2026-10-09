@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/TheRobotStudio/SO-ARM100",
+  "commit": "eecbe3e0a9ebb23e25ad7b2759b03884c6660903",
+  "directory": "Optional/Overhead_Cam_Mount_32x32_UVC_Module/stl",
+  "unit_assumption": "millimetres, consistent with 32 mm camera board and SO-101 footprint (STL has no unit metadata)",
+  "sha256": {
+    "arm_base.stl": "169adfd40bcca689334efd1188c9b42cc03c914dc0afeaa98cb5431013610833",
+    "cam_mount_bottom.stl": "b3545b6cae437210e17b7dcfee2e12e00dc7a59ece9264f4b13ab9fd8ceb8088",
+    "cam_mount_middle.stl": "f6f3980df74777f74cf53a4697cbb63e4e000ab53f418de209559214f733f84b",
+    "cam_mount_top.stl": "206762be157918967741eb53665cac796485c4609ac64d4c9444d85c7fcb2c4c"
+  },
+  "robot_reference_sha256": {
+    "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953",
+    "assets/base_so101_v2.stl": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d"
+  }
+}

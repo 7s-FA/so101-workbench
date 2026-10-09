@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "actuators": {
+    "gripper_stiffness": 20.0,
+    "gripper_effort_nm": 0.6
+  },
+  "hardware_calibrated": false,
+  "basis": "Simulation tracking adjustment from former provisional stiffness 2 and effort 0.15 Nm. Damping and body settings remain inherited. The 0.6 Nm cap equals the existing wrist cap; it is not a measured gripper torque.",
+  "evidence": "gripper_feedback_response: opening deflection reduced to about 15 ticks versus 99 ticks in effort-only probe. Original 32-step targets and arrival criteria retained. Contact still prevents arrival at step 4; no successful grasp claimed.",
+  "pad_contact": {
+    "compliant_contact_stiffness": 5000.0,
+    "compliant_contact_damping": 5.0,
+    "finger_contact_stiffness": 1000.0,
+    "finger_contact_damping": 5.0,
+    "status": "Provisional compliant pad and TPU finger contacts; stiffness/damping unmeasured."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "so101": {
+    "joints": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "limits": [
+      [
+        -1.91986,
+        1.91986
+      ],
+      [
+        -1.74533,
+        1.74533
+      ],
+      [
+        -1.69,
+        1.69
+      ],
+      [
+        -1.65806,
+        1.65806
+      ],
+      [
+        -2.74385,
+        2.84121
+      ],
+      [
+        -0.174533,
+        1.74533
+      ]
+    ],
+    "home": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "mimic": false,
+    "max_command_speed": 3.0,
+    "relative_target": {
+      "body_degrees": 10.0,
+      "gripper_points": 7.0,
+      "gripper_radians_at_0_100": [0.0, 1.74533],
+      "source": "https://rorobot.atlassian.net/wiki/spaces/robot3/pages/7078025",
+      "source_version": 2
+    },
+    "urdf": "assets/generated/so101.urdf",
+    "position": [
+      0.0,
+      -0.45,
+      0.03
+    ]
+  },
+  "omx": {
+    "joints": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "gripper_joint_1",
+      "gripper_joint_2"
+    ],
+    "limits": [
+      [
+        -6.283185307179586,
+        6.283185307179586
+      ],
+      [
+        -6.283185307179586,
+        6.283185307179586
+      ],
+      [
+        -6.283185307179586,
+        6.283185307179586
+      ],
+      [
+        -6.283185307179586,
+        6.283185307179586
+      ],
+      [
+        -6.283185307179586,
+        6.283185307179586
+      ],
+      [
+        0.0,
+        1.1
+      ],
+      [
+        -1.1,
+        0.0
+      ]
+    ],
+    "home": [
+      0.0,
+      -0.4,
+      0.3,
+      0.3,
+      0.0,
+      0.5,
+      -0.5
+    ],
+    "mimic": true,
+    "max_command_speed": 3.0,
+    "urdf": "assets/generated/omx.urdf",
+    "position": [
+      0.0,
+      0.45,
+      0.03
+    ],
+    "gripper_drive": {
+      "stiffness": 8.0,
+      "damping": 0.2,
+      "effort_limit_sim": 0.2,
+      "velocity_limit_sim": 0.6
+    }
+  }
+}

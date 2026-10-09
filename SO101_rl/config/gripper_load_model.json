@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "robot_id": "arm2",
+  "calibration_sha256": "eaea825f770f1859a0c66e486ec3538d31280dfa16b3c7a0dc2d7e9ee89d356b",
+  "kind": "recorded_stationary_closing_position_error",
+  "hardware_torque_calibrated": false,
+  "sample_count": 1194,
+  "source_count": 14,
+  "sources": {
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790498083669475917.json": {
+      "sha256": "b8295be5ad56bbad247299dc252cbf96effdbc2a2703d9292ae3d2df1a3f47d3",
+      "samples": 156
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790498657743068734.json": {
+      "sha256": "b76579c92711f256bd5a820183da61bc9da5d83d0e3fb70247e92f832f838cb0",
+      "samples": 11
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790498767135614320.json": {
+      "sha256": "4e1185efb948759f668cb7a28bf2c048a7d06b5e94577ca1ea04f2f4e7434172",
+      "samples": 4
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790499668856106193.json": {
+      "sha256": "2a4be5d00073b257adbfe0d311a701ec149e492e4656515a34f8488072cc4544",
+      "samples": 223
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790501366667162048.json": {
+      "sha256": "d92bf4dadcebb7360aa3093251a75724f22df96788dd2bd08b10ecb9b388b42b",
+      "samples": 1
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790502612978899613.json": {
+      "sha256": "6ad4a938eb9f01dfb97d23679e79aa306cb83908673f00f12bbe9a7371573137",
+      "samples": 6
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790503490543867840.json": {
+      "sha256": "a470bac4fb48a9341f64d257c4d56e78266f6908a5918f68e04596643c30a31b",
+      "samples": 7
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790504047741611381.json": {
+      "sha256": "ade9949686f86d89e6556dfd4c3f81604d6d6b49276321d0cbd9fec3350dbaa8",
+      "samples": 28
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790506109032525832.json": {
+      "sha256": "354cdf2d011aa05e0c8377ff689b0420c5bb5e860066be2767a908afc3e3dba9",
+      "samples": 336
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790506973083951533.json": {
+      "sha256": "87480420a68a1696f4ff5ed2affceb3e58da7e76f11ac4f03f5103478c1f66ce",
+      "samples": 9
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790508157624453034.json": {
+      "sha256": "c6f08889ab7ca4e00487f17aa573da25ba99dbc1d508900f151b6aba41590ec2",
+      "samples": 133
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790509703374990216.json": {
+      "sha256": "fa2690e212b99bfcbcb9a624535d34427f6bab10c776fd9ab4799bfefca95000",
+      "samples": 40
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790510132047558503.json": {
+      "sha256": "e6bce90d77b9162def55b72e7a040e18657c4fcb856e3658b521f594b68cd1aa",
+      "samples": 203
+    },
+    "/path/to/Final_Arm/SO101_teach/data/diagnostics/session-1790562372807918062.json": {
+      "sha256": "d7732ab6e5d59e6908f9a31accdc492552a8be83f203cb212d0dca5f4377dacd",
+      "samples": 37
+    }
+  },
+  "filter": "Same calibration, follower, torque on, status 0, |velocity raw| <= 5, actual >= internal goal; timestamps deduplicated",
+  "estimator": "Per-tick-error median load magnitude, monotonically nondecreasing; linear interpolation; clamp at recorded endpoints",
+  "error_ticks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    39
+  ],
+  "load_magnitude": [
+    0.0,
+    0.0,
+    20.0,
+    24.0,
+    34.0,
+    34.0,
+    40.0,
+    40.0,
+    44.0,
+    44.0,
+    56.0,
+    60.0,
+    64.0,
+    68.0,
+    80.0,
+    98.0,
+    98.0,
+    168.0
+  ],
+  "sample_counts": [
+    953,
+    8,
+    43,
+    21,
+    2,
+    2,
+    3,
+    1,
+    1,
+    1,
+    15,
+    82,
+    21,
+    27,
+    8,
+    2,
+    3,
+    1
+  ],
+  "in_sample_mean_absolute_error_raw": 0.2964824120603015,
+  "limitation": "Static closing-load approximation; no measured torque conversion or dynamic servo validation. Endpoint clamp is not evidence outside the recorded error range."
+}

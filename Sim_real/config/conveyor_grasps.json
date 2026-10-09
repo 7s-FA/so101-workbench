@@ -1,0 +1,34 @@
+{
+  "status": "candidate_geometry_only",
+  "model": "so101_xlerobot",
+  "scope": "New STL and rigid XLeRobot finger geometry; not force closure or real motor commands",
+  "profiles": {
+    "housing": {
+      "part_base_in_tool": [
+        -0.024397104054689346,
+        0,
+        0.012
+      ],
+      "closed": 0.5222134533524744,
+      "open": 0.6822134533524744
+    },
+    "ball": {
+      "part_base_in_tool": [
+        -0.014036716997623374,
+        0,
+        0.014
+      ],
+      "closed": 0.23420452684166965,
+      "open": 0.3942045268416696
+    },
+    "cap": {
+      "part_base_in_tool": [
+        -0.024291567258333088,
+        0,
+        0.008
+      ],
+      "closed": 0.5097580875299174,
+      "open": 0.6297580875299174
+    }
+  }
+}

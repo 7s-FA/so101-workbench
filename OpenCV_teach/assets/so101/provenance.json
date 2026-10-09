@@ -1,0 +1,76 @@
+{
+  "model": "SO101 + XLeRobot TPU fingers (wrist camera and mounts removed)",
+  "source_urdf": "assets/generated/conveyor_demo/so101_xlerobot.urdf",
+  "source_urdf_sha256": "2b5234339eb97a6d29f018f26647f79a7635744a2c13d6bda431867cd59a3475",
+  "hardware_source": "arm_sim/conveyor_hardware.py",
+  "hardware_source_sha256": "fc1edbaf5212b771ef4ad988313481e5b8e98c5932a1a1f27bc36999687169ba",
+  "copied_meshes": {
+    "base_motor_holder_so101_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/base_motor_holder_so101_v1.stl",
+      "sha256": "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424"
+    },
+    "base_so101_v2.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/base_so101_v2.stl",
+      "sha256": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d"
+    },
+    "sts3215_03a_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/sts3215_03a_v1.stl",
+      "sha256": "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0"
+    },
+    "waveshare_mounting_plate_so101_v2.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/waveshare_mounting_plate_so101_v2.stl",
+      "sha256": "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9"
+    },
+    "motor_holder_so101_base_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/motor_holder_so101_base_v1.stl",
+      "sha256": "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b"
+    },
+    "rotation_pitch_so101_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/rotation_pitch_so101_v1.stl",
+      "sha256": "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34"
+    },
+    "upper_arm_so101_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/upper_arm_so101_v1.stl",
+      "sha256": "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f"
+    },
+    "under_arm_so101_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/under_arm_so101_v1.stl",
+      "sha256": "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71"
+    },
+    "motor_holder_so101_wrist_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/motor_holder_so101_wrist_v1.stl",
+      "sha256": "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011"
+    },
+    "sts3215_03a_no_horn_v1.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/sts3215_03a_no_horn_v1.stl",
+      "sha256": "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887"
+    },
+    "wrist_roll_pitch_so101_v2.stl": {
+      "source": "vendor/so_arm100/Simulation/SO101/assets/wrist_roll_pitch_so101_v2.stl",
+      "sha256": "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae"
+    },
+    "xlerobot_fixed_holder.stl": {
+      "source": "assets/generated/conveyor_demo/gripper/xlerobot_fixed_holder.stl",
+      "sha256": "c20484dd173281e62dc28629b242c8915e9fd05f9abd5080d7f72ad9ddcf2492"
+    },
+    "xlerobot_fixed_finger.stl": {
+      "source": "assets/generated/conveyor_demo/gripper/xlerobot_fixed_finger.stl",
+      "sha256": "51807edd7566b4e0483a2d1d8af11c8beb1e77dbdc02414edf232bf467303953"
+    },
+    "xlerobot_moving_holder.stl": {
+      "source": "assets/generated/conveyor_demo/gripper/xlerobot_moving_holder.stl",
+      "sha256": "7d9774684e3ec350a28f54813d723c6f2619e9f4246f9603564bc279d41a0daa"
+    },
+    "xlerobot_moving_finger.stl": {
+      "source": "assets/generated/conveyor_demo/gripper/xlerobot_moving_finger.stl",
+      "sha256": "9115d3cf63a73c03101da6bf0f021db26c038d4225318732bb64241ae2af91c6"
+    }
+  },
+  "generated_meshes": {},
+  "scope": "read-only kinematics; no contact or physics integration",
+  "revision": "2026-09-21: removed D435, wrist mount, five attachment screw heads and two camera washers; retained robot and TPU gripper geometry",
+  "current_model_sha256": {
+    "so101_modified.xml": "a3021cdb87d6627c08216c4a7582ab0a8e944c38d306ce51644ebe0538314633",
+    "so101_modified.urdf": "f5c9f919f687498d16acebbfcfb2dfc58dcce081492c79556a2e50ce78029953"
+  }
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>로봇팔 전압·부하 진단</title><link rel="stylesheet" href="/monitor.css"><script defer src="/monitor.js"></script></head>
+<body class="diagnostics"><a class="skip" href="#workspace">모니터로 이동</a><main>
+<header><div><h1>로봇팔 전압·부하 진단</h1><p>실물 리더의 전압·부하·온도·오류를 확인합니다.</p></div><div class="header-actions"><a href="/">공정 화면</a><span id="clock">연결 확인 중</span><button id="pause" aria-pressed="false">화면 일시정지</button></div></header>
+<div class="statusbar" aria-label="데이터 연결 상태"><span id="simStatus" class="status">시뮬레이션 연결 대기</span><span id="soStatus" class="status">SO-101 연결 대기</span><span id="omxStatus" class="status">OMX 연결 대기</span><span class="readonly">실물 조회 전용</span></div>
+<div id="notice" class="notice" role="status" hidden></div>
+<div class="workspace" id="workspace">
+<aside class="panel telemetry" aria-label="실물 리더 진단"><div class="panel-heading"><div><h2>실물 리더 상태</h2><p>전압 · 부하 · 온도 · 오류</p></div></div>
+<div class="tabs" aria-label="진단할 리더 선택"><button id="tabSo" aria-pressed="true">SO-101</button><button id="tabOmx" aria-pressed="false">OMX 그리퍼</button></div>
+<div class="telemetry-body"><p class="source" id="sourceLabel">SO-101 리더 1대 · 모터 6개</p><div id="deviceMessage" class="device-message">수집 프로그램 연결 대기</div>
+<section id="soPanel" aria-label="SO-101 모터별 측정값"><div class="table-wrap"><table><caption class="sr-only">모터를 선택하면 전압 기록을 확인할 수 있습니다.</caption><thead><tr><th scope="col">모터</th><th scope="col">전압 V</th><th scope="col">부하¹</th><th scope="col">온도 °C</th></tr></thead><tbody id="motorRows"></tbody></table></div><p class="muted unit-note">¹ 모터 원시값 · 실제 힘(N)이나 토크(N·m)가 아닙니다.</p><div class="detail-line"><span id="selectedMotor">베이스</span><span id="selectedFault">측정 대기</span></div><div class="small-stats"><span>누적 최저 <b id="minimum">— V</b></span><span>통신 오류 <b id="commErrors">—</b></span></div></section>
+<section id="omxPanel" aria-label="OMX 그리퍼 측정값" hidden><dl class="readings"><div><dt>전압</dt><dd><span id="omxVoltage">—</span> <small>V</small></dd></div><div><dt>현재 전류</dt><dd><span id="omxCurrent">—</span> <small>mA</small></dd></div><div><dt>온도</dt><dd><span id="omxTemp">—</span> <small>°C</small></dd></div><div><dt>목표 전류</dt><dd><span id="omxGoal">—</span> <small>mA</small></dd></div></dl><div class="detail-line"><span>포스피드백</span><b id="feedback">측정 대기</b></div><p class="muted unit-note">ID 6 그리퍼의 전류를 표시합니다. 다른 OMX 관절의 부하는 현재 수집하지 않습니다.</p></section>
+<div class="chart-heading"><h3 id="chartTitle">베이스 전압</h3><span>최근 60초</span></div><div class="chart"><canvas id="trend" role="img" aria-label="선택한 모터의 최근 측정 그래프"></canvas><p id="chartEmpty">측정 기록 대기</p></div>
+<section class="events"><h3>최근 상태</h3><ul id="events"><li>측정값이 들어오면 오류 이력을 표시합니다.</li></ul></section>
+<details><summary>연결과 측정 범위</summary><p>이 창은 카메라 서버와 기존 전압·리더 수집 프로그램의 값을 조회합니다. 모터를 직접 구동하지 않습니다.</p><p>데이터가 오래되거나 연결이 끊기면 현재값을 지웁니다. SO-101 측정값을 가상 팔 A와 C 양쪽의 실물 값으로 복제하지 않습니다.</p><a href="http://127.0.0.1:8765/" target="_blank" rel="noopener">기존 전압 모니터 열기</a></details>
+</div></aside>
+</div><footer>화면 일시정지는 수치 표시에만 적용됩니다. 시뮬레이션·수집·로봇 동작은 계속됩니다.</footer>
+</main></body></html>

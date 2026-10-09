@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "identity": {
+    "side": "right",
+    "pair_name": "opencv_follower_right",
+    "robot_type": "so101",
+    "serials": {
+      "follower": "usb-YOUR_ROBOT-if00"
+    },
+    "demo": false,
+    "calibration_sha256": {
+      "follower_right": "d2cb3d358bcc174f190354d178d04e1391f7bbf33d27778318a0f5bc9072e473"
+    },
+    "control_mode": "follower_only",
+    "follower_id": "follower_right"
+  },
+  "units": {
+    "shoulder_pan.pos": "degrees",
+    "shoulder_lift.pos": "degrees",
+    "elbow_flex.pos": "degrees",
+    "wrist_flex.pos": "degrees",
+    "wrist_roll.pos": "degrees",
+    "gripper.pos": "normalized_0_100"
+  },
+  "title": "위로 일자 자세 · 새 영점",
+  "updated_at": "2026-09-23T11:53:32.106204+09:00",
+  "steps": [
+    {
+      "name": "위로 일자 · 집게 닫힘",
+      "pose": {
+        "shoulder_pan.pos": -3.164835164835165,
+        "shoulder_lift.pos": -13.97802197802198,
+        "elbow_flex.pos": -73.80219780219781,
+        "wrist_flex.pos": -5.054945054945056,
+        "wrist_roll.pos": -2.197802197802198,
+        "gripper.pos": 0.0
+      },
+      "captured_at": "2026-09-23T11:36:33.030187+09:00"
+    }
+  ]
+}

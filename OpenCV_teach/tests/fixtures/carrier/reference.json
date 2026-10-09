@@ -1,0 +1,203 @@
+{
+  "source": "User screenshots from 2026-09-21; camera rectangle cropped and resized to 1280x720. Original GUI overlays are retained. Corners are approximate manual annotations for object identity, not metrology ground truth.",
+  "samples": [
+    {
+      "file": "15-51-47.png",
+      "approximate_outer_corners_px": [
+        [
+          351,
+          335
+        ],
+        [
+          682,
+          212
+        ],
+        [
+          782,
+          428
+        ],
+        [
+          409,
+          559
+        ]
+      ],
+      "occluded": true,
+      "white_backing_board": false,
+      "contains_old_gui_overlay": false
+    },
+    {
+      "file": "15-51-55.png",
+      "approximate_outer_corners_px": [
+        [
+          450,
+          221
+        ],
+        [
+          798,
+          203
+        ],
+        [
+          821,
+          436
+        ],
+        [
+          435,
+          444
+        ]
+      ],
+      "occluded": false,
+      "white_backing_board": false,
+      "contains_old_gui_overlay": false
+    },
+    {
+      "file": "15-52-16.png",
+      "approximate_outer_corners_px": [
+        [
+          431,
+          315
+        ],
+        [
+          782,
+          420
+        ],
+        [
+          699,
+          667
+        ],
+        [
+          345,
+          555
+        ]
+      ],
+      "occluded": true,
+      "white_backing_board": false,
+      "contains_old_gui_overlay": false
+    },
+    {
+      "file": "15-53-54.png",
+      "approximate_outer_corners_px": [
+        [
+          467,
+          258
+        ],
+        [
+          828,
+          234
+        ],
+        [
+          869,
+          471
+        ],
+        [
+          469,
+          503
+        ]
+      ],
+      "occluded": false,
+      "white_backing_board": true,
+      "contains_old_gui_overlay": false
+    },
+    {
+      "file": "15-54-09.png",
+      "approximate_outer_corners_px": [
+        [
+          456,
+          370
+        ],
+        [
+          649,
+          229
+        ],
+        [
+          900,
+          489
+        ],
+        [
+          705,
+          661
+        ]
+      ],
+      "occluded": false,
+      "white_backing_board": true,
+      "contains_old_gui_overlay": false
+    },
+    {
+      "file": "15-54-21.png",
+      "approximate_outer_corners_px": [
+        [
+          594,
+          216
+        ],
+        [
+          844,
+          237
+        ],
+        [
+          834,
+          592
+        ],
+        [
+          554,
+          574
+        ]
+      ],
+      "occluded": false,
+      "white_backing_board": true,
+      "contains_old_gui_overlay": true
+    },
+    {
+      "file": "15-54-28.png",
+      "approximate_outer_corners_px": [
+        [
+          468,
+          222
+        ],
+        [
+          835,
+          246
+        ],
+        [
+          828,
+          484
+        ],
+        [
+          434,
+          460
+        ]
+      ],
+      "occluded": false,
+      "white_backing_board": true,
+      "contains_old_gui_overlay": true
+    }
+  ],
+  "intrinsics": {
+    "K": [
+      [
+        1032.2503683943196,
+        0.0,
+        687.7723709834622
+      ],
+      [
+        0.0,
+        1032.1059987177996,
+        347.780289252618
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      -0.4927825484416793,
+      0.3175725472843906,
+      0.0009627245882526294,
+      0.0006415581739380303,
+      -0.12739109971931759
+    ],
+    "size": [
+      1280,
+      720
+    ]
+  }
+}

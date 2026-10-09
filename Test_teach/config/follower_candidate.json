@@ -1,0 +1,163 @@
+{
+  "kind": "omx_follower_urdf",
+  "verified": false,
+  "port": "/dev/serial/by-id/usb-YOUR_ROBOT-if00",
+  "ids": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "models": [
+    1060,
+    1060,
+    1060,
+    1200,
+    1200,
+    1200
+  ],
+  "zero_ticks": [
+    2048,
+    2048,
+    2048,
+    2048,
+    2048,
+    2039
+  ],
+  "ticks_per_rad": [
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033,
+    651.8986469044033
+  ],
+  "limits": [
+    [
+      -4.71238898038469,
+      6.283185307179586
+    ],
+    [
+      -2.0943951023931953,
+      1.5707963267948966
+    ],
+    [
+      -2.0943951023931953,
+      1.5707963267948966
+    ],
+    [
+      -1.7453292519943295,
+      1.7453292519943295
+    ],
+    [
+      -4.71238898038469,
+      4.71238898038469
+    ],
+    [
+      0,
+      1.1
+    ]
+  ],
+  "tick_limits": [
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      0,
+      4095
+    ],
+    [
+      2039,
+      3209
+    ]
+  ],
+  "motor_config": [
+    {
+      "id": 11,
+      "model": 1060,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 12,
+      "model": 1060,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 13,
+      "model": 1060,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 14,
+      "model": 1200,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 15,
+      "model": 1200,
+      "mode": 4,
+      "drive": 0,
+      "offset": 0
+    },
+    {
+      "id": 16,
+      "model": 1200,
+      "mode": 5,
+      "drive": 0,
+      "offset": 0
+    }
+  ],
+  "note": "Candidate only: retain nominal arm center 2048; user-confirmed directions, observed gripper closure. Absolute arm zeros and direct gripper angle mapping still need pose comparison.",
+  "gripper_endpoints": {
+    "closed_ticks": 2039,
+    "open_ticks": 3209,
+    "span_ticks": 1170,
+    "arm_ticks": [
+      2064,
+      2027,
+      2052,
+      3042,
+      2034
+    ],
+    "arm_delta_since_closed": [
+      11,
+      2,
+      1,
+      0,
+      0
+    ],
+    "torque": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "calibration_verified": false,
+    "note": "Observed encoder endpoints only. Opening-angle mapping and arm URDF calibration are not yet verified."
+  }
+}

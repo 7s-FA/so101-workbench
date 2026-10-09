@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "name": "공식 사진 · 상완 수직 / 전완·집게 전방 / 가동 집게 위로 벌림",
+  "model_degrees": {
+    "shoulder_pan": 0.0005007568862066578,
+    "shoulder_lift": 0.00022918242493634742,
+    "elbow_flex": -0.00024308517048448933,
+    "wrist_flex": 0.00056304930843288,
+    "wrist_roll": 2.789280816973432
+  },
+  "gripper_middle_deg": 90.0,
+  "reference_basis": "Actual link longitudinal axes and servo assembly orientation, not the line between offset joint centres",
+  "definition": {
+    "upper_arm_direction": [
+      0,
+      0,
+      1
+    ],
+    "forearm_direction": [
+      1,
+      0,
+      0
+    ],
+    "gripper_forward": [
+      1,
+      0,
+      0
+    ],
+    "gripper_frame_x": [
+      0,
+      0,
+      -1
+    ],
+    "gripper_frame_y": [
+      0,
+      1,
+      0
+    ]
+  },
+  "residual": 3.968191866354944e-06,
+  "model_sha256": "a3021cdb87d6627c08216c4a7582ab0a8e944c38d306ce51644ebe0538314633",
+  "reference_photo": "assets/so101/calibration_middle.jpg",
+  "physically_verified": false
+}

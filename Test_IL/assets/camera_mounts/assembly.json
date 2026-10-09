@@ -1,0 +1,492 @@
+{
+  "parameters": {
+    "top_cut_y_mm": 325.0,
+    "rear_plate_width_mm": 64.0,
+    "rear_plate_height_mm": 20.0,
+    "rear_plate_thickness_mm": 5.0,
+    "d435_screw_pitch_mm": 45.0,
+    "d435_clearance_hole_mm": 3.4,
+    "d435_rear_gap_mm": 0.5,
+    "d435_screw_length_mm": 8.0,
+    "d435_max_thread_insertion_mm": 3.0,
+    "overhead_forward_shift_mm": 25.0,
+    "overhead_center_body_on_column": true,
+    "wrist_mount_clearance_shift_mm": 1.85,
+    "wrist_camera_seating_gap_mm": -0.05
+  },
+  "attachments": [
+    {
+      "name": "arm_base",
+      "file": "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/arm_base.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          72.945861528918
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -53.43037431336113
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.4000000000000004
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "black"
+    },
+    {
+      "name": "cam_mount_bottom",
+      "file": "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/cam_mount_bottom.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -20.975058471081997
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -79.51948431336113
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -7.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "black"
+    },
+    {
+      "name": "cam_mount_middle",
+      "file": "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/cam_mount_middle.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.275058471081998
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -116.03148431336113
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          180.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "black"
+    },
+    {
+      "name": "overhead_top_d435",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_top_d435.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.275058471081998
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -116.03148431336113
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          180.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "black"
+    },
+    {
+      "name": "overhead_d435",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/d435_body_mm.stl",
+      "transform_mm": [
+        [
+          0.4226092427148011,
+          -1.4709692226682858e-06,
+          0.9063119926216682,
+          35.17886494166918
+        ],
+        [
+          3.4806839841220946e-06,
+          0.9999999999939424,
+          0.0,
+          -116.04782340658906
+        ],
+        [
+          -0.9063119926161781,
+          3.1545856373360223e-06,
+          0.42260924271736106,
+          549.9960677716947
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "silver"
+    },
+    {
+      "name": "overhead_washer_0",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_washer_0.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "silver"
+    },
+    {
+      "name": "overhead_screw_0",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_screw_0.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "silver"
+    },
+    {
+      "name": "overhead_washer_1",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_washer_1.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "silver"
+    },
+    {
+      "name": "overhead_screw_1",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/overhead_screw_1.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "base_link",
+      "color": "silver"
+    },
+    {
+      "name": "wrist_xlerobot_mount",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/wrist_xlerobot_mount.stl",
+      "transform_mm": [
+        [
+          0.0007308130035790843,
+          -0.0012980110908674585,
+          0.9999988902875581,
+          0.01747884330886766
+        ],
+        [
+          -0.002492252210978192,
+          0.9999960497506832,
+          0.0012998289357620705,
+          25.872682595646907
+        ],
+        [
+          -0.9999966271162218,
+          -0.0024931990070327158,
+          0.000727575125947824,
+          -6.036351427073821
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "gripper_link",
+      "color": "black"
+    },
+    {
+      "name": "wrist_32x32_camera",
+      "file": "/path/to/Final_Arm/Test_IL/assets/camera_mounts/wrist_xlerobot_camera.stl",
+      "transform_mm": [
+        [
+          0.0007308130035790843,
+          -0.0012980110908674585,
+          0.9999988902875581,
+          0.0177872639050842
+        ],
+        [
+          -0.002492252210978192,
+          0.9999960497506832,
+          0.0012998289357620705,
+          25.893930384103534
+        ],
+        [
+          -0.9999966271162218,
+          -0.0024931990070327158,
+          0.000727575125947824,
+          -5.991091772163371
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "link": "gripper_link",
+      "color": "camera"
+    }
+  ],
+  "print_parts": [
+    {
+      "file": "overhead_top_d435.stl",
+      "watertight": true,
+      "connected_solids": 1,
+      "volume_cm3": 185.97558971179487,
+      "bounds_mm": [
+        [
+          -12.7,
+          190.0,
+          -31.98362
+        ],
+        [
+          54.16037,
+          402.3,
+          32.01639
+        ]
+      ],
+      "triangles": 1380
+    },
+    {
+      "file": "wrist_xlerobot_mount.stl",
+      "watertight": true,
+      "connected_solids": 1,
+      "volume_cm3": 10.848586758532713,
+      "bounds_mm": [
+        [
+          -19.45278,
+          -1.71464,
+          -14.33106
+        ],
+        [
+          23.18406,
+          64.56329,
+          21.77958
+        ]
+      ],
+      "triangles": 844
+    }
+  ],
+  "base_rise_mm": 5.0,
+  "robot_base_above_table_mm": 7.4,
+  "top_interface_max_surface_delta_mm": 5.364569153566396e-06,
+  "top_interface_volume_delta_mm3": 0.006097296252846718,
+  "old_rgb_center_base_mm": [
+    25.987375015717188,
+    -116.04778651153569,
+    545.6718787079634
+  ],
+  "new_rgb_center_base_mm": [
+    50.98737501571719,
+    -83.5477865115357,
+    545.6718787079634
+  ],
+  "depth_center_base_mm": [
+    50.98739708025553,
+    -98.54778651144484,
+    545.6718313891788
+  ],
+  "rgb_position_delta_mm": 41.003048667141805,
+  "optical_axis_base": [
+    0.4226092427148011,
+    3.4806839841220946e-06,
+    -0.9063119926161781
+  ],
+  "optical_angle_delta_deg": 0.0,
+  "tilt_from_down_deg": 24.999429829351048,
+  "d435_screw_centers_base_mm": [
+    [
+      40.94850014110715,
+      -138.54786919380638,
+      567.200874696753
+    ],
+    [
+      40.94843394749212,
+      -93.54786919407897,
+      567.2010166531066
+    ]
+  ],
+  "d435_thread_insertion_mm": 2.5,
+  "wrist_camera_transform_mm": [
+    [
+      0.9998692309984214,
+      -0.014948949586610607,
+      -0.006168411924330756,
+      3.8548276883594563
+    ],
+    [
+      -0.016153259907972544,
+      -0.9050699789898223,
+      -0.424955769132535,
+      66.66279887782646
+    ],
+    [
+      0.0007697978923633078,
+      0.4249998376666257,
+      -0.9051930982090061,
+      -13.121959836108577
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "wrist_reference": "XLeRobot simulation/xlerobot_urdf.zip camera1/camera2, original geometry",
+  "wrist_registration_trimmed_rms_mm": 0.0823,
+  "physical_fit_verified": false,
+  "notes": [
+    "D435 optical frames are manufacturer nominal, not measured hand-eye calibration.",
+    "Original XLeRobot wrist geometry; rigid assembly placement fitted to the current SO101 holder.",
+    "Original bottom, middle and top socket unchanged; top bracing and head redesigned."
+  ],
+  "source_hashes": {
+    "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/source/cam_mount_top.stl": "206762be157918967741eb53665cac796485c4609ac64d4c9444d85c7fcb2c4c",
+    "/path/to/Final_Arm/OpenCV_teach/calibration/mount_geometry/nominal_pose.json": "a8cb87146e0a34a036526ebae9f9eaf561846a952ec2d8b1e8c8f630c9fe6cc7",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/source_xlerobot/XLeRobot_camera1.stl": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/source_xlerobot/XLeRobot_camera2.stl": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+    "/path/to/Final_Arm/Test_IL/assets/camera_mounts/source_xlerobot/xlerobot.urdf": "b0a156c250975deb2c5c31c6d56947e90e59478cdc55b4049e55ec59e6041f28"
+  }
+}

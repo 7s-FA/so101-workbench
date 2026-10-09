@@ -1,0 +1,11 @@
+{
+  "port": 8768,
+  "record_fps": 30,
+  "preview_fps": 15,
+  "follower": "/dev/serial/by-id/usb-YOUR_ROBOT-if00",
+  "leader": "",
+  "gripper": "/dev/v4l/by-id/usb-Innomaker_Innomaker-U20CAM-720P_SN0001-video-index0",
+  "table": "",
+  "teleop_fps": 30,
+  "robot_type": "so101"
+}

@@ -1,0 +1,32 @@
+{
+  "receiver_offset_mm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "magnets": {
+    "enabled": true,
+    "max_pair_force_n": 0.12,
+    "capture_distance_mm": 6.0,
+    "normal_alignment_min": 0.9,
+    "density_kg_m3": 7500.0,
+    "measured": false,
+    "basis": "User requested hole-sized magnets and a modest near-field attraction sufficient to retain the released cap; not a measured magnet specification."
+  },
+  "criteria": {
+    "pallet_xy_mm": 2.0,
+    "pallet_z_mm": 1.5,
+    "insert_xy_mm": 1.5,
+    "insert_z_mm": 1.0,
+    "cap_xy_mm": 1.5,
+    "cap_gap_tolerance_mm": 1.0,
+    "stage_dwell_s": 0.25,
+    "assembly_dwell_s": 0.5
+  },
+  "tpu_contact": {
+    "stiffness_n_m": 500.0,
+    "damping_ns_m": 5.0,
+    "measured": false,
+    "basis": "Provisional compliant contact surrogate for TPU; no measured modulus or full mesh deformation."
+  }
+}

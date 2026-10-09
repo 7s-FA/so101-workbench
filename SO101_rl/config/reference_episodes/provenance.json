@@ -1,0 +1,7 @@
+{
+  "episode_id": "a03c1949d9c04ad1ba46e6267fa64c8e",
+  "source_snapshot": "/path/to/Final_Arm/SO101_teach/data/episodes/a03c1949d9c04ad1ba46e6267fa64c8e.json",
+  "sha256": "461f10ac9384b36a43dd927d5f58bf08eb5f02bdc1854dceed6b6f2f9aeb0a6c",
+  "previous_copy": "/path/to/Final_Arm/SO101_rl/config/reference_episodes/previous_real_success_copy.json",
+  "basis": "User explicitly selected a copy of the current teaching with wider gripper openings. This snapshot isolates subsequent live edits; live teaching is preserved."
+}

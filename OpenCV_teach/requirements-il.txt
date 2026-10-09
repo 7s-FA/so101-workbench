@@ -1,0 +1,7 @@
+# Existing il LeRobot checkout (0.4.4) is preserved; do not reinstall PyTorch/LeRobot.
+opencv-python>=4.11,<5
+mujoco>=3.3,<4
+scipy>=1.13,<2
+pillow>=10,<13
+feetech-servo-sdk==1.0.0
+tomli>=2,<3; python_version < "3.11"
